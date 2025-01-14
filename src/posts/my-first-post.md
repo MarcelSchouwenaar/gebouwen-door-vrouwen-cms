@@ -14,6 +14,8 @@ tags:
 
 ## This is a Heading h2
 
+![](/static/img/gdv-eyes.png)
+
 ###### This is a Heading h6
 
 ## Emphasis
