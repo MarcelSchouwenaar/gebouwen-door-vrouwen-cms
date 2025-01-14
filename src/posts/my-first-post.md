@@ -14,7 +14,7 @@ tags:
 
 ## This is a Heading h2
 
-![](/static/img/gdv-eyes.png)
+![](/static/img/gdv-eyes.png "this is an image")
 
 ###### This is a Heading h6
 
