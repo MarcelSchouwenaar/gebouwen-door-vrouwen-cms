@@ -7,12 +7,17 @@ backend:
   # repo: surjithctly/neat-starter
 media_folder: "src/static/img"
 public_folder: "/static/img"
+site_url: https://gebouwen-door-vrouwen.netlify.app
+display_url: https://www.gebouwendoorvrouwen.com 
+logo_url: src/static/img/gdv-eyes.png
+
+
 
 # Please run "npx netlify-cms-proxy-server" for local backend
 local_backend: true
 # publish_mode: editorial_workflow
 collections:
-  - label: "Location"
+  - label: "Locations"
     name: "location"
     folder: "src/locations"
     create: true
@@ -25,29 +30,15 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
       - widget: select
-        label: "tags"
-        name: "tags"
-        multiple: true
+        label: "geolocation"
+        name: "location"
         create: true
-        options: ["Architectuur", "Stedenbouw", "Landschapsarchitectuur"]
-  - label: "Blog"
-    name: "blog"
-    folder: "src/posts"
-    create: true
-    editor:
-      preview: false
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Author", name: "author", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
       - widget: select
         label: "tags"
         name: "tags"
         multiple: true
         create: true
-        options: ["Tags", "created", "from", "config.yml"]
+        options: ["Architectuur", "Stedenbouw", "Landschapsarchitectuur"]
   - label: "Settings"
     name: "settings"
     editor:
