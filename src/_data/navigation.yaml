@@ -4,6 +4,6 @@ items:
   - text: Contact
     url: "#"
   - text: Locations
-    url: "#"
+    url: /locations
   - text: Newsletter
     url: /blog
