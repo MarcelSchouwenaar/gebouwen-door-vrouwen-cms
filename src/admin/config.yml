@@ -9,12 +9,12 @@ media_folder: "src/static/img"
 public_folder: "/static/img"
 site_url: https://gebouwen-door-vrouwen.netlify.app
 display_url: https://www.gebouwendoorvrouwen.com 
-logo_url: src/static/img/gdv-eyes.png
-
-
+logo_url: "/static/img/gdv-eyes.png"
 
 # Please run "npx netlify-cms-proxy-server" for local backend
 local_backend: true
+publish_mode: editorial_workflow
+
 # publish_mode: editorial_workflow
 collections:
   - label: "Locations"
@@ -25,20 +25,19 @@ collections:
       preview: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - widget: location
-        label: "geolocation"
-        name: "location"
-        create: true
+      - { label: "Description", name: "description", widget: "markdown" }
       - widget: select
         label: "tags"
         name: "tags"
         multiple: true
         create: true
         options: ["Architectuur", "Stedenbouw", "Landschapsarchitectuur"]
+      - widget: map
+        label: "Geolocation"
+        name: "location"
+        create: true
   - label: "Settings"
     name: "settings"
     editor:
