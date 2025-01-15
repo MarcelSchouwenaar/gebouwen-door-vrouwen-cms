@@ -11,14 +11,13 @@
 
         <!-- Netlify Identity Widget -->
         <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-        <script type="text/javascript" src="location-widget/dist/main.js"></script>
+
+        <!-- src/admin/location-widget/src/main.js -->
 
         <script type="text/javascript">
-            DecapCmsApp.init();
-
+            CMS.init();
+            console.log("Starting Decap CMS");
    
-           
-            CMS.registerWidget("location",LocationControl,LocationPreview);
         </script>  
     </body>
 </html>
