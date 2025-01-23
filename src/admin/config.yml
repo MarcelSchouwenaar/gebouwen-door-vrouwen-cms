@@ -5,6 +5,12 @@ backend:
   ### enable below lines for github integration ###
   # name: github
   # repo: surjithctly/neat-starter
+local_backend:
+  # when using a custom proxy server port
+  url: http://localhost:8082/api/v1
+  # when accessing the local site from a host other than 'localhost' or '127.0.0.1'
+  allowed_hosts: ['192.168.0.1']
+
 media_folder: "src/static/img"
 public_folder: "/static/img"
 site_url: https://gebouwen-door-vrouwen.netlify.app
@@ -12,31 +18,51 @@ display_url: https://www.gebouwendoorvrouwen.com
 logo_url: "/static/img/gdv-eyes.png"
 
 # Please run "npx netlify-cms-proxy-server" for local backend
-local_backend: true
 publish_mode: editorial_workflow
 
-# publish_mode: editorial_workflow
 collections:
   - label: "Locations"
+    label_singular: "Location"
     name: "location"
+    extension: "md"
     folder: "src/locations"
     create: true
     editor:
       preview: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - label: layout
+        name: layout
+        widget: hidden
+        default: location
+      - label: tag
+        name: tag
+        widget: hidden
+        default: location
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Description", name: "description", widget: "markdown" } 
+      - label: "Images"
+        name: "images"
+        widget: "image"
+        default: "/static/img/default.png"
+        choose_url: true
+        media_library:
+          config:
+            multiple: true
       - widget: select
-        label: "tags"
-        name: "tags"
+        label: "category"
+        name: "category"
         multiple: true
         create: true
         options: ["Architectuur", "Stedenbouw", "Landschapsarchitectuur"]
       - widget: map
         label: "Geolocation"
         name: "location"
+        create: true
+      - widget: markdown
+        label: "body"
+        name: "body"
         create: true
   - label: "Settings"
     name: "settings"

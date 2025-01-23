@@ -5,5 +5,3 @@ items:
     url: "#"
   - text: Locations
     url: /locations
-  - text: Newsletter
-    url: /blog
