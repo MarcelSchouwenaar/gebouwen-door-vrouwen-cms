@@ -1,7 +1,11 @@
 items:
+  - text: Home
+    url: "/"
   - text: About
-    url: "#"
+    url: "/about"
   - text: Contact
-    url: "#"
+    url: "/contact"
+  - text: Agenda
+    url: "/agenda"
   - text: Locations
     url: /locations

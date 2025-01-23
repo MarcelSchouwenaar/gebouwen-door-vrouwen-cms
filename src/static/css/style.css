@@ -42,3 +42,10 @@ article{
     padding: 20px;
     border: 1px solid #ddd;
 }
+nav ul, nav li{
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+    
+}

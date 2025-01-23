@@ -2,6 +2,7 @@ const yaml = require("js-yaml");
 const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
+const markdownIt = require("markdown-it");
 
 
 
@@ -13,9 +14,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setUseGitIgnore(false);
   eleventyConfig.addWatchTarget("./src/static/");
 
-  eleventyConfig.addCollection("locations", function (collectionsApi) {
-    return collectionsApi.getFilteredByGlob("./src/locations/*.md");
-  });
   // Merge data instead of overriding
   eleventyConfig.setDataDeepMerge(true);
 
@@ -34,21 +32,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 
   // Copy Static Files to /_Site
-  eleventyConfig.addPassthroughCopy({
-    "./src/admin/config.yml": "./admin/config.yml"
-  });
+  eleventyConfig.addPassthroughCopy({ "./src/admin/config.yml": "./admin/config.yml"  });
 
   // Copy CSS Folder to /_site
-  eleventyConfig.addPassthroughCopy("./src/static/css/");
-
-  // Copy JS Folder to /_site
-  eleventyConfig.addPassthroughCopy("./src/static/js/");
-
-  // Copy Image Folder to /_site
-  eleventyConfig.addPassthroughCopy("./src/static/img");
-
-  // Copy favicon to route of /_site
-  eleventyConfig.addPassthroughCopy("./src/favicon.ico");
+  eleventyConfig.addPassthroughCopy({"./src/static/": "static"});
 
   // Minify HTML
   eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
@@ -65,12 +52,25 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
+  let options = {
+    html: true,
+    breaks: true,
+    linkify: true,
+  };
+
+  eleventyConfig.setLibrary("md", markdownIt(options));
+
   // Let Eleventy transform HTML files as nunjucks
   // So that we can use .html instead of .njk
   return {
     dir: {
-      input: "src",
+      input: "./src/content",
+      data: "../_data",
+      output: "./_site",
+      layouts: "../_includes"
     },
     htmlTemplateEngine: "njk",
+
+
   };
 };

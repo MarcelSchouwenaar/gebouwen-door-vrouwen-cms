@@ -25,23 +25,18 @@ collections:
     label_singular: "Location"
     name: "location"
     extension: "md"
-    folder: "src/locations"
+    folder: "src/content/location"
     create: true
     editor:
       preview: true
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - label: layout
-        name: layout
-        widget: hidden
-        default: location
-      - label: tag
-        name: tag
-        widget: hidden
-        default: location
+      - { label: "Project", name: "title", widget: "string" } 
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "markdown" } 
+      - { label: "Description", name: "body", widget: "markdown" } 
+      - { label: "Agency", name: "agency", widget: "string" }
+      - { label: "Architect", name: "architect", widget: "string" }
+      - { label: "Year", name: "year", widget: "string" }
       - label: "Images"
         name: "images"
         widget: "image"
@@ -51,18 +46,15 @@ collections:
           config:
             multiple: true
       - widget: select
-        label: "category"
-        name: "category"
+        label: "tags"
+        name: "tags"
         multiple: true
         create: true
-        options: ["Architectuur", "Stedenbouw", "Landschapsarchitectuur"]
+        options: ["architectuur", "stedenbouw", "landschapsarchitectuur", "interieur", "location"]
+        default: ["location"]
       - widget: map
         label: "Geolocation"
         name: "location"
-        create: true
-      - widget: markdown
-        label: "body"
-        name: "body"
         create: true
   - label: "Settings"
     name: "settings"
