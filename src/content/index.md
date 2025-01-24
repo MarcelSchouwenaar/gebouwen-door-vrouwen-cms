@@ -1,5 +1,5 @@
 ---
-layout: partials/content.html
+layout: default.html
 ---
 
 Hello, World! 
