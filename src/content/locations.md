@@ -5,8 +5,8 @@ eleventyImport: collections["location"]
 # Locations 
 
 {% for location in collections.location %}
-<article>
-    <a href="{{ location.url }}">{{ location.data.title }}</a>
-</article>
+
+   [{{ location.data.title }}]({{ location.url }})
+
 {% endfor %}
 

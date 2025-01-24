@@ -1,10 +1,6 @@
 const yaml = require("js-yaml");
 const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const htmlmin = require("html-minifier");
-const markdownIt = require("markdown-it");
-
-
 
 module.exports = function (eleventyConfig) {
 
@@ -26,42 +22,23 @@ module.exports = function (eleventyConfig) {
 
   // Syntax Highlighting for Code blocks
   eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addFilter('stringify', (data) => {
+    return JSON.stringify(data, null, "\t")
+  })
+  eleventyConfig.addFilter("jsonify", function (value) {
+    return JSON.stringify(value);
+  });
 
   // To Support .yaml Extension in _data
   // You may remove this if you can use JSON
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 
   // Copy Static Files to /_Site
-  eleventyConfig.addPassthroughCopy({ "./src/admin/config.yml": "./admin/config.yml"  });
+  eleventyConfig.addPassthroughCopy({ "./src/admin": "admin"  });
 
   // Copy CSS Folder to /_site
   eleventyConfig.addPassthroughCopy({"./src/static/": "static"});
 
-  // Minify HTML
-  eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
-    // Eleventy 1.0+: use this.inputPath and this.outputPath instead
-    if (outputPath.endsWith(".html")) {
-      let minified = htmlmin.minify(content, {
-        useShortDoctype: true,
-        removeComments: true,
-        collapseWhitespace: true,
-      });
-      return minified;
-    }
-
-    return content;
-  });
-
-  let options = {
-    html: true,
-    breaks: true,
-    linkify: true,
-  };
-
-  eleventyConfig.setLibrary("md", markdownIt(options));
-
-  // Let Eleventy transform HTML files as nunjucks
-  // So that we can use .html instead of .njk
   return {
     dir: {
       input: "./src/content",
