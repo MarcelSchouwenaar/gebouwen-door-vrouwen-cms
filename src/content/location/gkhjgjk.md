@@ -6,7 +6,7 @@ date: 2025-01-31T14:27:00.000Z
 agency: kljklj
 architect: jkh
 year: "689"
-images: /static/img/default.png
+images: /static/img/ms-logo-2.png
 location_tags:
   - Architectuur
   - Stedenbouw
