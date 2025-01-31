@@ -19,7 +19,7 @@ templateEngineOverride: njk
         "images": "{{ location.data.images}}",
         "tags": "{{ location.data.tags}}",
         "location": {{ location.data.location | jsonify | safe }}
-      }{% if forloop.last == false %},{% endif %}
+      }{% if forloop.last !== false %},{% endif %}
     {% endfor %}
   ]
 }

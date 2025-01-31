@@ -1,5 +1,5 @@
 ---
-layout: default.html
+layout: partials/content.html
 ---
 
 Contact

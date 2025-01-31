@@ -1,0 +1,13 @@
+{
+  "MAPBOX_DEFAULT_ZOOM": 11,
+  "COLOR_BG": "#005b0d",
+  "MAPBOX_CENTER": "{\"type\":\"Point\",\"coordinates\":[5.9765625,52.5897008]}",
+  "AUTHOR": "Sofie ",
+  "NAME": "Gebouwen door Vrouwen",
+  "COLOR_FRONT": "#390000",
+  "ENABLE_LOADER": true,
+  "Font_FAMILY": "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;",
+  "TITLE": "GdV",
+  "COLOR_HIGHLIGHT": "#fea0a0",
+  "DESCRIPTION": "yes"
+}

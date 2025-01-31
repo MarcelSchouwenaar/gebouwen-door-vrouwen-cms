@@ -1,13 +1,6 @@
 ---
 layout: default
 ---
-<div>
+<main>
     {{ content | safe }}
-</div>
-<div class="">
-    {% if quicklinks.links %}
-        {% for item in quicklinks.links %}
-            <a href="{{item.url}}" target="_blank" class="">{{item.title}}</a>
-        {% endfor %}
-    {% endif %}
-</div>
+</main>

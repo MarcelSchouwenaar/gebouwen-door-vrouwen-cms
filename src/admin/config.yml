@@ -21,6 +21,18 @@ logo_url: "/static/img/gdv-eyes.png"
 publish_mode: editorial_workflow
 
 collections:
+  - label: "Tags"
+    label_singular: "Tag"
+    name: "location_tag"
+    extension: "md"
+    folder: "src/content/location_tag"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "title", name: "title", widget: "string" }
+      - { label: "Marker", name: "marker", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "hidden", default: "location_tag" }
   - label: "Locations"
     label_singular: "Location"
     name: "location"
@@ -30,6 +42,7 @@ collections:
     editor:
       preview: true
     fields:
+      - { label: "Tags", name: "tags", widget: "hidden", default: "location" } 
       - { label: "Project", name: "title", widget: "string" } 
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
@@ -45,13 +58,14 @@ collections:
         media_library:
           config:
             multiple: true
-      - widget: select
-        label: "tags"
-        name: "tags"
+      - widget: relation
+        label: "Tags"
+        name: "location_tags"
+        collection: "location_tag"
+        searchFields: ["title"]
+        valueField: "title"
+        display_fields: ["title"]
         multiple: true
-        create: true
-        options: ["architectuur", "stedenbouw", "landschapsarchitectuur", "interieur", "location"]
-        default: ["location"]
       - widget: map
         label: "Geolocation"
         name: "location"
@@ -73,22 +87,26 @@ collections:
             fields:
               - { label: Title, name: text, widget: string }
               - { label: URL, name: url, widget: string }
-      - label: "Quick Links"
-        name: "links"
-        file: "src/_data/quicklinks.yaml"
-        fields:
-          - label: Nav Items
-            name: links
-            widget: list
-            collapsed: false
-            fields:
-              - { label: Title, name: title, widget: string }
-              - { label: URL, name: url, widget: string }
-              - { label: Description, name: desc, widget: string }
-      - label: "Meta Settings"
+      - label: "Settings"
         name: "settings"
-        file: "src/_data/settings.yaml"
+        file: "src/_data/settings.json"
         fields:
-          - { label: Name, name: name, widget: string }
-          - { label: Author, name: author, widget: string }
-          - { label: URL, name: url, widget: string }
+          - { label: Author, name: AUTHOR, widget: string }
+          - { label: Title, name: TITLE, widget: string }
+          - { label: Description, name: DESCRIPTION, widget: text }
+          - { label: Loader, name: ENABLE_LOADER, widget: boolean }
+          - { label: Map Center, name: MAPBOX_CENTER, widget: map }
+          - label: Map Zoom
+            name: MAPBOX_DEFAULT_ZOOM
+            widget: select
+            default: { label: "country", value: 9 }
+            options:
+              - { label: "country", value: 9 }
+              - { label: "city", value: 11 }
+              - { label: "district", value: 13 }
+          - { label: Background color, name: COLOR_BG, widget: color, default: "#f7f7f7" }
+          - { label: Text color, name: COLOR_FRONT, widget: color,  default: "#333" }
+          - { label: Highlight color, name: COLOR_HIGHLIGHT, widget: color, default: "#ff6f61" }
+          - { label: Font, name: FONT_FAMILY, widget: string, default: "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;"}
+
+

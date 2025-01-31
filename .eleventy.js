@@ -22,9 +22,11 @@ module.exports = function (eleventyConfig) {
 
   // Syntax Highlighting for Code blocks
   eleventyConfig.addPlugin(syntaxHighlight);
+  
   eleventyConfig.addFilter('stringify', (data) => {
-    return JSON.stringify(data, null, "\t")
+    return JSON.stringify(data, null, "\t");
   })
+  
   eleventyConfig.addFilter("jsonify", function (value) {
     return JSON.stringify(value);
   });
@@ -33,11 +35,17 @@ module.exports = function (eleventyConfig) {
   // You may remove this if you can use JSON
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 
-  // Copy Static Files to /_Site
+  // Copy Static Files to /_site
   eleventyConfig.addPassthroughCopy({ "./src/admin": "admin"  });
 
   // Copy CSS Folder to /_site
   eleventyConfig.addPassthroughCopy({"./src/static/": "static"});
+
+  // Copy CSS Folder to /_site
+  eleventyConfig.addPassthroughCopy({"./src/_data/settings.json": "api/settings.json"});
+
+  // Create JSON endpoints for collections
+
 
   return {
     dir: {

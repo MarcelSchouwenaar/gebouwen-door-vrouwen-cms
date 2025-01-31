@@ -1,0 +1,138 @@
+---
+title: main
+---
+
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <title>Botanical Monuments — IABR 2024 - Nature of Hope</title>
+    <meta
+      name="description"
+      content="Botanical Monuments — IABR 2024 - Nature of Hope"
+    />
+
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.js"></script>
+
+    <script type="module" src="static/settings.js"></script>
+    <script type="module" src="static/js/loader.js"></script>
+    <script type="module" src="static/js/togeojson.js"></script>
+    <script type="module" src="static/js/map.js"></script>
+    <script type="module" src="static/js/stateMachine.js"></script>
+    <script type="module" src="static/js/utils.js"></script>
+    <script type="module" src="static/js/patterns.js"></script>
+    <script type="module" src="static/js/place.js"></script>
+    <script type="module" src="static/js/marker.js"></script>
+    <script type="module" src="static/js/area.js"></script>
+    <script type="module" src="static/js/line.js"></script>
+    <script type="module" src="static/js/galleryItem.js"></script>
+    <script type="module" src="static/js/filter.js"></script>
+    <script type="module" src="static/js/tagsystem.js"></script>
+    <script type="module" src="static/js/multilang.js"></script>
+    <script type="module" src="static/js/manifest.js"></script>
+    <script type="module" src="static/js/decorator.js"></script>
+    
+    <script type="module" src="static/app.js" defer></script>
+
+    <link href="static/css/fm-style.css" rel="stylesheet" />
+
+    <link rel="apple-touch-icon" sizes="180x180" id="apple-touch-icon-180" />
+    <link rel="icon" type="image/png" sizes="32x32" id="apple-touch-icon-32" />
+    <link rel="icon" type="image/png" sizes="16x16" id="apple-touch-icon-16" />
+    <link rel="manifest" id="manifest-placeholder" />
+    <meta
+      name="msapplication-TileColor"
+      id="tile-color-placeholder"
+      content="#003429"
+    />
+    <meta name="theme-color" id="theme-color-placeholder" content="#003429" />
+    <link rel="icon" type="image/png" id="favicon-placeholder" />
+  </head>
+  <body data-state="list" data-panel="down">
+    <div id="map">
+      <form id="filter"></form>
+      <div id="logo">
+        <img id="logo-img" src="https://cdn.glitch.global/4c0493cc-1166-4590-9984-15c2b192cd62/iabr-bot-monumt_black.svg?v=1717683026020" />
+      </div>
+    </div>
+    <div id="panel">
+      <div id="topbar">
+        <div id="title">Botanical Monuments</div>
+        <div id="close" class="arrow">
+          <svg
+            width="24"
+            height="24"
+            viewbox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20 11H7.83L13.42 5.41L12 4L4 12L12 20L13.41 18.59L7.83 13H20V11Z"
+              fill="#000000"
+            />
+          </svg>
+        </div>
+        <div id="toggle">
+          <div class="toggle-up arrow">
+            <svg
+              width="24"
+              height="24"
+              viewbox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4 12L5.41 13.41L11 7.83V20H13V7.83L18.58 13.42L20 12L12 4L4 12Z"
+                fill="#000000"
+              />
+            </svg>
+          </div>
+          <div class="toggle-down arrow">
+            <svg
+              width="24"
+              height="24"
+              viewbox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20 12L18.59 10.59L13 16.17V4H11V16.17L5.42 10.58L4 12L12 20L20 12Z"
+                fill="#000000"
+              />
+            </svg>
+          </div>
+        </div>
+        <div id="topmenu">
+          <div id="language-selector"></div>
+          <div id="menu-toggle"><span>☰</span></div>
+        </div>
+      </div>
+      <div id="info"></div>
+      <div id="list"></div>
+      <div id="menu">
+        <div id="about">
+          <h1>Loading</h1>
+        </div>
+      </div>
+     
+    </div>
+    <script type="text/javascript">
+      if (location.protocol != "https:" && location.hostname != "localhost") {
+        location.href =
+          "https:" +
+          window.location.href.substring(window.location.protocol.length);
+      }
+    </script>
+  </body>
+</html>
