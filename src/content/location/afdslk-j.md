@@ -9,5 +9,6 @@ year: "891"
 images: /static/img/default.png
 location_tags:
   - Architectuur
+address: Lumeystraat 10, Rotterdam
 ---
 k;jkl;j
