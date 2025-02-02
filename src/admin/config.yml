@@ -21,18 +21,6 @@ logo_url: "/static/img/gdv-eyes.png"
 publish_mode: editorial_workflow
 
 collections:
-  - label: "Tags"
-    label_singular: "Tag"
-    name: "location_tag"
-    extension: "md"
-    folder: "src/content/location_tag"
-    create: true
-    editor:
-      preview: false
-    fields:
-      - { label: "title", name: "title", widget: "string" }
-      - { label: "Marker", name: "marker", widget: "string" }
-      - { label: "Tags", name: "tags", widget: "hidden", default: "location_tag" }
   - label: "Locations"
     label_singular: "Location"
     name: "location"
@@ -62,14 +50,64 @@ collections:
         label: "Tags"
         name: "location_tags"
         collection: "location_tag"
-        searchFields: ["title"]
-        valueField: "title"
+        search_fields: ["title"]
+        value_field: "title"
         display_fields: ["title"]
         multiple: true
+      - widget: string
+        label: "Address"
+        name: "address"
+        required: false
       - widget: map
         label: "Geolocation"
         name: "location"
         create: true
+        required: false
+  - label: "Tags"
+    label_singular: "Tag"
+    name: "location_tag"
+    extension: "md"
+    folder: "src/content/location_tag"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "title", name: "title", widget: "string" }
+      - { label: "Marker", name: "marker", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "hidden", default: "location_tag" }
+  - label: "Pages"
+    name: "page"
+    editor:
+      preview: true
+    files:
+      - label: "About"
+        name: "about"
+        file: "src/content/about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "partials/content.html" }
+      - label: "Contact"
+        name: "contact"
+        file: "src/content/contact.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "partials/content.html" }
+      - label: "Home"
+        name: "home"
+        file: "src/content/home.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "partials/content.html" }
+      - label: "Agenda"
+        name: "agenda"
+        file: "src/content/agenda.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "partials/content.html" }
   - label: "Settings"
     name: "settings"
     editor:

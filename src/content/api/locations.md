@@ -12,14 +12,15 @@ templateEngineOverride: njk
         "url": "{{ location.url}}",
         "author": "{{ location.data.author}}",
         "date": "{{ location.data.date}}",
-        "body": "{{ location.data.body}}",
+        "body": "{{ location.templateContent | safe}}",
         "agency": "{{ location.data.agency}}",
         "architect": "{{ location.data.architect}}",
         "year": "{{ location.data.year}}",
         "images": "{{ location.data.images}}",
         "tags": "{{ location.data.tags}}",
-        "location": {{ location.data.location | jsonify | safe }}
-      }{% if forloop.last !== false %},{% endif %}
+        "location": {{ location.data.location | jsonify | safe }},
+        "address" : "{{ location.data.address }}"
+      }{%- if not forloop.last %},{% endif -%}
     {% endfor %}
   ]
 }

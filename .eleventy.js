@@ -1,6 +1,7 @@
 const yaml = require("js-yaml");
 const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const { processFiles } = require("./geocode.js");
 
 module.exports = function (eleventyConfig) {
 
@@ -43,9 +44,6 @@ module.exports = function (eleventyConfig) {
 
   // Copy CSS Folder to /_site
   eleventyConfig.addPassthroughCopy({"./src/_data/settings.json": "api/settings.json"});
-
-  // Create JSON endpoints for collections
-
 
   return {
     dir: {

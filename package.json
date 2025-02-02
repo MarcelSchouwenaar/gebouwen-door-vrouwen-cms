@@ -5,6 +5,7 @@
     "start": "npm-run-all --parallel eleventy browsersync",
     "eleventy": "eleventy --watch",
     "debug": "set DEBUG=* & eleventy",
+    "geocode": "node geocode.js",
     "build": "cross-env NODE_ENV=production eleventy && cross-env NODE_ENV=production",
     "browsersync": "browser-sync start --server _site --files _site --port 8080 --no-notify --no-open"
   },
@@ -19,6 +20,7 @@
   },
   "dependencies": {
     "@11ty/eleventy-fetch": "^5.0.2",
-    "autoprefixer": "^10.4.2"
+    "autoprefixer": "^10.4.2",
+    "node-fetch": "^3.3.2"
   }
 }

@@ -10,6 +10,8 @@ images: /static/img/default.png
 location_tags:
   - Architectuur
   - Stedenbouw
-location: '{"type":"Point","coordinates":[5.6047791,49.7279492]}'
+address: 99D, Schietbaanlaan, Middelland, Delfshaven, Rotterdam, South Holland,
+  Netherlands, 3021 LH, Netherlands
+location: '{"type":"Point","coordinates":[4.4565173,51.9157694]}'
 ---
 Mooie flat
