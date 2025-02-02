@@ -12,8 +12,8 @@ images:
 location_tags:
   - Architectuur
   - Stedenbouw
-address: "Lumeystraat 10, Rotterdam  "
-location: '{"type":"Point","coordinates":[4.854577,52.2951497]}'
+address: ""
+location: '{"type":"Point","coordinates":[4.8491359,52.3020607]}'
 ---
 kjlkj;ljklj;\
 
