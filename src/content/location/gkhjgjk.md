@@ -12,7 +12,7 @@ images:
 location_tags:
   - Architectuur
   - Stedenbouw
-location: '{"type":"Point","coordinates":[4.8647885,52.2967221]}'
+location: '{"type":"Point","coordinates":[4.854577,52.2951497]}'
 ---
 kjlkj;ljklj;\
 
