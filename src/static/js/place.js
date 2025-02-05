@@ -47,7 +47,7 @@ export class Place {
 
     this.tags = this.#getTags();
     this.images = this.#getImages();
-    this.autors = this.location.author;
+    this.autors = this.location.author || "Sofie";
     this.url = this.location.url;
 
     this.icon = this.#getIcon();
@@ -101,8 +101,8 @@ export class Place {
   addEventListeners() {
     let self = this;
     document.body.addEventListener("filterUpdate", (e) => self.verifyFilter());
-    document.body.addEventListener("navigationUpdate", (e) =>
-      self.verifyState()
+    document.body.addEventListener("navigationUpdate", async (e) =>
+      await self.verifyState()
     );
   }
   verifyState() {

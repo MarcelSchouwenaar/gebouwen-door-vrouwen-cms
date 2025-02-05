@@ -67,14 +67,23 @@ export class GalleryItem {
   setLocation() {
     this.stateMachine.navigateTo(settings.get("STATES").INFO, this.id);
   }
-  verifyState() {
+  async verifyState() {
     if (state.activeLocationId == this.id) {
-      this.createPage();
+      await this.createPage();
     }
   }
-  createPage() {
+  async fetchPage(link) {
+    const response = await fetch(link);
+    const content = await response.text();
+    const parser = new DOMParser();
+    const html = parser.parseFromString(content, "text/html");
+    const body = html.querySelector("body").innerHTML;
+    return body;
+  }
+  async createPage() {
     
     const photoTitle = utils.stripHTML(this.name);
+    const content = await this.fetchPage(this.url);
 
     this.infopanel.innerHTML = `
         <div class="header" id="header">
@@ -94,7 +103,7 @@ export class GalleryItem {
         }
         </div>
         <p class="description">
-          ${this.description}
+          ${content} —
           ${this.authors}
         </p>
         <p class='tags'>
