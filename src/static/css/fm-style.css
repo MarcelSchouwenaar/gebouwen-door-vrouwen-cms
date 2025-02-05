@@ -201,6 +201,7 @@ a:hover{
   
 }
   #language-selector select{
+    display: none;
       
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -228,7 +229,7 @@ a:hover{
     
 
     text-align: center;
-    background-color: white;
+    /* background-color: white; */
     border: none;
     
     height: 32px;
