@@ -141,6 +141,14 @@ export function BackgroundLazyLoader() {
 
   return true;
 }
+export function formatGeoJSON(locationData) {
+  console.log(">> formatGeoJSON", locationData);
+  return {
+    locations: locationData,
+    title: "abc",
+    description: "123",
+  }
+}
 
 export function createGeoJSON(kml) {
   let _locations = [];
@@ -153,8 +161,6 @@ export function createGeoJSON(kml) {
   };
 
   let doc = new DOMParser().parseFromString(kml, "text/xml");
-
-  // console.log(doc,doc.getElementsByTagName("description")[0],doc.getElementsByTagName("name")[0].childNodes[0].nodeValue);
 
   let descriptionNode =
     doc.getElementsByTagName("description")[0].childNodes[0];
@@ -274,7 +280,7 @@ export function getCoordinatesFromURL(url) {
 
 
 export function createPublicGoogleImageURLs(images) {
-  console.log("fixing urls for: ",images);
+  // console.log("fixing urls for: ",images);
     
   let imageArr = images.indexOf(", ") >= 0 ? images.split(", ") : [images];
 
@@ -325,25 +331,60 @@ export function stripHTML(html) {
 }
 
 export function getImage(imageURL){
-  
-  if(!window.allImages) window.allImages = [];
-  window.allImages.push(imageURL);
 
-  if(!settings.get("PROXY")) return imageURL;
-  if(settings.get("PROXY").length == 0) return imageURL;
-  if(imageURL.indexOf("drive.google.com") >= 0) return imageURL;
-    
-  const encodedSafeImageURL  = encodeURIComponent(imageURL);
+  return imageURL
   
-  return `${settings.get("PROXY")}?url=${encodedSafeImageURL}`;
+  // if(!window.allImages) window.allImages = [];
+  // window.allImages.push(imageURL);
+
+  // if(!settings.get("PROXY")) return imageURL;
+  // if(settings.get("PROXY").length == 0) return imageURL;
+  // if(imageURL.indexOf("drive.google.com") >= 0) return imageURL;
+    
+  // const encodedSafeImageURL  = encodeURIComponent(imageURL);
+  
+  // return `${settings.get("PROXY")}?url=${encodedSafeImageURL}`;
 }
 
 export function fetchUserSettings(){
   return fetch("api/settings.json")
     .then((response) => response.json())
     .then((data) => {
-      for (const key in data) {
-        settings.set(key, data[key]);
+      if(data.MAPBOX_CENTER){
+        const center = JSON.parse(data.MAPBOX_CENTER).coordinates;
+        data.MAPBOX_CENTER = JSON.stringify({lat: center[1], lng: center[0]});
       }
+      return data;
+    });
+}
+
+export function fetchLocationData(){
+  return fetch("api/locations.json")
+    .then((response) => response.json())
+    .then((data) => data);
+}
+
+
+export function fetchTagData(){
+  return fetch("api/tags.json")
+    .then((response) => response.json())
+    .then((tagData) => {
+      const newTags = tagData.tags.map((tag) => {
+        if(tag.marker_img){
+          tag.marker_img = `<img src="${tag.marker_img}" alt="${tag.title}" />`;
+        }
+        const newTag = {
+          title: tag.title.toLowerCase(),
+          parent: null,
+          icon: tag.marker_img || tag.marker || settings.get("DEFAULT_MARKER"),
+          pattern: null,
+          locales: {
+            en: tag.title_en || tag.title,
+            nl: tag.title
+          }
+        };
+        return newTag;
+      })
+      return newTags;
     });
 }

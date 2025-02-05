@@ -34,16 +34,13 @@
 
                 console.log("PreSave event", "has no address: ", hasNoAddress, "has no location:", hasNoLocation);
 
-                if (hasNoLocation == true && hasNoAddress == true){
-                    return false;
-                }
-               
-                let [address, location] = [null, null];
+                if (hasNoLocation == true && hasNoAddress == true) return data;
+
+                let [address, location] = [data.get('address'), data.get('location')];
             
                 if (hasNoLocation == true && hasNoAddress == false) {
                     // fetch location from address
-                    console.log("retreiving location from address", data.get('address'));
-                    address = data.get('address');
+                    console.log("retreiving location from address", address);
                     location = await fetchCoordinates(address);
                     if(!!location.coordinates){
                         location = JSON.stringify(location);
@@ -55,7 +52,6 @@
                 
                 if (hasNoAddress == true && hasNoLocation == false) {
                     // fetch address from location
-                    location = data.get('location');
                     const locationObj = JSON.parse(location);
 
                     console.log("retreiving address from location", locationObj);
@@ -71,7 +67,6 @@
                 data = data.set("address", address);
                 data = data.set("location", location);
 
-                console.log("data", data);
                 return data;
 
             },

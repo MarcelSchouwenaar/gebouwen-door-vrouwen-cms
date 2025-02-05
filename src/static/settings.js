@@ -6,6 +6,7 @@ settings.TITLE = "Site title";
 settings.DESCRIPTION = `Site description`;
 settings.ABOUT = settings.DESCRIPTION;
 settings.DEFAULT_LANG = "nl";
+settings.LOGO = "";
 
 settings.MANIFEST_URL = "https://" + location.host + location.pathname;
 
@@ -15,33 +16,28 @@ const CDN_PATH =
   "https://cdn.glitch.global/4c0493cc-1166-4590-9984-15c2b192cd62/";
 settings.PROXY = "https://follymaps.glitch.me/proxy";
 
+const ICON_PATH = "./static/icons/"
+
 settings.MANIFEST_ICONS = {
-  icons512: CDN_PATH + "Icon512.png",
-  icons256: CDN_PATH + "Icon256.png",
-  icons192: CDN_PATH + "Icon192.png",
-  icons180: CDN_PATH + "Icon180.png",
-  icons32: CDN_PATH + "Icon32.png",
-  icons16: CDN_PATH + "Icon16.png",
+  icons512: ICON_PATH + "icon-512x512.png",
+  icons256: ICON_PATH + "icon-256x256.png",
+  icons192: ICON_PATH + "icon-192x192.png",
+  icons180: ICON_PATH + "icon-180x180.png",
+  icons32: ICON_PATH + "icon-32x32.png",
+  icons16: ICON_PATH + "icon-16x16.png",
 };
 
 settings.GMAP_ID = "1iaBUt-YoQnTFQPocSNxlpKPP-9_RSVk"; //BOTANICAL MONUMENTS
 
 settings.GMAP_URL = "https://www.google.com/maps/d/kml?forcekml=1&mid=" + settings.GMAP_ID;
-settings.GMAP_TITLE = settings.TITLE;
-settings.GMAP_DESCRIPTION = settings.DESCRIPTION;
+// settings.GMAP_TITLE = settings.TITLE;
+// settings.GMAP_DESCRIPTION = settings.DESCRIPTION;
 
 settings.GSHEET_ID = "1gELkm5Dfh8hrB5bQfnlKYxk5vySNh7AJGrSaUbnM_KM";
 
 //MAPBOX
-// settings.MAPBOX_STYLE =  "mapbox://styles/toonkoehorst/cklxkpcso4yo017s51mnhhn9j";
 settings.MAPBOX_STYLE  = "mapbox://styles/toonkoehorst/clw4ziad902mg01qz24uk8dgu";
-
-
-
 settings.MAPBOX_API_KEY = "pk.eyJ1IjoidG9vbmtvZWhvcnN0IiwiYSI6ImNqb2ZyYjhiZDAweWIzcXM2aWlhMmJxcGYifQ.OGRL7kejFrWD-MEazU8lTg";
-
-//https://api.mapbox.com/styles/v1/toonkoehorst/clw4ziad902mg01qz24uk8dgu?access_token=pk.eyJ1IjoidG9vbmtvZWhvcnN0IiwiYSI6ImNqb2ZyYjhiZDAweWIzcXM2aWlhMmJxcGYifQ.OGRL7kejFrWD-MEazU8lTg
-//https://api.mapbox.com/styles/v1/toonkoehorst/cklxkpcso4yo017s51mnhhn9j?access_token=pk.eyJ1IjoidG9vbmtvZWhvcnN0IiwiYSI6ImNqb2ZyYjhiZDAweWIzcXM2aWlhMmJxcGYifQ.OGRL7kejFrWD-MEazU8lTg
 
 settings.MAPBOX_CENTER = [4.472671, 51.91934];
 settings.MAPBOX_DEFAULT_ZOOM = 12;
@@ -56,7 +52,6 @@ settings.COLOR_HIGHLIGHT = "#ffff66"; //#0000ff
 settings.FONT_FAMILY =
   "arial, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif";
 
-
 settings.FONT_WEBFONT = false;
 
 // STYLE
@@ -67,7 +62,7 @@ settings.MAP_AREA_OUTLINE = settings.COLOR_HIGHLIGHT;
 settings.MAP_AREA_HOVER_OPACITY = 0.5;
 settings.MAP_AREA_HOVER_OUTLINE = settings.COLOR_HIGHLIGHT;
 
-settings.PLACEHOLDER_IMAGE = CDN_PATH + "Placeholder.png";
+settings.PLACEHOLDER_IMAGE = "./static/images/default.jpg";
 
 settings.DEFAULT_AUTHOR = "";
 settings.AUTHORS = [];
@@ -91,7 +86,7 @@ settings.PATTERN_HEIGHT = 80;
 
 //TAGS & ICONS
 
-settings.HIDE_DEFAULT_TAG = true;
+settings.HIDE_DEFAULT_TAG = false;
 
 settings.TAG_SYSTEM = [
   {
@@ -229,12 +224,27 @@ export const get = (key) => {
 };
 
 export const set = (key, value) => {
-  if (typeof settings[key] !== typeof value) return;
+  // if (typeof settings[key] !== typeof value) return;
   if (settings[key]) return localStorage.setItem(key, value);
 };
+
 
 export const reset = (key) => {
   if (key && settings[key]) return localStorage.removeItem(key);
   if (confirm("Are you sure you want to revert local changes?"))
     localStorage.clear();
+};
+
+export const setAll = (obj) => {
+  console.log("setting all", obj);
+  Object.keys(obj).forEach((key) => set(key, obj[key]));
+}
+export const getObj = (key) => {
+  const obj = localStorage.getItem(key);
+  return obj ? JSON.parse(obj) : settings[key];
+};
+
+export const setObj = (key, value) => {
+  const obj = JSON.stringify(value);
+  return set(key, obj);
 };

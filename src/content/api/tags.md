@@ -1,17 +1,7 @@
 ---
 permalink: '/api/tags.json'
-eleventyImport: collections["location_tag"]
+eleventyImport: collections["allTags"]
 eleventyExcludeFromCollections: true
 templateEngineOverride: njk
 ---
-{
-  "tags": [
-    {% for tag in collections.location_tag %}
-      {
-        "title": "{{ tag.data.title}}",
-        "marker": "{{ tag.data.marker}}"
-      }
-    {% if forloop.last != false %},{% endif %}
-    {% endfor %}
-  ]
-}
+{{ collections.allTags | serializeTags | safe}}

@@ -41,7 +41,7 @@ collections:
       - label: "Images"
         name: "images"
         widget: "image"
-        default: "/static/img/default.png"
+        default: "./static/img/default.png"
         choose_url: true
         media_library:
           config:
@@ -72,8 +72,18 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: "title", name: "title", widget: "string" }
+      - { label: "Title Dutch", name: "title", widget: "string" }
+      - { label: "Title English", name: "title_en", widget: "string", required: false }
       - { label: "Marker", name: "marker", widget: "string" }
+      - label: "Marker Image"
+        name: "marker_img"
+        widget: "image"
+        default: "./static/img/m1.png"
+        choose_url: true
+        required: false
+        media_library:
+          config:
+            multiple: false
       - { label: "Tags", name: "tags", widget: "hidden", default: "location_tag" }
   - label: "Pages"
     name: "page"
@@ -146,5 +156,29 @@ collections:
           - { label: Text color, name: COLOR_FRONT, widget: color,  default: "#333" }
           - { label: Highlight color, name: COLOR_HIGHLIGHT, widget: color, default: "#ff6f61" }
           - { label: Font, name: FONT_FAMILY, widget: string, default: "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;"}
-
+          - label: "Logo Image"
+            name: "LOGO"
+            widget: "image"
+            choose_url: true
+            required: false
+            media_library:
+              config:
+                multiple: false
+          - label: "Icon"
+            name: "ICON"
+            widget: "image"
+            choose_url: true
+            required: false
+            media_folder: "./src/static/icons"
+            media_library:
+              config:
+                multiple: false
+          - label: "Default placeholder"
+            name: "PLACEHOLDER_IMAGE"
+            widget: "image"
+            choose_url: true
+            required: false
+            media_library:
+              config:
+                multiple: false
 

@@ -21,6 +21,12 @@ const init = async function(){
   try{
     
     const userSettings    = await utils.fetchUserSettings();
+    settings.setAll(userSettings);
+
+    const tagData     = await utils.fetchTagData();
+    settings.setObj("TAG_SYSTEM", tagData);
+    
+    console.log("settings", settings.getObj("TAG_SYSTEM"));
 
     const loader          = new Loader();
 
@@ -38,20 +44,17 @@ const init = async function(){
     loader.addStatus("Added UI elements");
 
     //load data
-    const mapData         = await fetch(settings.get("GMAP_URL"));
+    const locationData        = await utils.fetchLocationData();
     
     loader.addStatus("Loaded Map Data");
 
     //process data
-    const mapDataText     = await mapData.text();
-    const geoJSON         = utils.createGeoJSON(mapDataText);
+    // const mapDataText     = await mapData.text();
+    // const geoJSON         = utils.createGeoJSON(mapDataText);
         
     loader.addStatus("Processed location data");
 
-    const locations       = geoJSON.locations; 
-    
-    settings.set("GMAP_TITLE",geoJSON.title);
-    settings.set("GMAP_DESCRIPTION",geoJSON.description);
+    const locations       = locationData.locations; 
         
     //add styles and UI elements
     let decorator         = new Decorator(stateMachine);
@@ -62,15 +65,6 @@ const init = async function(){
     });
     
     loader.addStatus("Created all locations");
-    
-    //get user generate content
-    const userContributedData = await utils.fetchUserContent(settings.get("GSHEET_ID"));
-    console.log(userContributedData);
-    
-    //add user locations to the map
-    userContributedData.forEach((userContent) => {
-      if(userContent.approved == "yes") new UserContent(userContent,  map, "list", "info", filter, stateMachine);
-    });
     
     //add language selector
     const multilang = new MultiLang("language-selector");

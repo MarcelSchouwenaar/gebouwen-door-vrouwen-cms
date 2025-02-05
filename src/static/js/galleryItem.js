@@ -22,6 +22,7 @@ export class GalleryItem {
     authors,
     tags,
     center,
+    url,
     stateMachine
   ) {
     this.gallery = gallery;
@@ -34,6 +35,8 @@ export class GalleryItem {
     this.images = images;
     this.tags = tags;
     this.stateMachine = stateMachine;
+    
+    this.url = url;
 
     this.center = center;
 
@@ -41,6 +44,8 @@ export class GalleryItem {
   }
 
   createThumbnail(){
+
+    console.log("creating thumbnail", this.name,this.images);
   
     this.thumbnail = document.createElement("div");
     
@@ -51,7 +56,7 @@ export class GalleryItem {
     
     this.thumbnail.innerHTML = `
               <div class="listItem" id="listItem_${this.id}">
-                <div title='${thumbnailTitle}'  class="listItemImg" data-background-image-url="${utils.getImage(this.images[0])}"></div>
+                <div title='${thumbnailTitle}'  class="listItemImg" data-background-image-url="${this.images[0]}"></div>
                 <h3>${this.name}</h3>
               </div>
             `;
@@ -80,12 +85,12 @@ export class GalleryItem {
             ? this.images
                 .map(
                   (img, i) =>
-                    `<img title='${photoTitle}' alt='${photoTitle}' src='${utils.getImage(img)}'/><span class='photoIndex'>${i + 1}/${
+                    `<img title='${photoTitle}' alt='${photoTitle}' src='${img}'/><span class='photoIndex'>${i + 1}/${
                       this.images.length
                     }</span>`
                 )
                 .join(" ")
-            : `<img title='${photoTitle}' alt='${photoTitle}' src='${utils.getImage(this.images[0])}' />`
+            : `<img title='${photoTitle}' alt='${photoTitle}' src='${img}' />`
         }
         </div>
         <p class="description">

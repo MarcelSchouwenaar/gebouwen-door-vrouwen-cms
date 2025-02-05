@@ -1,14 +1,15 @@
 {
   "MAPBOX_DEFAULT_ZOOM": 9,
-  "COLOR_BG": "#ffaaf7",
-  "MAPBOX_CENTER": "{\"type\":\"Point\",\"coordinates\":[4.4554901,51.9217337]}",
+  "COLOR_BG": "#D6FE51",
+  "MAPBOX_CENTER": "{\"type\":\"Point\",\"coordinates\":[4.4747162,51.9164399]}",
   "AUTHOR": "Sofie ",
+  "LOGO": "/static/img/gdv-eyes.png",
   "NAME": "Gebouwen door Vrouwen",
-  "COLOR_FRONT": "#390000",
+  "COLOR_FRONT": "#001906",
   "ENABLE_LOADER": true,
-  "Font_FAMILY": "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;",
-  "FONT_FAMILY": "comic sans",
-  "TITLE": "GdV",
-  "COLOR_HIGHLIGHT": "#00faff",
+  "FONT_FAMILY": "'Authentic Sans', -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;",
+  "TITLE": "Gebouwen Door Vrouwen",
+  "COLOR_HIGHLIGHT": "#d6b9ff",
+  "ICON": "src/static/icons/icon.svg",
   "DESCRIPTION": "yes"
 }

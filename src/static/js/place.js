@@ -13,7 +13,8 @@ export class Place {
   map;
   images = [];
   tags = [];
-  authors = [];
+  authors;
+  url;
   place;
   center;
   location;
@@ -40,13 +41,14 @@ export class Place {
     this.tagSystem = new TagSystem();
     this.stateMachine = stateMachine;
 
-    this.name = utils.wrapLanguageTags(this.location.properties.name);
+    this.name = utils.wrapLanguageTags(this.location.title);
     this.description = this.#getDescription();
     this.id = this.#createID();
 
     this.tags = this.#getTags();
     this.images = this.#getImages();
-    this.autors = this.#getAuthors();
+    this.autors = this.location.author;
+    this.url = this.location.url;
 
     this.icon = this.#getIcon();
 
@@ -63,27 +65,32 @@ export class Place {
     );
   }
   #getTags() {
-    let allTags = utils.getHashTags(this.location.properties.description);
+    let allTags = this.location.location_tags || [settings.getObj("TAGSYSTEM")[0]];
     let relevantTags = this.tagSystem.completeTagList(allTags);
 
     return relevantTags;
   }
   #getImages() {
-    if (!this.location.properties.gx_media_links)
-      return [settings.get("PLACEHOLDER_IMAGE")];
-    if (this.location.properties.gx_media_links.length < 1)
-      return [settings.get("PLACEHOLDER_IMAGE")];
+    if(!this.location.images) return [settings.get("PLACEHOLDER_IMAGE")];
+    if(typeof this.location.images == "string") return [this.location.images];
+    return this.location.images;
+    // return
+    // if (!this.location.properties.gx_media_links)
+    //   return [settings.get("PLACEHOLDER_IMAGE")];
+    // if (this.location.properties.gx_media_links.length < 1)
+    //   return [settings.get("PLACEHOLDER_IMAGE")];
 
-    let _images = this.location.properties.gx_media_links;
-    if (_images.indexOf(" ") > 0) {
-      return this.location.properties.gx_media_links.split(" ");
-    } else {
-      return [this.location.properties.gx_media_links];
-    }
+    // let _images = this.location.properties.gx_media_links;
+    // if (_images.indexOf(" ") > 0) {
+    //   return this.location.properties.gx_media_links.split(" ");
+    // } else {
+    //   return [this.location.properties.gx_media_links];
+    // }
   }
   #getDescription() {
-    let desc = utils.wrapLanguageTags(this.location.properties.description)
-    return utils.cleanText(desc);
+    return "Lorem ipsum";
+    // let desc = utils.wrapLanguageTags(this.location.properties.description)
+    // return utils.cleanText(desc);
   }
   #getIcon() {
     return this.tags[0].getIcon();
@@ -111,6 +118,8 @@ export class Place {
     let match = false;
     match = this.checkTagFilter() && this.checkBoundariesFilter();
 
+    console.log("Should ", this.location.title," be visible?", match, "filter:", this.checkTagFilter(),"bounds:", this.checkBoundariesFilter());
+
     if (match) {
       this.place.show();
       this.galleryItem.show();
@@ -121,32 +130,39 @@ export class Place {
   }
 
   addPlace() {
-    if (this.location.geometry.type == "Polygon") {
-      this.place = new Area(
-        this.name,
-        this.id,
-        this.map,
-        this.location,
-        this.tags,
-        this.stateMachine
-      );
-    } else if (this.location.geometry.type == "Point") {
-      this.place = new Marker(
-        this.id,
-        this.map,
-        this.location,
-        this.icon,
-        this.stateMachine
-      );
-    } else if (this.location.geometry.type == "LineString") {
-      this.place = new Line(
-        this.name,
-        this.id,
-        this.map,
-        this.location,
-        this.stateMachine
-      );
-    }
+    // if (this.location.geometry.type == "Polygon") {
+    //   this.place = new Area(
+    //     this.name,
+    //     this.id,
+    //     this.map,
+    //     this.location,
+    //     this.tags,
+    //     this.stateMachine
+    //   );
+    // } else if (this.location.geometry.type == "Point") {
+    //   this.place = new Marker(
+    //     this.id,
+    //     this.map,
+    //     this.location,
+    //     this.icon,
+    //     this.stateMachine
+    //   );
+    // } else if (this.location.geometry.type == "LineString") {
+    //   this.place = new Line(
+    //     this.name,
+    //     this.id,
+    //     this.map,
+    //     this.location,
+    //     this.stateMachine
+    //   );
+    // }
+    this.place = new Marker(
+      this.id,
+      this.map,
+      this.location,
+      this.icon,
+      this.stateMachine
+    );
     this.center = this.place.getCenter();
   }
 
@@ -161,6 +177,7 @@ export class Place {
       this.authors,
       this.tags,
       this.center,
+      this.url,
       this.stateMachine
     );
   }
@@ -169,7 +186,7 @@ export class Place {
     let match = false;
 
     const self = this;
-    const tagTitles = this.tags.map(tag => tag.title);
+    const tagTitles = this.tags.map(tag => tag.title.toLowerCase());
 
     this.filter.currentFilter.forEach(tag => {
       if (match) return;

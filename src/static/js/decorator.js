@@ -31,6 +31,8 @@ export class Decorator{
     this.setTitleAndDescription();
     this.setManifest();
     this.setAboutPage();
+
+    this.setSiteLogo();
     
     this.addEventListeners();
 
@@ -58,20 +60,17 @@ export class Decorator{
     document.querySelector('meta[name="theme-color"]').setAttribute("content", settings.get("COLOR_BG"));
   }
   setFonts(){
+    console.log("setting font-family", settings.get("FONT_FAMILY"));
     document.documentElement.style.setProperty("--default-font-family",settings.get("FONT_FAMILY"));
-    if(settings.get("FONT_WEBFONT")){
-      let styleEl = document.createElement("style");
-      styleEl.type = "text/css";
-      styleEl.appendChild(document.createTextNode(settings.get("FONT_WEBFONT")));
-      let head = document.head;
-      head.appendChild(styleEl)
-    }
+  }
+  setSiteLogo(){
+    document.getElementById("logo-img").src = settings.get("LOGO");
   }
   setTitleAndDescription(){
     
     document.getElementById("title").innerHTML = settings.get("TITLE");
     document.title = settings.get("TITLE");
-    document.description = settings.get("GMAP_DESCRIPTION") || settings.get("DESCRIPTION");
+    document.description = settings.get("DESCRIPTION");
   }
   setLanguage(){
     document.documentElement.setAttribute('lang', settings.get("DEFAULT_LANG"));
@@ -85,7 +84,7 @@ export class Decorator{
     titleEl.innerHTML = settings.get("TITLE");
     
     let aboutEl = document.createElement("div");
-    let aboutTxt = settings.get("GMAP_DESCRIPTION") || settings.get("ABOUT");
+    let aboutTxt = settings.get("ABOUT");
     aboutEl.innerHTML = utils.wrapLanguageTags(aboutTxt);
     
     this.aboutPage.appendChild(titleEl);

@@ -50,7 +50,7 @@ export class TagSystem {
   constructor() {
     const self = this;
 
-    let allTags = settings.get("TAG_SYSTEM");
+    let allTags = settings.getObj("TAG_SYSTEM");
 
     allTags.forEach((tag) => {
       let tagObj = new Tag(

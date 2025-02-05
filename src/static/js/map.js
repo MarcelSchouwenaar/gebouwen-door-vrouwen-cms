@@ -8,11 +8,12 @@ export class Map {
     mapboxgl.accessToken = settings.get("MAPBOX_API_KEY");
     
     let _style = settings.get("MAPBOX_STYLE");
+    let _center = JSON.parse(settings.get("MAPBOX_CENTER"));
 
     this.map = new mapboxgl.Map({
       container: "map",
       style: _style,
-      center: settings.get("MAPBOX_CENTER"),
+      center: _center,
       zoom: settings.get("MAPBOX_DEFAULT_ZOOM"),
     });
 

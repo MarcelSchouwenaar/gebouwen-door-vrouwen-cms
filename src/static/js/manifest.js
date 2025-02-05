@@ -19,7 +19,7 @@ const manifest = {
       sizes: "192x192",
       type: "image/png",
     }
-  ],
+  ]
 };
 
 const stringManifest = JSON.stringify(manifest);

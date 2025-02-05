@@ -12,8 +12,10 @@ export class StateMachine {
   navigationDebounceTimeout = undefined;
 
   constructor(map) {
-    this.prevZoom = settings.get("MAPBOX_DEFAULT_ZOOM");
-    this.prevCenter = settings.get("MAPBOX_CENTER");
+    let _center = JSON.parse(settings.get("MAPBOX_CENTER"));
+
+    this.prevZoom = settings.get("MAPBOX_DEFAULT_ZOOM");    
+    this.prevCenter = _center;
     this.self = this;
     this.map = map;
     this.activeId = null;  

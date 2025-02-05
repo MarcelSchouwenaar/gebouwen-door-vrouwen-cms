@@ -25,14 +25,14 @@ export class Marker{
     this.marker.innerHTML = this.icon;
 
     new mapboxgl.Marker(this.marker)
-      .setLngLat(location.geometry.coordinates)
+      .setLngLat(location.coordinates.coordinates)
       .addTo(this.map);
     
     const self = this;
     this.marker.addEventListener("click",e => this.setLocation(e));
   }
   getCenter(){
-    return this.location.geometry.coordinates;
+    return this.location.coordinates.coordinates;
   }
   show(){
     this.marker.style.display = "block";
@@ -41,9 +41,11 @@ export class Marker{
     this.marker.style.display = "none";
   }
   activate(){
+    console.log("activating marker", this.location.title);
     this.marker.classList.add("marker_active");
   }
   deactivate(){
+    console.log("deactivating marker", this.location.title);
     this.marker.classList.remove("marker_active");
   }
   setLocation(e){
