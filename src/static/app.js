@@ -7,7 +7,7 @@ import { Filter }        from "./js/filter.js";
 import { TagSystem }     from "./js/tagsystem.js";
 import { StateMachine }  from "./js/stateMachine.js";
 import { Place }         from "./js/place.js";
-import { UserContent }   from "./js/usercontent.js";
+// import { UserContent }   from "./js/usercontent.js";
 import { Decorator }     from "./js/decorator.js";
 import { MultiLang }     from "./js/multilang.js";
 
@@ -24,9 +24,9 @@ const init = async function(){
     settings.setAll(userSettings);
 
     const tagData     = await utils.fetchTagData();
-    settings.setObj("TAG_SYSTEM", tagData);
+    settings.set("TAG_SYSTEM", tagData);
     
-    console.log("settings", settings.getObj("TAG_SYSTEM"));
+    console.log("settings", settings.get("TAG_SYSTEM"));
 
     const loader          = new Loader();
 

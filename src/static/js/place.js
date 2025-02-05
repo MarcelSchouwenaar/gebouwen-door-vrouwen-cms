@@ -117,9 +117,6 @@ export class Place {
   verifyFilter() {
     let match = false;
     match = this.checkTagFilter() && this.checkBoundariesFilter();
-
-    console.log("Should ", this.location.title," be visible?", match, "filter:", this.checkTagFilter(),"bounds:", this.checkBoundariesFilter());
-
     if (match) {
       this.place.show();
       this.galleryItem.show();
@@ -205,11 +202,11 @@ export class Place {
 
   showLocation() {
     
-    if(this.location.geometry.type == "Polygon"){
-       const bounds = this.place.getBoundaries();
-       this.map.fitBounds(bounds, {padding: 20});
-    } else {
+    // if(this.location.geometry.type == "Polygon"){
+    //    const bounds = this.place.getBoundaries();
+    //    this.map.fitBounds(bounds, {padding: 20});
+    // } else {
        this.map.flyTo({center: this.center,zoom: settings.get("MAPBOX_DETAIL_ZOOM")});
-    }
+    // }
   }
 }

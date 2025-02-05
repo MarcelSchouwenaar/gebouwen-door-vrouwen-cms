@@ -27,9 +27,8 @@ settings.MANIFEST_ICONS = {
   icons16: ICON_PATH + "icon-16x16.png",
 };
 
-settings.GMAP_ID = "1iaBUt-YoQnTFQPocSNxlpKPP-9_RSVk"; //BOTANICAL MONUMENTS
-
-settings.GMAP_URL = "https://www.google.com/maps/d/kml?forcekml=1&mid=" + settings.GMAP_ID;
+// settings.GMAP_ID = "1iaBUt-YoQnTFQPocSNxlpKPP-9_RSVk"; //BOTANICAL MONUMENTS
+// settings.GMAP_URL = "https://www.google.com/maps/d/kml?forcekml=1&mid=" + settings.GMAP_ID;
 // settings.GMAP_TITLE = settings.TITLE;
 // settings.GMAP_DESCRIPTION = settings.DESCRIPTION;
 
@@ -220,12 +219,19 @@ export const getAllSettings = () => {
 };
 
 export const get = (key) => {
-  return localStorage.getItem(key) || settings[key];
+  // let val = localStorage.getItem(key) || settings[key];
+  let val = settings[key];
+  // if(!val){
+  //   console.log("no local value for", key, "so", settings[key]);
+  //   val = settings[key];
+  //   set(key,val);
+  // } 
+  return val
 };
 
 export const set = (key, value) => {
-  // if (typeof settings[key] !== typeof value) return;
-  if (settings[key]) return localStorage.setItem(key, value);
+  settings[key] = value;
+  // localStorage.setItem(key, value);
 };
 
 
@@ -240,8 +246,9 @@ export const setAll = (obj) => {
   Object.keys(obj).forEach((key) => set(key, obj[key]));
 }
 export const getObj = (key) => {
-  const obj = localStorage.getItem(key);
-  return obj ? JSON.parse(obj) : settings[key];
+  // const obj = localStorage.getItem(key);
+  // return obj ? JSON.parse(obj) : settings[key];
+  return settings[key];
 };
 
 export const setObj = (key, value) => {

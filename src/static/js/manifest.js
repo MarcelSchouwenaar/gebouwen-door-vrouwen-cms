@@ -10,12 +10,12 @@ const manifest = {
   theme_color: settings.get("COLOR_BG"),
   icons: [
     {
-      src: settings.get("MANIFEST_ICONS").icons512,
+      src: "https://" + location.hostname + "/" + settings.get("MANIFEST_ICONS").icons512.replace("./",""),
       sizes: "512x512",
       type: "image/png",
     },
     {
-      src: settings.get("MANIFEST_ICONS").icons192,
+      src: "https://" + location.hostname + "/" + settings.get("MANIFEST_ICONS").icons192.replace("./",""),
       sizes: "192x192",
       type: "image/png",
     }

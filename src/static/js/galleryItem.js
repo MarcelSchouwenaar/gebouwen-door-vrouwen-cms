@@ -90,12 +90,12 @@ export class GalleryItem {
                     }</span>`
                 )
                 .join(" ")
-            : `<img title='${photoTitle}' alt='${photoTitle}' src='${img}' />`
+            : `<img title='${photoTitle}' alt='${photoTitle}' src='${this.images[0]}' />`
         }
         </div>
         <p class="description">
           ${this.description}
-          ${this.authors.join(", ")}
+          ${this.authors}
         </p>
         <p class='tags'>
           ${this.tags.map((tag) => tag.getTagLocaleHTML()).join("")}

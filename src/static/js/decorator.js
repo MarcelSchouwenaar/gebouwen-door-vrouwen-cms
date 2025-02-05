@@ -27,6 +27,7 @@ export class Decorator{
     
     this.setColors();
     this.setThemeColors();
+
     this.setFonts();
     this.setTitleAndDescription();
     this.setManifest();

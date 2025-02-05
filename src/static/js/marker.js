@@ -41,11 +41,9 @@ export class Marker{
     this.marker.style.display = "none";
   }
   activate(){
-    console.log("activating marker", this.location.title);
     this.marker.classList.add("marker_active");
   }
   deactivate(){
-    console.log("deactivating marker", this.location.title);
     this.marker.classList.remove("marker_active");
   }
   setLocation(e){
