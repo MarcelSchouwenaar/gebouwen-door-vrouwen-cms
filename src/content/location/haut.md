@@ -6,7 +6,12 @@ date: 2025-02-08T16:25:00.000Z
 agency: Team V Architectuur
 architect: Do Janne Vermeulen
 year: "2022"
-images: ./static/img/default.png
+images:
+  - /static/img/1-architectenweb-haut_-wonen-met-riant-uitzicht-binnen-hoofdzakelijk-houten-constructie-beeld-13-copyright-jannes-linders.jpg
+  - /static/img/2-architectenweb-haut_-wonen-met-riant-uitzicht-binnen-hoofdzakelijk-houten-constructie-beeld-1-copyright-jannes-linders.jpg
+  - /static/img/4-architectenweb-haut_-wonen-met-riant-uitzicht-binnen-hoofdzakelijk-houten-constructie-beeld-30-copyright-team-v-architectuur.jpg
+  - /static/img/3-architectenweb-haut_-wonen-met-riant-uitzicht-binnen-hoofdzakelijk-houten-constructie-beeld-21-copyright-team-v-architectuur.jpg
+  - /static/img/5-team-v-architecture_haut_08©jannes-linders_jhml2205-3585-1200x1600.jpeg
 location_tags:
   - Architectuur
 address: Korte Ouderkerkerdijk 1, Amsterdam⁣
