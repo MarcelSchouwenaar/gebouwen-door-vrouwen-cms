@@ -28,7 +28,8 @@ Het gebouw heeft een vliegervormige plattegrond met afgeplatte punten. Het is ve
 In 2011 werd de net gerestaureerde atelierwoning door brand verwoest. Natuurmonumenten heeft gezorgd voor de herbouw van het atelier.
 
 Beelden:
-1 Collectie Literatuurmuseum
-2 Gerard Dukker / Rijksdienst voor het Cultureel Erfgoed
-3–4 Collectie Nieuwe Instituut
-5 Natuurmonumenten
+
+
+1 Collectie Literatuurmuseum\
+2 Gerard Dukker / Rijksdienst voor het Cultureel Erfgoed\
+3–4 Collectie Nieuwe Instituut5 Natuurmonumenten
