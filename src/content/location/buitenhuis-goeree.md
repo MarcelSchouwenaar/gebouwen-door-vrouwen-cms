@@ -17,7 +17,6 @@ location_tags:
 address: Goeree-Overflakkee
 location: '{"type":"Point","coordinates":[4.13576992064659,51.75128625]}'
 ---
-
 Buitenhuis Goeree (2012) door Mechthild Stuhlmacher en Rien Korteknie / Korteknie Stuhlmacher Architecten⁣
 ⁣
 Op Goeree-Overflakee ontwierp Mechthild Stuhlmacher samen met Rien Korteknie en hun bureau Korteknie Stuhlmacher Architecten (KSA) het Buitenhuis Goeree. Het buitenhuis combineert het kleinschalige en traditionele cultuurlandschap, huiselijkheid, ruimtegevoel en de wensen van de bewoners in één woning.⁣
@@ -29,3 +28,8 @@ Kenmerkend voor de architectuur van KSA vestigt het huis niet de aandacht op de 
 De functionele indeling volgt de ruimtelijke configuratie: in het grote volume achter op de kavel zijn alle private woonvertrekken zoals woonkamer en slaapkamers ondergebracht en het ‘voorhuis’ is ingericht als open keuken en eetplek. Waar beide ‘huizen’ bij elkaar komen bevindt zich de ruime woonkamer met houtkachel, ouderwetse zitkuil en mezzanine en met daglicht van alle kanten.⁣
 ⁣
 Het huis is opgebouwd met geprefabriceerde houtelementen die zichtbaar zijn gelaten in het interieur. Bij de zachthouten wanden en plafonds komen zo constructie en afwerking samen. Het met het huis mee ontworpen meubilair van houten inbouwkasten en -banken ondersteunt de ruimtelijkheid. ⁣
+
+
+Beelden:⁣
+1–2; 5 Luuk Kramer[](https://www.instagram.com/luuk.kramer/)⁣
+3–4 Korteknie Stuhlmacher Architecten
