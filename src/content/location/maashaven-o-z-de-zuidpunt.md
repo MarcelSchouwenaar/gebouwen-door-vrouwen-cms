@@ -18,11 +18,11 @@ address: Maashaven Oostzijde 230, Rotterdam⁣
 location: '{"type":"Point","coordinates":[4.4963382,51.8991077]}'
 ---
 Maashaven O.Z. de Zuidpunt (2004) door Juliette Bekkering / Juliette Bekkering Architecten⁣
-⁣
+
 Aan de Maashaven in Rotterdam ontwierp Juliette Bekkering met haar bureau een nieuw onderkomen voor Deelgemeente Feijenoord. Het gebouw volgt de rooilijn van het stuk grond waar de Maashaven Oostzijde, Paul Krügerstraat en Herman Costerstraat samenkomen en maakt hier een sculpturaal gebaar. Twee volumes vormen een zware, omhoog bewegende bovenbouw van donkere stenen die samenkomen aan de korte zijde van het blok, boven de volledig glazen raadzaal op de begane grond. De publieke functies, zoals onder andere de kantine, zijn gesitueerd in een grote, trapeziumvormige hal die volledig door het gebouw steekt. ⁣
-⁣
+
 Naast het programma voor de Deelgemeente, zijn er ook twee verdiepingen met verhuurbare kantoorruimte in het gebouw ondergebracht. Bij veranderingen binnen de structuur van de organisatie kan zo eventueel uitgebreid worden, en ook de eigen kantoorruimtes zijn flexibel in gebruik en indeling. Tenslotte zijn er nog zes appartementen met uitzicht over de Maashaven op de bovenste twee verdiepingen gesitueerd.⁣
-⁣
+
 De naar buiten gerichte trouwzaal op de kop en de transparante glaswanden van de raadzaal maken dat deze functies goed zichtbaar zijn en openen het gebouw naar de buurt. Dit omdat volgens Juliette Bekkering juist een Deelgemeente het openbare moet uitstralen. De donkere bakstenen vond zij een logische keuze voor een gebouw in een havengebied, omdat het de associatie met havengebouwen zou oproepen. Zo is het een behoorlijk robuust gebouw geworden, met toch een open en uitnodigende uitstraling. 
 
 Beelden:⁣
