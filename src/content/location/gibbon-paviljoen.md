@@ -27,8 +27,6 @@ De typologie van de boomgaard staat centraal in het ontwerp. Voor Bijlsma en Bui
 
 Beelden:
 
-
 1–2; 4–5 Laura Zalenga
 
-[](https://www.instagram.com/laurazalenga/)
 3 ATELIERFRONT
