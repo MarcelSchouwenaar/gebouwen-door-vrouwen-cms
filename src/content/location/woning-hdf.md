@@ -31,6 +31,5 @@ In augustus 2024 ontving Marie-José als eerste vrouw de Alvar Aalto Medal voor 
 
 Beelden:
 
-1–2; 5 David Grandorge
-
+1–2; 5 David Grandorge\
 3–4 Marie-José Van Hee architecten
