@@ -4,9 +4,14 @@ title: Buitenhuis Goeree
 author: Sofie van Brunschot
 date: 2025-02-08T12:56:00.000Z
 agency: Korteknie Stuhlmacher Architecten
-architect: Me
+architect: Mechthild Stuhlmacher
 year: "2012"
-images: ./static/img/default.png
+images:
+  - /static/img/1-goeree-elevation.jpg
+  - /static/img/2-goeree-garden-tree.jpg
+  - /static/img/3-goeree-bg.png
+  - /static/img/4-goeree-pieces.png
+  - /static/img/5-goeree-living-room-furni.jpg
 location_tags:
   - Architectuur
 ---
