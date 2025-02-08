@@ -14,6 +14,7 @@ images:
   - /static/img/5-simone_drost_architecture_planet_lab_architecture_voortgezet_onderwijs_het_lyceum_rotterdam_gevelaanzicht_ten_hope.jpg
 location_tags:
   - Architectuur
+  - Interieur
 address: Westzeedijk 497, Rotterdam
 location: '{"type":"Point","coordinates":[4.4569597,51.9046887]}'
 ---
