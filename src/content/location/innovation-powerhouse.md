@@ -26,3 +26,8 @@ Het voormalige industriegebouw ligt op het terrein van Strijp-T en werd gebouwd 
 Er is een verticale tuin toegevoegd, geïnspireerd door de oorspronkelijke tekeningen, die de symmetrie van het gebouw herstelt. Deze tuin, met vergaderruimtes, een glazen lift en vluchttrap, volgt de lijnen en structuur van het bestaande ontwerp. Aan de noordzijde is een glazen uitbreiding gerealiseerd, uitgevoerd in hedendaagse materialen en met minimalistische details om de nieuwe fase van dit historische pand in te luiden.
 
 Bij de transformatie is veel aandacht besteed aan duurzaamheid. Met HR+ glas, zonnepanelen en isolatie is een energielabel A+ bereikt. Het Innovation Powerhouse is nu een levendige hub van creativiteit en innovatie, geschikt voor de moderne werkwereld.
+
+Beelden:
+
+
+1–3, 5 Tycho Merijn[](https://www.instagram.com/tychomerijn/)4 Atelier van Berlo
