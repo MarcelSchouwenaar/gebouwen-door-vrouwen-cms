@@ -29,8 +29,6 @@ Alle woningen worden ontsloten vanuit de ruime entreehallen en binnengalerijen w
 
 Beelden:
 
-1 AD Rotterdams Dagblad
-
-2 Archief Nieuwe Instituut
-
+1 AD Rotterdams Dagblad\
+2 Archief Nieuwe Instituut\
 3-5 Stichting BONAS
