@@ -6,11 +6,16 @@ date: 2025-02-08T12:36:00.000Z
 agency: ATELIERFRONT
 architect: Marita Bijlsma
 year: "2021"
-images: ./static/img/default.png
+images:
+  - /static/img/02.jpg
+  - /static/img/01-03-atelierfront-artis-amsterdam-web-2000px.jpeg
+  - /static/img/03.jpg
+  - /static/img/05.jpg
+  - /static/img/04.jpg
 location_tags:
   - Architectuur
 address: Plantage Kerklaan 38-40, Amsterdam
-location: '{"type":"Point","coordinates":[7.9158285,53.184783]}'
+location: '{"type":"Point","coordinates":[4.9167454,52.3660803]}'
 ---
 
 Gibbon Paviljoen (2021) door Marita Bijlsma en Thomas Buijs / ATELIERFRONT
