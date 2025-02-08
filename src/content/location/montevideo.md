@@ -29,15 +29,10 @@ Het gebouw heeft een bijzondere, hybride constructie. De plint is uitgevoerd met
 
 Op het dak staat een acht meter hoge letter “M”, een herkenningspunt in de skyline van de stad. Het is een windvaan en verwijst volgens Mecanoo naar de maritieme traditie van Rotterdam, de rivier de Maas en natuurlijk de naam van het gebouw zelf. Op het lagere deel staat een kunstwerk van Ineke Hauer: een watertank die aan New York doet denken en die de schaalvergroting van de bebouwing in deze voormalige haven benadrukt. ⁣
 
-
-
 Beelden:⁣
 
-1 Ossip van Duivenbode[](https://www.instagram.com/ossipvanduivenbode/)⁣
-
-2 Christian Richters⁣
-
-3–4 Mecanoo[](https://www.instagram.com/mecanoo_/)⁣
-
+1 Ossip van Duivenbode[](https://www.instagram.com/ossipvanduivenbode/)⁣\
+2 Christian Richters⁣\
+3–4 Mecanoo[](https://www.instagram.com/mecanoo_/)⁣\
 5 Ossip van Duivenbode[](https://www.instagram.com/ossipvanduivenbode/)⁣
 ⁣
