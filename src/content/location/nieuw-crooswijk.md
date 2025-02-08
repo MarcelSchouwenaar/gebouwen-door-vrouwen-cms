@@ -15,7 +15,7 @@ images:
 location_tags:
   - Architectuur
 address: Nieuw Crooswijk, Rotterdam⁣
-location: '{"type":"Point","coordinates":[4.4938502,51.936874]}'
+location: '{"type":"Point","coordinates":[4.4965293,51.9368727]}'
 ---
 Woningen Nieuw Crooswijk (2014) door Simone Drost en Evelien van Veen / Drost + Van Veen Architecten⁣
 ⁣
