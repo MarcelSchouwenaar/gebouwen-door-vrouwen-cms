@@ -1,6 +1,6 @@
 ---
 tags: location
-title: Huis Eén
+title: Huis Één
 author: Sofie van Brunschot
 date: 2025-02-08T14:56:00.000Z
 agency: Lilith Ronner van Hooijdonk
@@ -17,7 +17,7 @@ location_tags:
 address: Overamstel, Amsterdam⁣
 location: '{"type":"Point","coordinates":[4.9176266,52.3317318]}'
 ---
-Huis Eén (2018) door Lilith van Assem en Elsbeth Ronner / Lilith Ronner van Hooijdonk ⁣
+Huis Één (2018) door Lilith van Assem en Elsbeth Ronner / Lilith Ronner van Hooijdonk ⁣
 
 In Amsterdam Zuidoost ontwierpen Lilith van Assem en Elsbeth Ronner van architectenbureau Lilith Ronner van Hooijdonk een groot familiehuis voor drie generaties. Huis Eén biedt onderdak aan twee woningen: een appartement op de begane grond voor de grootouders en een gezinswoning voor de kinderen en kleinkinderen op de verdiepingen erboven.⁣
 
