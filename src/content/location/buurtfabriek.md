@@ -1,7 +1,7 @@
 ---
 tags: location
 title: Buurtfabriek
-author: Felipa van der Laan
+author: Filipa van der Laan
 date: 2025-02-08T15:16:00.000Z
 agency: Marlies Rohmer Architecture & Urbanism
 architect: Marlies Rohmer
