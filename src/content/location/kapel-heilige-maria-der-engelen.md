@@ -15,7 +15,7 @@ images:
 location_tags:
   - Architectuur
 address: Nieuwe Crooswijkseweg 123, Rotterdam⁣
-location: '{"type":"Point","coordinates":[4.4958603,51.9340723]}'
+location: '{"type":"Point","coordinates":[4.4950138,51.9345598]}'
 ---
 Kapel Heilige Maria der Engelen (2001) door Francine Houben / Mecanoo⁣
 ⁣
