@@ -26,9 +26,8 @@ Het woningblok van Staal-Kropholler bevindt zich in de Rivierenbuurt. Het ligt a
 Staal-Kropholler heeft zich haar hele werkzame leven ingezet voor 'huisvrouwvriendelijke' woningbouw, waarbij praktische indeling, comfort en gemakkelijk schoonhouden voorop stonden. Staal-Kropholler behaalde in 1907 het diploma van de School voor Bouwkunde, Versierende Kunsten en Ambachten voor Meisjes in Haarlem. “Ik heb nooit een bepaald plan gehad om architect te worden,” zei Staal-Kropholler in 1929 tegen het tijdschrift De Vrouw en Haar Huis, “het is zoo’n beetje vanzelf gegaan.”⁣
 
 Beelden:⁣
-1–3 Fotograaf onbekend / Stadsarchief Amsterdam
 
-4 Margaret Staal-Kropholler / Collectie Nieuwe Instituut⁣
-
+1–3 Fotograaf onbekend / Stadsarchief Amsterdam\
+4 Margaret Staal-Kropholler / Collectie Nieuwe Instituut⁣\
 5 Marcel Westhoff ⁣
 ⁣
