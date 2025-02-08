@@ -27,8 +27,12 @@ De uiteenlopende functies van de vier bouwlagen zorgden voor een verschil in rui
 
 Het gebouw moest per verdieping verhuurbaar worden. Aangezien de oorspronkelijke hoofdingang alleen tot begane grond en eerste verdieping ging, is er een tweede ingang toegevoegd aan de westzijde. Bovendien zijn voorzieningen getroffen voor een latere optopping. Drost en Van Veen ontwierpen hiervoor een grote gevouwen stalen luifel waarmee de verdwenen letters ‘AJ ten Hope’ terug zijn gebracht  op de fabriek.
 ⁣
-Beelden:⁣
+Beelden:
+
 1, 2 Roos Aldershoff[](https://www.instagram.com/roos_aldershoff_fotografie/)
-3 Stadsarchief Rotterdam[](https://www.instagram.com/stadsarchief010/)
-4 Drost + Van Veen architecten
+
+[](https://www.instagram.com/roos_aldershoff_fotografie/)3 Stadsarchief Rotterdam[](https://www.instagram.com/stadsarchief010/)
+
+[](https://www.instagram.com/stadsarchief010/)4 Drost + Van Veen architecten
+
 5 Jan de Vries
