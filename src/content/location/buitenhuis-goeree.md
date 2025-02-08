@@ -14,6 +14,8 @@ images:
   - /static/img/5-goeree-living-room-furni.jpg
 location_tags:
   - Architectuur
+address: Goeree-Overflakkee
+location: '{"type":"Point","coordinates":[4.13576992064659,51.75128625]}'
 ---
 
 Buitenhuis Goeree (2012) door Mechthild Stuhlmacher en Rien Korteknie / Korteknie Stuhlmacher Architecten⁣
