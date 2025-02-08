@@ -6,7 +6,12 @@ date: 2025-02-08T15:37:00.000Z
 agency: Studio Paulien Bremmer
 architect: Paulien Bremmer
 year: "2019"
-images: ./static/img/default.png
+images:
+  - /static/img/1-gerrit-rietveld-academie-studio-paulien-bremmer-amsterdam-netherlands_dezeen_2364_col_12_43.jpg
+  - /static/img/2-jv03_43.jpg
+  - /static/img/3-gerrit-rietveld-academie-studio-paulien-bremmer-amsterdam-netherlands_campus-ground-floor-plan_43.jpg
+  - /static/img/5-gerrit-rietveld-academie-studio-paulien-bremmer-amsterdam-netherlands_longitudinal-section_43.jpg
+  - /static/img/4-gerrit-rietveld-academie-studio-paulien-bremmer-amsterdam-netherlands_dezeen_2364_col_5_43.jpg
 location_tags:
   - Architectuur
 address: Fred. Roeskestraat 96, Amsterdam⁣
