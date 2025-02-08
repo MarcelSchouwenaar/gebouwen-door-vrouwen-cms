@@ -25,7 +25,10 @@ Het paviljoen biedt bovenal een plaats waar de goudwanggibbons rond kunnen sling
 
 De typologie van de boomgaard staat centraal in het ontwerp. Voor Bijlsma en Buijs komt dit niet alleen terug in de vorm, maar ook in het idee dat het paviljoen een inclusieve plek is waar mens, dier en plant in harmonie zijn. Het ontwerp vervaagt de grenzen tussen mens en mensaap. De voor de gibbon eetbare planten op de bodem lopen door in de beplanting rondom het paviljoen. De grote dakopening zorgt ervoor dat het binnen bijna net zo licht is als buiten. In combinatie met speciaal ontspiegeld glas zorgt dit voor veel transparantie. Toch zijn de plekken waar mensen zichzelf terugzien in de reflectie van het glas ook belangrijk voor Bijlsma en Buijs. Dit nodigt bezoekers uit om te reflecteren op de ‘aapjeskijkende mens’.
 
-
 Beelden:
-1–2; 4–5 Laura Zalenga[](https://www.instagram.com/laurazalenga/)
+
+
+1–2; 4–5 Laura Zalenga
+
+[](https://www.instagram.com/laurazalenga/)
 3 ATELIERFRONT
