@@ -6,7 +6,12 @@ date: 2025-02-08T12:36:00.000Z
 agency: ATELIERFRONT
 architect: Marita Bijlsma
 year: "2021"
-images: ./static/img/default.png
+images:
+  - /static/img/01-03-atelierfront-artis-amsterdam-web-2000px.jpeg
+  - /static/img/02.jpg
+  - /static/img/03.jpg
+  - /static/img/05.jpg
+  - /static/img/04.jpg
 location_tags:
   - Architectuur
 address: Plantage Kerklaan 38-40, Amsterdam
