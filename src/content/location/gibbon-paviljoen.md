@@ -10,7 +10,7 @@ images: ./static/img/default.png
 location_tags:
   - Architectuur
 address: Plantage Kerklaan 38-40, Amsterdam
-location: '{"type":"Point","coordinates":[7.9158285,53.184783]}'
+location: '{"type":"Point","coordinates":[4.9167454,52.3660803]}'
 ---
 
 Gibbon Paviljoen (2021) door Marita Bijlsma en Thomas Buijs / ATELIERFRONT
