@@ -1,7 +1,7 @@
 ---
 tags: location
 title: Buitenhuis Goeree
-author: Sofie van Brunschot
+author: Simone van der Linden
 date: 2025-02-08T12:56:00.000Z
 agency: Korteknie Stuhlmacher Architecten
 architect: Mechthild Stuhlmacher
