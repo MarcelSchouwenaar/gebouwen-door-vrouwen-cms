@@ -7,8 +7,8 @@ agency: ATELIERFRONT
 architect: Marita Bijlsma
 year: "2021"
 images:
-  - /static/img/01-03-atelierfront-artis-amsterdam-web-2000px.jpeg
   - /static/img/02.jpg
+  - /static/img/01-03-atelierfront-artis-amsterdam-web-2000px.jpeg
   - /static/img/03.jpg
   - /static/img/05.jpg
   - /static/img/04.jpg
