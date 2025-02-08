@@ -6,7 +6,7 @@
   "LOGO": "/static/img/gdv-eyes.png",
   "NAME": "Gebouwen door Vrouwen",
   "COLOR_FRONT": "#001906",
-  "ENABLE_LOADER": false,
+  "ENABLE_LOADER": true,
   "PLACEHOLDER_IMAGE": "/static/img/default.png",
   "FONT_FAMILY": "'Authentic Sans', -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;",
   "TITLE": "Gebouwen Door Vrouwen",
