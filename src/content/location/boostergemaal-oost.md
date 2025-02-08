@@ -6,7 +6,12 @@ date: 2025-02-08T14:41:00.000Z
 agency: Bekkering Adams Architecten
 architect: Juliette Bekkering
 year: "2005"
-images: ./static/img/default.png
+images:
+  - /static/img/booster-oost3.jpg
+  - /static/img/booster-oost4.jpg
+  - /static/img/architectenweb-bekkering-adams-architecten-_-booster-gemaal-oost-beeld-8.jpg
+  - /static/img/architectenweb-bekkering-adams-architecten-_-booster-gemaal-oost-beeld-12.jpg
+  - /static/img/amsterdam-zeeburgeiland-didier-bolk-2.jpg
 location_tags:
   - Architectuur
 address: Faas Wilkesstraat, Amsterdam⁣
