@@ -29,5 +29,4 @@ Bij de transformatie is veel aandacht besteed aan duurzaamheid. Met HR+ glas, zo
 
 Beelden:
 
-
 1–3, 5 Tycho Merijn[](https://www.instagram.com/tychomerijn/)4 Atelier van Berlo
