@@ -17,7 +17,7 @@ location_tags:
 address: Suze Groeneweglaan 13-331⁣, Rotterdam⁣
 location: '{"type":"Point","coordinates":[4.456287683112303,51.92188205527069]}'
 ---
-RVS-flat, Rotterdam (1956-1958), ontworpen door Wilhelmina Jansen⁣.⁣ 
+RVS-flat, Rotterdam (1958) door Wilhelmina Jansen⁣
 
 De RVS-flat in Rotterdam werd specifiek gebouwd voor ongehuwde, werkende vrouwen. Bijzonder voor die tijd: ze werd ook ontworpen door een vrouw. Wilhelmina Jansen (1904-1989) studeerde in 1931 af aan de Technische Hogeschool in Delft, als een van de weinige vrouwen. Naast haar werk als architect was ze ook actief in verschillende vrouwenorganisaties en lid van de VAC, de Vrouwenadviescommissie, een organisatie die de gemeente Rotterdam adviseerde over huisvestingsvraagstukken.⁣⁣
 
