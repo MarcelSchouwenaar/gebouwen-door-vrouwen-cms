@@ -18,14 +18,14 @@ address: Nieuw Crooswijk, Rotterdam⁣
 location: '{"type":"Point","coordinates":[4.4965293,51.9368727]}'
 ---
 Woningen Nieuw Crooswijk (2014) door Simone Drost en Evelien van Veen / Drost + Van Veen Architecten⁣
-⁣
+
 Drost + Van Veen Architecten ontwierp samen met vijf andere architectenbureaus ruim 600 woningen en appartementen in het ‘wandeloordgebied’ Nieuw Crooswijk in Rotterdam. West 8 heeft hiervoor het stedenbouwkundig plan gemaakt en in aansluiting op de bestaande opzet van Crooswijk zijn de bouwblokken niet ingevuld door één architect, maar is gekozen voor een pandsgewijze verkaveling. Er zijn verschillende typen woningen gerealiseerd, zoals appartementen, maisonnettes en beneden-bovenwoningen, met een mix aan plattegronden voor zowel sociale huur als de vrije sector. ⁣
- ⁣
+
 Binnen dit plan heeft Drost + Van Veen Architecten 122 woningen vormgegeven. De ontwerpen worden vooral gekarakteriseerd door een verrassend gebruik van metselwerk. De plint vormt een verbindend element, uitgevoerd in staand metselverband, waarmee een driedimensionaal effect is gecreëerd. Geïnspireerd door 19e eeuwse Rotterdamse woningbouw is in elke gevel een specifiek baksteenreliëf opgenomen, ontworpen door textielontwerper Rita Verhoeven. Hiervoor is, in samenwerking met Wienerberger, een speciale “bolsteen” met reliëf en glazuur van nikkel ontwikkeld. ⁣
-⁣
+
 Door de kleinschalige aanpak en grote variatie aan woningen is een gedifferentieerd en prettig straatbeeld ontstaan, met glansrol voor de met zorg ontworpen gevels.⁣
-⁣
-Na een samenwerking van 21 jaar zijn Simone Drost en Evelien van Veen elk verder gegaan met een eigen bureau, respectievelijk Planet Lab Architecture en Van Veen Architecten BV.⁣
+
+Na een samenwerking van 21 jaar zijn Simone Drost en Evelien van Veen elk verder gegaan met een eigen bureau, respectievelijk Planet Lab Architecture en Van Veen Architecten BV.
 
 Beelden:⁣
 
