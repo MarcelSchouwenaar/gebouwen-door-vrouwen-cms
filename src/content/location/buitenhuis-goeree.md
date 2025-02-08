@@ -31,6 +31,5 @@ Het huis is opgebouwd met geprefabriceerde houtelementen die zichtbaar zijn gela
 
 Beelden:
 
-1–2; 5 Luuk Kramer[](https://www.instagram.com/luuk.kramer/)⁣
-
+1–2; 5 Luuk Kramer[](https://www.instagram.com/luuk.kramer/)⁣\
 3–4 Korteknie Stuhlmacher Architecten
