@@ -17,7 +17,6 @@ location_tags:
 address: Molenweg, Zuidzande
 location: '{"type":"Point","coordinates":[3.455047249613027,51.35581915573694]}'
 ---
-
 Woning HdF (2007) door Marie-José Van Hee / Marie-José Van Hee architecten
 
 In Zeeland heeft de Belgische architect Marie-José van Hee de Woning HdF ontworpen. Het huis werd ontworpen voor een alleenstaande man die na jaren reizen wilde terugkeren naar zijn geboortedorp. Op een oud boerenerf met een boomgaard liet hij een nieuwe woning bouwen.
@@ -31,5 +30,7 @@ De woning is gemaakt van beton, in het werk gestort in een bekisting van zorgvul
 In augustus 2024 ontving Marie-José als eerste vrouw de Alvar Aalto Medal voor haar oeuvre.
 
 Beelden:
+
 1–2; 5 David Grandorge
+
 3–4 Marie-José Van Hee architecten
