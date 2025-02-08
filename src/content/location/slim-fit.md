@@ -29,6 +29,5 @@ Het project won in 2018 de Dutch Design Award in de categorie Habitat.
 
 Beelden:
 
-1–2, 5 Christiane Wirth
-
+1–2, 5 Christiane Wirth\
 3–4 ANA ROCHA architecture
