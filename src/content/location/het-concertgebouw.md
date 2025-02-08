@@ -28,8 +28,4 @@ In de rest van het gebouw wordt deze lijn doorgezet. Mercx integreert de verschi
 
 Beelden:
 
-1, 5 Roos Aldershoff 
-
-2, 4 “De renovatie van de grote zaal van het concertgebouw in Amsterdam”, E. van der Hoeven
-
-3, 5 Merk X
+1, 5 Roos Aldershoff 2, 4 “De renovatie van de grote zaal van het concertgebouw in Amsterdam”, E. van der Hoeven 3, 5 Merk X
