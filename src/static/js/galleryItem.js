@@ -83,6 +83,7 @@ export class GalleryItem {
   async createPage() {
     
     const photoTitle = utils.stripHTML(this.name);
+    this.infopanel.innerHTML = "loading...";
     const content = await this.fetchPage(this.url);
 
     this.infopanel.innerHTML = `
@@ -103,8 +104,7 @@ export class GalleryItem {
         }
         </div>
         <p class="description">
-          ${content} —
-          ${this.authors}
+          ${content}
         </p>
         <p class='tags'>
           ${this.tags.map((tag) => tag.getTagLocaleHTML()).join("")}
