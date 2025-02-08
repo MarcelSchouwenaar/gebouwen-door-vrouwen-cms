@@ -31,8 +31,6 @@ Beelden:
 
 1–2, 5 Stadsarchief Rotterdam
 
-[](https://www.instagram.com/stadsarchief010/)
 3 Collectie Nieuwe Instituut
 
-[](https://www.instagram.com/collection_nieuweinstituut/)
 4 via Platform Wederopbouw
