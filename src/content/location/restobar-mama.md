@@ -29,8 +29,4 @@ Binnen gaat de stalen constructie van het hemeldak over in dragende balken van g
 
 Beelden:⁣
 
-1–2 Stijn Bollaert [](https://www.instagram.com/stijn_bollaert/)
-
-[](https://www.instagram.com/stijn_bollaert/)3–4 KettingHuls[](https://www.instagram.com/kettinghuls/)
-
-[](https://www.instagram.com/kettinghuls/)5 Stijn Bollaert[](https://www.instagram.com/stijn_bollaert/)
+1–2 Stijn Bollaert [](https://www.instagram.com/stijn_bollaert/)[](https://www.instagram.com/stijn_bollaert/)3–4 KettingHuls[](https://www.instagram.com/kettinghuls/)[](https://www.instagram.com/kettinghuls/)5 Stijn Bollaert[](https://www.instagram.com/stijn_bollaert/)
