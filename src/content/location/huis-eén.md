@@ -1,6 +1,6 @@
 ---
 tags: location
-title: Huis Eén
+title: Huis Één
 author: Sofie van Brunschot
 date: 2025-02-08T14:56:00.000Z
 agency: Lilith Ronner van Hooijdonk
