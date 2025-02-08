@@ -29,10 +29,5 @@ Het gebouw moest per verdieping verhuurbaar worden. Aangezien de oorspronkelijke
 ⁣
 Beelden:
 
-1, 2 Roos Aldershoff[](https://www.instagram.com/roos_aldershoff_fotografie/)
-
-[](https://www.instagram.com/roos_aldershoff_fotografie/)3 Stadsarchief Rotterdam[](https://www.instagram.com/stadsarchief010/)
-
-[](https://www.instagram.com/stadsarchief010/)4 Drost + Van Veen architecten
-
+1, 2 Roos Aldershoff[](https://www.instagram.com/roos_aldershoff_fotografie/)[](https://www.instagram.com/roos_aldershoff_fotografie/)3 Stadsarchief Rotterdam[](https://www.instagram.com/stadsarchief010/)[](https://www.instagram.com/stadsarchief010/)4 Drost + Van Veen architecten\
 5 Jan de Vries
