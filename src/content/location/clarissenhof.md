@@ -29,6 +29,5 @@ De leegtes tussen de gebouwen, de “restruimtes”, zijn voor mensen. “Het zi
 
 Beelden:
 
-1–3 Arjen Schmitz
-
+1–3 Arjen Schmitz\
 4–5 Dok architecten
