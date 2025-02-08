@@ -1,7 +1,7 @@
 ---
 tags: location
 title: Deventer House
-author: Marieke Kums
+author: Filipa van der Laan
 date: 2025-02-08T13:33:00.000Z
 agency: STUDIO MAKS
 architect: Marieke Kums
