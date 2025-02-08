@@ -15,7 +15,7 @@ images:
 location_tags:
   - Architectuur
 address: Bergen
-location: '{"type":"Point","coordinates":[5.3259192,60.3943055]}'
+location: '{"type":"Point","coordinates":[4.7071111,52.6711868]}'
 ---
 Tuinstudio (2021) door Martine Duyvis / Studio Abacaxi⁣
 
