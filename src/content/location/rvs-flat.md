@@ -28,10 +28,7 @@ Het gebouw is een prachtig voorbeeld van de functionalistische architectuur van 
 
 Beelden:⁣⁣
 
-1; 4 Stadsarchief Rotterdam
-
-2 ir. W.C.M. Jansen
-
-3 Bouw 1956
-
+1; 4 Stadsarchief Rotterdam\
+2 ir. W.C.M. Jansen\
+3 Bouw 1956\
 5 Sofie van Brunschot
