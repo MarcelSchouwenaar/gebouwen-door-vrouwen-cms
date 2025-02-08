@@ -29,6 +29,6 @@ Sneha Dugar en Jelmer Buurma werden dit jaar genomineerd voor de Abe Bonnema Pri
 
 Beelden:
 
-1–3 Max Hart Nibbrig\
-[](https://www.instagram.com/mwahartnibbrig/)4 Buurma Dugar architects\
-[](https://www.instagram.com/buurmadugararchitects/)5 Buurttuin Zoete Aarde
+1–3 Max Hart Nibbrig
+[](<>)4 Buurma Dugar architects
+[](<>)5 Buurttuin Zoete Aarde
