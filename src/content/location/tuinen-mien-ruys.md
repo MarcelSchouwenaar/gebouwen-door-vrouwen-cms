@@ -26,3 +26,11 @@ Om ervaring op te doen, experimenteerde ze in de boomgaard en groentetuin met de
 Met name het experimentele karakter maakt de tuinen een belangrijke bron van inspiratie voor tuinliefhebbers en specialisten, die er komen kijken in alle seizoenen. Een deel van de proeftuinen is inmiddels beschermd als rijks- of gemeentelijk monument. Na het overlijden van Mien in 1999 ging het werk door. De tuinen bestaan dit jaar 100 jaar.
 
 Mien experimenteerde met het toepassen van uitgewassen grindtegels en later ook spoorbielzen, waardoor ze de naam “Bielzen Mien” kreeg. Haar ontwerpen onderscheiden zich door functionalistische helderheid: rechte lijnen en vierkanten, waarvan de rechtlijnigheid verdoezeld wordt door de beplanting. Hiermee heeft ze wereldwijde bekendheid gekregen en zien velen haar als de “moeder der modernistische tuinen”.
+
+Beelden:
+
+
+1, 4 Marijke Heuff / Rijksdienst Cultureel Erfgoed\
+2 fotograaf onbekend / Maria Austria Instituut\
+3 Gerard Dukker / Rijksdienst Cultureel Erfgoed\
+5 fotograaf onbekend / Stichting Tuinen Mien Ruys
