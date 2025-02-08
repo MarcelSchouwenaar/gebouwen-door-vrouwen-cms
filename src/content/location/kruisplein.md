@@ -6,7 +6,12 @@ date: 2025-02-08T14:32:00.000Z
 agency: Mecanoo
 architect: Francine Houben
 year: "1985"
-images: ./static/img/default.png
+images:
+  - /static/img/1-mecanoo.jpg
+  - /static/img/2-mecanoo.jpg
+  - /static/img/3-mecanoo.jpg
+  - /static/img/4-mecanoo.png
+  - /static/img/5-anja-de-jong.jpg
 location_tags:
   - Architectuur
 address: Kruisplein 153, Rotterdam⁣
