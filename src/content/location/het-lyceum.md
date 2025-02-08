@@ -26,8 +26,10 @@ De fabriek werd in 1911 gebouwd voor de pepermuntfabrikant Ten Hope en importeur
 De uiteenlopende functies van de vier bouwlagen zorgden voor een verschil in ruimtelijke kwaliteit, sfeer en detaillering. Tijdens de renovatie zijn deze verschillen, verloren gegaan door verbouwingen, zorgvuldig teruggebracht. In de kelder en op de begane grond zijn de hoge ruimtes met houten schuifdeuren ingericht als kantoorruimtes. De verdiepingen zijn in gebruik genomen door de middelbare school. De gedecoreerde interieurs op de eerste verdieping zijn getransformeerd tot kantoren, overlegruimtes en lokalen. De bergzolders met hun houten balkenplafonds zijn nu grote praktijklokalen. 
 
 Het gebouw moest per verdieping verhuurbaar worden. Aangezien de oorspronkelijke hoofdingang alleen tot begane grond en eerste verdieping ging, is er een tweede ingang toegevoegd aan de westzijde. Bovendien zijn voorzieningen getroffen voor een latere optopping. Drost en Van Veen ontwierpen hiervoor een grote gevouwen stalen luifel waarmee de verdwenen letters ‘AJ ten Hope’ terug zijn gebracht  op de fabriek.
-⁣
+
 Beelden:
 
-1, 2 Roos Aldershoff[](https://www.instagram.com/roos_aldershoff_fotografie/)[](https://www.instagram.com/roos_aldershoff_fotografie/)3 Stadsarchief Rotterdam[](https://www.instagram.com/stadsarchief010/)[](https://www.instagram.com/stadsarchief010/)4 Drost + Van Veen architecten\
+1, 2 Roos Aldershoff\
+[](https://www.instagram.com/roos_aldershoff_fotografie/)[](https://www.instagram.com/roos_aldershoff_fotografie/)3 Stadsarchief Rotterdam\
+[](https://www.instagram.com/stadsarchief010/)[](https://www.instagram.com/stadsarchief010/)4 Drost + Van Veen architecten\
 5 Jan de Vries
