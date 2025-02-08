@@ -28,6 +28,11 @@ Het ontwerp volgt de ‘wijkgedachte’ - het idee van de gedecentraliseerde sta
 Ondanks de noodzaak van snelle wederopbouw na de oorlog wist Lotte een grote verscheidenheid aan ruimtes en plekken binnen de wijk te realiseren. Pendrecht heeft noch de kleinschaligheid van het vooroorlogse wonen, noch de grotere schaal die erna kwam, in de jaren zestig. Ze stelde hiermee een uniek stedenbouwkundig voorbeeld, dat niet alleen een onmisbare rol speelde in de wederopbouw van Rotterdam, maar ook representatief is voor deze overgangsperiode.
 
 Beelden:
-1–2, 5 Stadsarchief Rotterdam[](https://www.instagram.com/stadsarchief010/)
-3 Collectie Nieuwe Instituut[](https://www.instagram.com/collection_nieuweinstituut/)
+
+1–2, 5 Stadsarchief Rotterdam
+
+[](https://www.instagram.com/stadsarchief010/)
+3 Collectie Nieuwe Instituut
+
+[](https://www.instagram.com/collection_nieuweinstituut/)
 4 via Platform Wederopbouw
