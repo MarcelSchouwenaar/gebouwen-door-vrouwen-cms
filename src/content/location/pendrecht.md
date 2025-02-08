@@ -29,8 +29,6 @@ Ondanks de noodzaak van snelle wederopbouw na de oorlog wist Lotte een grote ver
 
 Beelden:
 
-1–2, 5 Stadsarchief Rotterdam
-
-3 Collectie Nieuwe Instituut
-
+1–2, 5 Stadsarchief Rotterdam\
+3 Collectie Nieuwe Instituut\
 4 via Platform Wederopbouw
