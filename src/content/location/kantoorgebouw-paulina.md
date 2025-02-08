@@ -6,7 +6,12 @@ date: 2025-02-08T15:06:00.000Z
 agency: Moen & van Oosten Architekten
 architect: Hannah Barth
 year: "2022"
-images: ./static/img/default.png
+images:
+  - /static/img/moen-van-oosten-architekten-kantoorgebouw-paulina-06-2.jpg
+  - /static/img/moen-van-oosten-architekten-kantoorgebouw-paulina-145.jpg
+  - /static/img/paulina-doorsnede.png
+  - /static/img/moen-van-oosten-architekten-kantoorgebouw-paulina-01-2.jpg
+  - /static/img/moen-van-oosten-architekten-kantoorgebouw-paulina-07-1.jpg
 location_tags:
   - Architectuur
 address: Honderdland 1042, Maasdijk⁣
