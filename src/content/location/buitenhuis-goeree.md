@@ -29,7 +29,8 @@ De functionele indeling volgt de ruimtelijke configuratie: in het grote volume a
 ⁣
 Het huis is opgebouwd met geprefabriceerde houtelementen die zichtbaar zijn gelaten in het interieur. Bij de zachthouten wanden en plafonds komen zo constructie en afwerking samen. Het met het huis mee ontworpen meubilair van houten inbouwkasten en -banken ondersteunt de ruimtelijkheid. ⁣
 
+Beelden:
 
-Beelden:⁣
 1–2; 5 Luuk Kramer[](https://www.instagram.com/luuk.kramer/)⁣
+
 3–4 Korteknie Stuhlmacher Architecten
