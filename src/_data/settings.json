@@ -1,16 +1,16 @@
 {
   "MAPBOX_DEFAULT_ZOOM": 9,
-  "COLOR_BG": "#D6FE51",
+  "COLOR_BG": "#ccff00",
   "MAPBOX_CENTER": "{\"type\":\"Point\",\"coordinates\":[4.4747162,51.9164399]}",
   "AUTHOR": "Sofie ",
-  "LOGO": "/static/img/gdv-eyes.png",
+  "LOGO": "https://www.gebouwendoorvrouwen.com/Logo_horizontaal%202_crop.png",
   "NAME": "Gebouwen door Vrouwen",
-  "COLOR_FRONT": "#001906",
+  "COLOR_FRONT": "#00821f",
   "ENABLE_LOADER": true,
   "PLACEHOLDER_IMAGE": "/static/img/default.png",
   "FONT_FAMILY": "'Authentic Sans', -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;",
   "TITLE": "Gebouwen Door Vrouwen",
-  "COLOR_HIGHLIGHT": "#d6b9ff",
+  "COLOR_HIGHLIGHT": "#d1b0ff",
   "ICON": "src/static/icons/icon.svg",
   "DESCRIPTION": "yes"
 }
