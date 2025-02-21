@@ -564,16 +564,20 @@ body[data-panel="down"] .toggle-down{
 #info[data-image="3"] .header span.photoIndex:nth-of-type(4){
   display: block;
 }
-#info[data-image="4"] .header img:nth-of-type(4),
-#info[data-image="4"] .header span.photoIndex:nth-of-type(4){
+#info[data-image="4"] .header img:nth-of-type(5),
+#info[data-image="4"] .header span.photoIndex:nth-of-type(5){
   display: block;
 }
-#info[data-image="5"] .header img:nth-of-type(4),
-#info[data-image="5"] .header span.photoIndex:nth-of-type(4){
+#info[data-image="5"] .header img:nth-of-type(6),
+#info[data-image="5"] .header span.photoIndex:nth-of-type(6){
   display: block;
 }
-#info[data-image="6"] .header img:nth-of-type(4),
-#info[data-image="6"] .header span.photoIndex:nth-of-type(4){
+#info[data-image="6"] .header img:nth-of-type(7),
+#info[data-image="6"] .header span.photoIndex:nth-of-type(7){
+  display: block;
+}
+#info[data-image="7"] .header img:nth-of-type(8),
+#info[data-image="7"] .header span.photoIndex:nth-of-type(8){
   display: block;
 }
 #info[data-imagecarousel="true"] .header > img,

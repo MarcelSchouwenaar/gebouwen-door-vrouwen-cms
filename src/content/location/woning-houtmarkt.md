@@ -25,8 +25,6 @@ Op de begane grond bevinden zich de keuken en eetkamer, grenzend aan de patio. D
 
 Beelden:
 
-1-3 Paul Kozlowski
-
-4 Laura Alvarez Architecture
-
+1-3 Paul Kozlowski\
+4 Laura Alvarez Architecture\
 5 Chris Hoefsmit

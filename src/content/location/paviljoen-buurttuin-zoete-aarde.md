@@ -27,9 +27,3 @@ De eenvoudige, heldere structuur van het paviljoen is grotendeels gebouwd met ec
 “Of je het gebouw nu wel of niet mooi vindt, het was en is een middel om mensen samen te brengen”, betoogt Dugar. Het paviljoen is namelijk deels gebouwd door vrijwilligers van de buurttuin. De materialen zijn specifiek uitgekozen zodat ze makkelijk te bewerken zijn. De kalkhennep muren zijn door de vele vrijwilligers gebouwd op één lange dag van mixen, storten én stampen.
 
 Sneha Dugar en Jelmer Buurma werden dit jaar genomineerd voor de Abe Bonnema Prijs voor Jonge Architecten.
-
-Beelden:⁣
-
-1–3 Max Hart Nibbrig\
-[](https://www.instagram.com/mwahartnibbrig/)4 Buurma Dugar architects\
-[](https://www.instagram.com/buurmadugararchitects/)5 Buurttuin Zoete Aarde

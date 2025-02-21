@@ -27,7 +27,7 @@ Joke Vos ontwierp hier bewust een gesloten bouwblok, een typologie kenmerkend vo
 
 Beelden:⁣
 
-1–3 Ossip van Duivenbode / [@ossipvanduivenbode](https://www.instagram.com/ossipvanduivenbode/)⁣⁣\
-4 Joke Vos Architecten / [@joke.vos](https://www.instagram.com/joke.vos/)⁣\
+1–3 Ossip van Duivenbode[](https://www.instagram.com/ossipvanduivenbode/)⁣⁣\
+4 Joke Vos Architecten[](https://www.instagram.com/joke.vos/)⁣\
 5 eigen foto⁣
 ⁣

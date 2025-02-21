@@ -26,6 +26,7 @@ Het Deventer House kenmerkt zich door een ritme van open en gesloten ruimtes. In
 In een interview met Brigitte O’Regan voor Archined in 2017 sprak Marieke Kums over de hindernissen die vrouwelijke architecten in hun werk tegenkomen. Ze mist vrouwen in het beroep en gelooft dat er juist veel te winnen valt met hun bijdragen. Haar advies aan vrouwen in het vak was daarom: heb moed, wees dapper en grijp de kans.
 
 Beelden:
-1–2 Christian van der Kooy[](https://www.instagram.com/christian_van_der_kooy/)
-3–4 STUDIO MAKS[](https://www.instagram.com/mariekekums/)
+
+1–2 Christian van der Kooy[](https://www.instagram.com/christian_van_der_kooy/)\
+3–4 STUDIO MAKS[](https://www.instagram.com/mariekekums/)\
 5 Christian van der Kooy
