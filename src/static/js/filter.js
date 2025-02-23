@@ -26,7 +26,7 @@ export class Filter {
     let localizedTag = this.tagSystem.getTagLocaleHTML(tag);
     let isRoot = this.tagSystem.isRootTag(tag);
     el.className = "tagLbl";
-    el.innerHTML = `<input type="checkbox" name="${tag}" value="${tag}" checked><span class="tag noselect ${ (isRoot) ? "tag-mobile" : "tag-desktop"}">${icon}  ${localizedTag}</span>`;
+    el.innerHTML = `<input type="checkbox" name="${tag}" value="${tag}" checked><span class="tag noselect ${ (isRoot) ? "tag-mobile" : "tag-desktop"}">${localizedTag}</span>`;
     return el;
   }
   addFilterTags() {

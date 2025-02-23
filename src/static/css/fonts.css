@@ -1,32 +1,32 @@
 /* Authentic Sans */
 @font-face {
   font-family: 'Authentic Sans';
-  src: url('./static/fonts/AUTHENTICSans-60.woff2') format('woff2'),
-       url('./static/fonts/AUTHENTICSans-60.woff') format('woff');
+  src: url('../fonts/AUTHENTICSans-60.woff2') format('woff2'),
+       url('../fonts/AUTHENTICSans-60.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Authentic Sans';
-  src: url('./static/fonts/AUTHENTICSans-90.woff2') format('woff2'),
-       url('./static/fonts/AUTHENTICSans-90.woff') format('woff');
+  src: url('../fonts/AUTHENTICSans-90.woff2') format('woff2'),
+       url('../fonts/AUTHENTICSans-90.woff') format('woff');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Authentic Sans';
-  src: url('./static/fonts/AUTHENTICSans-130.woff2') format('woff2'),
-       url('./static/fonts/AUTHENTICSans-130.woff') format('woff');
+  src: url('../fonts/AUTHENTICSans-130.woff2') format('woff2'),
+       url('../fonts/AUTHENTICSans-130.woff') format('woff');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Authentic Sans';
-  src: url('./static/fonts/AUTHENTICSans-150.woff2') format('woff2'),
-       url('./static/fonts/AUTHENTICSans-150.woff') format('woff');
+  src: url('../fonts/AUTHENTICSans-150.woff2') format('woff2'),
+       url('../fonts/AUTHENTICSans-150.woff') format('woff');
   font-weight: 900;
   font-style: normal;
 }
@@ -34,32 +34,32 @@
 /* Authentic Sans Condensed */
 @font-face {
   font-family: 'Authentic Sans Condensed';
-  src: url('./static/fonts/AUTHENTICSans-Condensed-60.woff2') format('woff2'),
-       url('./static/fonts/AUTHENTICSans-Condensed-60.woff') format('woff');
+  src: url('../fonts/AUTHENTICSans-Condensed-60.woff2') format('woff2'),
+       url('../fonts/AUTHENTICSans-Condensed-60.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Authentic Sans Condensed';
-  src: url('./static/fonts/AUTHENTICSans-Condensed-90.woff2') format('woff2'),
-       url('./static/fonts/AUTHENTICSans-Condensed-90.woff') format('woff');
+  src: url('../fonts/AUTHENTICSans-Condensed-90.woff2') format('woff2'),
+       url('../fonts/AUTHENTICSans-Condensed-90.woff') format('woff');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Authentic Sans Condensed';
-  src: url('./static/fonts/AUTHENTICSans-Condensed-130.woff2') format('woff2'),
-       url('./static/fonts/AUTHENTICSans-Condensed-130.woff') format('woff');
+  src: url('../fonts/AUTHENTICSans-Condensed-130.woff2') format('woff2'),
+       url('../fonts/AUTHENTICSans-Condensed-130.woff') format('woff');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Authentic Sans Condensed';
-  src: url('./static/fonts/AUTHENTICSans-Condensed-150.woff2') format('woff2'),
-       url('./static/fonts/AUTHENTICSans-Condensed-150.woff') format('woff');
+  src: url('../fonts/AUTHENTICSans-Condensed-150.woff2') format('woff2'),
+       url('../fonts/AUTHENTICSans-Condensed-150.woff') format('woff');
   font-weight: 900;
   font-style: normal;
 }
