@@ -107,6 +107,7 @@ module.exports = function (eleventyConfig) {
 
   // Copy CSS Folder to /_site
   eleventyConfig.addPassthroughCopy({"./src/_data/settings.json": "api/settings.json"});
+  eleventyConfig.addPassthroughCopy({"./src/_data/navigation.json": "api/navigation.json"});
 
   return {
     dir: {

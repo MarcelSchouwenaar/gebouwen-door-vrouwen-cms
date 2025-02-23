@@ -45,7 +45,7 @@ export class GalleryItem {
 
   createThumbnail(){
 
-    console.log("creating thumbnail", this.name,this.images);
+    // console.log("creating thumbnail", this.name,this.images);
   
     this.thumbnail = document.createElement("div");
     

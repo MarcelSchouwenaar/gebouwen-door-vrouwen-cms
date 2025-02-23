@@ -125,7 +125,7 @@ collections:
     files:
       - label: "Navigation"
         name: "items"
-        file: "src/_data/navigation.yaml"
+        file: "src/_data/navigation.json"
         fields:
           - label: Nav Items
             name: items
