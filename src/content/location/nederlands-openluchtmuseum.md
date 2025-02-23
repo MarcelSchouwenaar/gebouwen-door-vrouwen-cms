@@ -25,3 +25,7 @@ Het Nederlands Openluchtmuseum werd in 1912 geopend en is schilderachtig gesitue
 
 Binnen is een centraal plein waar een grote, glazen gevel met houten constructie het entreegebied opent naar het openlucht gedeelte van het museum. Getrapte niveaus sluiten aan bij het glooiende landschap, met tentoonstellingsruimten voor vaste en tijdelijke exposities, een kenniscentrum en het verzonken panoramatheater dat via een tunnel wordt bereikt. Dit ‘HollandRama’ is ondergebracht in een enorme, koperen zwerfkei die verzonken ligt in het landschap.
 In 2017 werd het interieur van het paviljoen volledig gerenoveerd, met een nieuwe, flexibele indeling en geïntegreerd, houten meubilair.
+
+Beelden:
+
+1–5 Mecanoo

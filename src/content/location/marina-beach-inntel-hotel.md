@@ -29,6 +29,5 @@ Het hotel is ontworpen als een visueel baken en werd geïnspireerd door maritiem
 
 Beelden:
 
-1–3; 5 Ossip van Duivenbode
-
+1–3; 5 Ossip van Duivenbode\
 4 KCAP

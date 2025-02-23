@@ -27,8 +27,6 @@ In de grote doorgang op de begane grond bevinden zich winkels, horeca, de ingang
 
 Beelden:
 
-1-2 Delfino Sisto Legnani & Marco Cappelleti
-
-3 OMA
-
+1-2 Delfino Sisto Legnani & Marco Cappelleti\
+3 OMA\
 4-5 Nick Guttridge

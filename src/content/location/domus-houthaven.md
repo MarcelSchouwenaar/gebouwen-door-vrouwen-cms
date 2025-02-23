@@ -30,8 +30,6 @@ Domus Houthaven won in 2023 de Architectenweb Award voor Interieur van het Jaar.
 
 Beelden:
 
-1 Pim Top
-
-2–3 Shift architecture urbanism
-
+1 Pim Top\
+2–3 Shift architecture urbanism\
 4–5 Rene de Wit

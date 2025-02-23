@@ -105,7 +105,9 @@ export class TagSystem {
     let childTags = [];
     
 
-    locationTags.forEach(tagTitle => {
+    locationTags.forEach(_tagTitle => {
+
+      let tagTitle = _tagTitle.toLowerCase();  
       let tag = self.tags[tagTitle] || undefined;
       if(!!tag){
         if(tag.parent === null) return rootTags.push(tag);

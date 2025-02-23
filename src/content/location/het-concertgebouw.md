@@ -25,3 +25,9 @@ Vanaf 1995 werkt Evelyne Merkx met haar bureau Merk X (voorheen Merkx+Girod) aan
 De kern van de renovatie is de verbetering van de Grote Zaal. Merkx kiest niet voor reconstructie van het oorspronkelijke ontwerp, maar wil de architectuur zelf laten spreken. Dit doet ze met een oog voor detail en ambachtelijkheid. De compositie van pilasters en pilaren met de wandvlakken wordt versterkt door een palet van wittinten en accenten in bladgoud. Merkx voegt details toe zoals de vereenvoudigde hoornsjablonen en de gouden noppen in de gewelven. Met grote aandacht voor de akoestiek worden ornamenten aangebracht in het cassetteplafond, dat in de jaren ‘60 was versoberd.
 
 In de rest van het gebouw wordt deze lijn doorgezet. Mercx integreert de verschillende delen van het gebouw, waaronder ook de uitbreiding van Pi de Bruijn uit 1988. Een belangrijke ingreep hierbij is de heropening van de twee oude publieksentrees. In het gehele interieur zoekt Mercx met haar herkenbare handschrift een contrast op met de gerestaureerde onderdelen van het oorspronkelijke gebouw.
+
+Beelden:
+
+1, 5 Roos Aldershoff \
+2, 4 “De renovatie van de grote zaal van het concertgebouw in Amsterdam”, E. van der Hoeven\
+3, 5 Merk X

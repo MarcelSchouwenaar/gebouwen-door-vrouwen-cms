@@ -33,6 +33,5 @@ De villa, inclusief tuinen, het interieur en de tuingebouwen, wordt beschouwd al
 
 Beelden:
 
-1-3, 5 René de Wit
-
+1-3, 5 René de Wit\
 4 Artesk van Royen Architecten

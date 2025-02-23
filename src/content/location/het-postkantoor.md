@@ -25,7 +25,7 @@ In de wijk Middelland in Rotterdam transformeerde Renske van der Stoep met haar 
 Van binnen is het geheel gestript, enkel de bestaande kolommen staan in de verder open ruimte. De gehele plattegrond (inclusief toiletten!) wordt verbonden door een roze marmoleumvloer. Na een lichte entreehal, afgesloten door weer een glaspartij, stap je het deel binnen waar de zestien werkplekken zijn. Deze ruimte staat in open verbinding met een maquettewerkplaats en keuken. Achterin bevindt zich (achter glas) een multifunctionele ruimte. Deze laatste functies liggen in de oorspronkelijke aanbouw, waarvan het dichte, platte dak is vervangen door twee royale lichtstraten die veel daglicht binnenlaten. Helemaal achterin is de gevel naar de buitenruimte ook vervangen door een glazen pui met accoya-houten kozijnen.⁣
 
 Het kantoor maakt gebruik van duurzame installaties. De keuken is gasloos, met inductieplaat en een Quooker. De gevels zijn nageïsoleerd met voorzetwanden en er wordt verwarmd door middel van vloerverwarming aangesloten op de lucht-water warmtepomp.⁣
-⁣
+
 Beelden: ⁣
 
 1; 5 Daria Scagliola[](https://www.instagram.com/dariascagliola/)⁣\

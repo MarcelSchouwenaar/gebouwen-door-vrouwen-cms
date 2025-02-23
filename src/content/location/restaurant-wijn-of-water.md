@@ -29,6 +29,6 @@ Het project slaagde er in korte tijd en met weinig middelen in om een prettige p
 
 Beelden:⁣
 
-1 Duotuin⁣
-2; 5 Bijvoet architectuur & stadsontwerp⁣
+1 Duotuin⁣\
+2; 5 Bijvoet architectuur & stadsontwerp⁣\
 3–4 Maarten Laupman⁣
