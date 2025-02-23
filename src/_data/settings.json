@@ -3,11 +3,7 @@
   "COLOR_BG": "#ccff00",
   "MAPBOX_CENTER": "{\"type\":\"Point\",\"coordinates\":[4.4747162,51.9164399]}",
   "AUTHOR": "Sofie ",
-<<<<<<< HEAD
   "LOGO": "/static/img/logo_horizontaal-2_crop.png",
-=======
-  "LOGO": "https://www.gebouwendoorvrouwen.com/Logo_horizontaal%202_crop.png",
->>>>>>> temp
   "NAME": "Gebouwen door Vrouwen",
   "COLOR_FRONT": "#00821f",
   "ENABLE_LOADER": false,
