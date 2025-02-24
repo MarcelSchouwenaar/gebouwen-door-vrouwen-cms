@@ -11,8 +11,9 @@ export class Decorator{
   title;
   description;
   about;
+  navigation;
 
-  constructor(stateMachine){
+  constructor(stateMachine, navigation){
     
     this.stateMachine = stateMachine;
     
@@ -24,6 +25,8 @@ export class Decorator{
     this.title            = settings.get("TITLE");
     this.description      = settings.get("DESCRIPTION");
     this.about            = settings.get("ABOUT");
+
+    this.navigation       = navigation;
     
     this.setColors();
     this.setThemeColors();
@@ -31,12 +34,15 @@ export class Decorator{
     this.setFonts();
     this.setTitleAndDescription();
     this.setManifest();
-    this.setAboutPage();
+
 
     this.setSiteLogo();
     
     this.addEventListeners();
 
+  }
+  async init(){
+    await this.addPages();
   }
   setManifest(){
     initializeManifest();
@@ -77,20 +83,55 @@ export class Decorator{
     document.documentElement.setAttribute('lang', settings.get("DEFAULT_LANG"));
   }
 
-  setAboutPage(){
+  async addPages(){
+  
+    let menu = document.getElementById("menu");
+    let list = document.createElement("ul");
+    let i = 0;
+
+    for await (let navItem of this.navigation){
+      i++;
+      
+      let item = document.createElement("li");
+      item.classList.add("menu-item");
+
+      let item_label = document.createElement("label");
+      item_label.setAttribute("for", `menu-item-${i}`);
+
+      let item_h = document.createElement("h2");
+      item_h.innerHTML = navItem.text;
+
+      
+      let item_checkbox = document.createElement("input");
+      item_checkbox.type = "checkbox";
+      item_checkbox.id = `menu-item-${i}`;
+      if(i == 1) item_checkbox.checked = true;
+      item.appendChild(item_checkbox);
+
+      let item_div = document.createElement("div");
+      let content = await this.fetchPage(navItem.url);
+      item_div.innerHTML = `${content}`;
+
+      item_label.appendChild(item_h);
+      
+      item.appendChild(item_label);
+      item.appendChild(item_checkbox);
+      item.appendChild(item_div);
     
-    this.aboutPage.innerHTML = "";
-    
-    let titleEl = document.createElement("h1");
-    titleEl.innerHTML = settings.get("TITLE");
-    
-    let aboutEl = document.createElement("div");
-    let aboutTxt = settings.get("ABOUT");
-    aboutEl.innerHTML = utils.wrapLanguageTags(aboutTxt);
-    
-    this.aboutPage.appendChild(titleEl);
-    this.aboutPage.appendChild(aboutEl);
-        
+      list.appendChild(item);
+    };
+
+    menu.appendChild(list);
+  }
+  async fetchPage(link) {
+
+    const response = await fetch(link);
+    const content = await response.text();
+    const parser = new DOMParser();
+    const html = parser.parseFromString(content, "text/html");
+    const body = html.querySelector("body").innerHTML;
+
+    return body;
   }
 
 }

@@ -1,5 +1,5 @@
 ---
-layout: partials/content.html
+layout: page.html
 ---
 
 Dit is de agenda

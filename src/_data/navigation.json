@@ -1,24 +1,16 @@
 {
-    "items": [
-      {
-        "text": "Home",
-        "url": "/"
-      },
-      {
-        "text": "About",
-        "url": "/about"
-      },
-      {
-        "text": "Contact",
-        "url": "/contact"
-      },
-      {
-        "text": "Agenda",
-        "url": "/agenda"
-      },
-      {
-        "text": "Locations",
-        "url": "/locations"
-      }
-    ]
-  }
+  "items": [
+    {
+      "text": "Over",
+      "url": "/about"
+    },
+    {
+      "text": "Agenda",
+      "url": "/agenda"
+    },
+    {
+      "text": "Contact",
+      "url": "/contact"
+    }
+  ]
+}

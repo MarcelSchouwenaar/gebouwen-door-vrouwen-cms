@@ -333,17 +333,7 @@ export function stripHTML(html) {
 export function getImage(imageURL){
 
   return imageURL
-  
-  // if(!window.allImages) window.allImages = [];
-  // window.allImages.push(imageURL);
 
-  // if(!settings.get("PROXY")) return imageURL;
-  // if(settings.get("PROXY").length == 0) return imageURL;
-  // if(imageURL.indexOf("drive.google.com") >= 0) return imageURL;
-    
-  // const encodedSafeImageURL  = encodeURIComponent(imageURL);
-  
-  // return `${settings.get("PROXY")}?url=${encodedSafeImageURL}`;
 }
 
 export function fetchUserSettings(){
@@ -387,4 +377,10 @@ export function fetchTagData(){
       })
       return newTags;
     });
+}
+
+export function fetchNavigationSettings(){
+  return fetch("api/navigation.json")
+    .then((response) => response.json())
+    .then((data) => data.items);
 }

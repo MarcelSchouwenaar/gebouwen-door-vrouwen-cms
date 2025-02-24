@@ -36,10 +36,10 @@ export class Map {
     
     console.log("Awaiting map and mapStyle to finish loading...");
     
-    const [mapLoaded, styleLoaded] = await Promise.all([ loadPromise, stylePromise]);
+    const [mapLoaded, styleLoaded] = await Promise.all([ loadPromise, stylePromise ]);
     // const mapLoaded = await loadPromise;
     
-    console.log("Completed loading: ",mapLoaded)
+    console.log("Completed loading map: ",mapLoaded, "Completed loading style: ",styleLoaded)
     
     this.map.setMaxPitch(0);
     this.map.setMinPitch(0);

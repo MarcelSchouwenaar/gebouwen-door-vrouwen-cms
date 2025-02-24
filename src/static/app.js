@@ -57,7 +57,13 @@ const init = async function(){
     const locations       = locationData.locations; 
         
     //add styles and UI elements
-    let decorator         = new Decorator(stateMachine);
+    const navigationSettings    = await utils.fetchNavigationSettings();
+    
+    let decorator               = new Decorator(stateMachine, navigationSettings);
+    await decorator.init();
+
+    loader.addStatus("Added UI elements");
+
     
     //add locations to the map
     locations.forEach((location) => {

@@ -1,4 +1,4 @@
 ---
-title: Gebouwen door Vrouwen
+layout: page.html
 ---
 Home

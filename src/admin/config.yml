@@ -97,23 +97,16 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Layout", name: "layout", widget: "hidden", default: "partials/content.html" }
-      - label: "Contact"
-        name: "contact"
-        file: "src/content/contact.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
-          - { label: "Layout", name: "layout", widget: "hidden", default: "partials/content.html" }
-      - label: "Home"
-        name: "home"
-        file: "src/content/home.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
-          - { label: "Layout", name: "layout", widget: "hidden", default: "partials/content.html" }
       - label: "Agenda"
         name: "agenda"
         file: "src/content/agenda.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "partials/content.html" }
+      - label: "Contact"
+        name: "contact"
+        file: "src/content/contact.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }

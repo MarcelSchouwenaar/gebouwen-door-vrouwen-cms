@@ -1,6 +1,5 @@
 ---
-layout: partials/content.html
-title: Over Gebouwen door Vrouwen
+layout: page.html
 ---
 
 Over Gebouwen door Vrouwen

@@ -1,6 +1,5 @@
 ---
-title: Contact
-layout: partials/content.html
+layout: page.html
 ---
 # Contact
 
