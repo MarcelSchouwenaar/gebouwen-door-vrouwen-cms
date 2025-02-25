@@ -10,6 +10,7 @@ import { Place }         from "./js/place.js";
 // import { UserContent }   from "./js/usercontent.js";
 import { Decorator }     from "./js/decorator.js";
 import { MultiLang }     from "./js/multilang.js";
+import { ListView }     from "./js/listView.js";
 
 
 
@@ -37,7 +38,7 @@ const init = async function(){
     loader.addStatus("Loaded Base Map");
     
     //setup UI
-    let tagSystem         = new TagSystem();
+    // let tagSystem         = new TagSystem();
     let stateMachine      = new StateMachine(map);    
     let filter            = new Filter("filter");
     
@@ -74,6 +75,8 @@ const init = async function(){
     
     //add language selector
     const multilang = new MultiLang("language-selector");
+
+    const listView = new ListView("list", stateMachine);
     
     //load images
     utils.BackgroundLazyLoader();

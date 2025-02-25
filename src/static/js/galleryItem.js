@@ -10,6 +10,7 @@ export class GalleryItem {
   images;
   tags;
   center;
+  meta;
   stateMachine;
 
   constructor(
@@ -23,6 +24,7 @@ export class GalleryItem {
     tags,
     center,
     url,
+    meta,
     stateMachine
   ) {
     this.gallery = gallery;
@@ -34,6 +36,7 @@ export class GalleryItem {
     this.authors = authors;
     this.images = images;
     this.tags = tags;
+    this.meta = meta;
     this.stateMachine = stateMachine;
     
     this.url = url;
@@ -44,8 +47,6 @@ export class GalleryItem {
   }
 
   createThumbnail(){
-
-    // console.log("creating thumbnail", this.name,this.images);
   
     this.thumbnail = document.createElement("div");
     

@@ -5,7 +5,7 @@ author: Sofie van Brunschot
 date: 2025-02-08T14:27:00.000Z
 agency: Bureau Ira Koers
 architect: Ira Koers
-year: "2009"
+year: 2009
 images:
   - /static/img/1-architectenweb-bureau-ira-koers-_-merry-go-round-beeld-8-copyright-bureau-ira-koers.jpg
   - /static/img/2-stringio-12.jpg

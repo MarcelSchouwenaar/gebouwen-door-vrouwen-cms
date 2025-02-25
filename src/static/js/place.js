@@ -24,6 +24,7 @@ export class Place {
   filter;
   tagSystem;
   stateMachine;
+  meta;
 
   constructor(
     location,
@@ -34,6 +35,7 @@ export class Place {
     stateMachine
   ) {
     this.location = location;
+    this.meta = location;
     this.map = map;
     this.gallery = document.getElementById(gallery);
     this.infopanel = document.getElementById(infopanel);
@@ -74,18 +76,6 @@ export class Place {
     if(!this.location.images) return [settings.get("PLACEHOLDER_IMAGE")];
     if(typeof this.location.images == "string") return [this.location.images];
     return this.location.images;
-    // return
-    // if (!this.location.properties.gx_media_links)
-    //   return [settings.get("PLACEHOLDER_IMAGE")];
-    // if (this.location.properties.gx_media_links.length < 1)
-    //   return [settings.get("PLACEHOLDER_IMAGE")];
-
-    // let _images = this.location.properties.gx_media_links;
-    // if (_images.indexOf(" ") > 0) {
-    //   return this.location.properties.gx_media_links.split(" ");
-    // } else {
-    //   return [this.location.properties.gx_media_links];
-    // }
   }
   #getDescription() {
     return "Lorem ipsum";
@@ -96,7 +86,7 @@ export class Place {
     return this.tags[0].getIcon();
   }
   #createID() {
-    return utils.getID(this.name + this.description);
+    return utils.getID(this.name);
   }
   addEventListeners() {
     let self = this;
@@ -175,6 +165,7 @@ export class Place {
       this.tags,
       this.center,
       this.url,
+      this.meta,
       this.stateMachine
     );
   }

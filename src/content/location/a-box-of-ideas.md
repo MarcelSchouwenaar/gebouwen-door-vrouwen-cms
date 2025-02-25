@@ -5,7 +5,7 @@ author: Sofie van Brunschot
 date: 2025-02-08T15:53:00.000Z
 agency: Zaha Hadid Architects
 architect: Zaha Hadid
-year: "1990"
+year: 1990
 images:
   - /static/img/1-music-video-pavilion_zaha-hadid_hidden-architecture.jpeg
   - /static/img/2-zahamusic_06.jpeg
