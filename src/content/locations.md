@@ -7,7 +7,7 @@ eleventyImport: collections["location"]
       <tr>
          <th>Naam</th>
          <th>Architect</th>
-         <th>Year</th>
+         <th>Jaar</th>
          <th>Locatie</th>
       </tr>
    </thead>
