@@ -50,7 +50,7 @@ export class ListView {
         }
 
         listViewClose.addEventListener("click", (e) => {
-            listView.remove();
+            self.destroy();
         });
         listViewItems.forEach((listItem) => {
             listItem.addEventListener("mouseenter", (e) => {
@@ -66,11 +66,17 @@ export class ListView {
                 let title = e.target.closest("tr").dataset.title;
                 let id = utils.getID(title);
                 self.stateMachine.navigateTo(settings.get("STATES").INFO, id);
-                listView.remove();
+                self.destroy();
             });
         });
 
     }
+    destroy() {
+        let listView = document.getElementById("listView");
+        if (listView) listView.remove();
+        document.onmousemove = null;
+    }
+
     async fetchList() {
         const response = await fetch("/locations");
         const content = await response.text();

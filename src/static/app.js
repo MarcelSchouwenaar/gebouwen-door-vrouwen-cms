@@ -4,7 +4,6 @@ import * as utils        from "./js/utils.js";
 import { Loader }        from "./js/loader.js";
 import { Map }           from "./js/map.js";
 import { Filter }        from "./js/filter.js";
-import { TagSystem }     from "./js/tagsystem.js";
 import { StateMachine }  from "./js/stateMachine.js";
 import { Place }         from "./js/place.js";
 // import { UserContent }   from "./js/usercontent.js";

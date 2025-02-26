@@ -1,5 +1,4 @@
 import * as settings     from "../settings.js";
-import * as utils        from "./utils.js";
 import { initializeManifest } from "./manifest.js";
 
 export class Decorator{
@@ -45,7 +44,7 @@ export class Decorator{
     await this.addPages();
   }
   setManifest(){
-    initializeManifest();
+    setTimeout(initializeManifest, 200);
   }
 
   addEventListeners(){

@@ -93,7 +93,7 @@ module.exports = function (eleventyConfig) {
     const dimensions = [512, 256, 192, 180, 32, 16];
 
     for(let i = 0; i < dimensions.length; i++) {
-      await sharp('src/static/icons/icon.svg')
+      await sharp('src/static/icons/Icon.svg')
         .png()
         .resize(dimensions[i], dimensions[i])
         .toFile(`_site/static/icons/icon-${dimensions[i]}x${dimensions[i]}.png`)
