@@ -89,21 +89,22 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({"./src/static/app.js": "static/app.js"});
   eleventyConfig.addPassthroughCopy({"./src/static/settings.js": "static/settings.js"});
 
-  eleventyConfig.on('eleventy.before', async () => {
-    const dimensions = [512, 256, 192, 180, 32, 16];
+  // eleventyConfig.on('eleventy.before', async () => {
+  //   const dimensions = [512, 256, 192, 180, 32, 16];
 
-    for(let i = 0; i < dimensions.length; i++) {
-      await sharp('src/static/icons/Icon.svg')
-        .png()
-        .resize(dimensions[i], dimensions[i])
-        .toFile(`_site/static/icons/icon-${dimensions[i]}x${dimensions[i]}.png`)
-        .catch(function (err) {
-          console.log('[11ty] ERROR Generating favicon')
-          console.log(err)
-        })
-    }
+  //   await Promise.all(dimensions.map(async (dimension) => {
+  //     try {
+  //       await sharp('src/static/icons/Icon.svg')
+  //         .png()
+  //         .resize(dimension, dimension)
+  //         .toFile(`_site/static/icons/icon-${dimension}x${dimension}.png`);
+  //     } catch (err) {
+  //       console.log('[11ty] ERROR Generating favicon');
+  //       console.log(err);
+  //     }
+  //   }));
    
-  })
+  // })
 
   // Copy CSS Folder to /_site
   eleventyConfig.addPassthroughCopy({"./src/_data/settings.json": "api/settings.json"});

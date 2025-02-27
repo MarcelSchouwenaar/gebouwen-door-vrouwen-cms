@@ -16,7 +16,7 @@ const CDN_PATH =
   "https://cdn.glitch.global/4c0493cc-1166-4590-9984-15c2b192cd62/";
 settings.PROXY = "https://follymaps.glitch.me/proxy";
 
-const ICON_PATH = "./static/icons/"
+const ICON_PATH = "./static/img/"
 
 settings.MANIFEST_ICONS = {
   icons512: ICON_PATH + "icon-512x512.png",
