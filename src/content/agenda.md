@@ -2,11 +2,11 @@
 title: Agenda
 layout: page.html
 ---
-* 01 maart '25
-
-  * Lanceringsfeest Gebouwen door Vrouwen
-  * 16:30 — 19:00
-  * Keilepand, Keilestraat 9f, Rotterdam
+* 01 maart '25\
+  Lanceringsfeest Gebouwen door Vrouwen\
+  16:30 — 19:00\
+  Keilepand, Keilestraat 9f, Rotterdam\
+  [meer info & aanmelden](https://www.keilecollectief.nl/evenementen/jz3y2wnfwt1fnfrdtzlspulmn6up9l)
 * 07 maart '25
 
   * Tour BK Feminist Week: campus TU Delft
