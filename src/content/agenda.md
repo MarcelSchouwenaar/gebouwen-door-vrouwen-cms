@@ -8,7 +8,7 @@ Lanceringsfeest Gebouwen door Vrouwen\
 Keilepand, Keilestraat 9f, Rotterdam\
 [meer info & aanmelden](https://www.keilecollectief.nl/evenementen/jz3y2wnfwt1fnfrdtzlspulmn6up9l)
 
-<u>vrijdag 7 maart '25</u>\
+vrijdag 7 maart '25\
 Tour BK Feminist Week: campus TU Delft\
 10:00 — 12:00\
 Faculteit Bouwkunde, Julianalaan 134, Rotterdam\
