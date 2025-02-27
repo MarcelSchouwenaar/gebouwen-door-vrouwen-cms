@@ -2,11 +2,9 @@
 title: Gebouwen door Vrouwen
 layout: page.html
 ---
-Gebouwen door Vrouwen viert het werk van vrouwelijke architecten. We bouwen aan een toegankelijk overzicht van álle bouwprojecten in Nederland die zijn ontworpen door door vrouwen.
+Gebouwen door Vrouwen viert het werk van vrouwelijke architecten. We bouwen aan een toegankelijk overzicht van álle bouwprojecten in Nederland die zijn (mede-)ontworpen door vrouwen.
 
-Slechts één op de vier architecten in Nederland is vrouw. En maar 12% van alle architectenbureaus heeft een vrouw in de directie. Daar komt nog eens bij dat het werk van vrouwelijke architecten minder wordt gewaardeerd dan dat van mannen: hun projecten vallen minder vaak in de prijzen en soms worden ze zelfs compleet uit de geschiedenis geschreven. Tijd voor verandering!
-
-Mis je nog een gebouw op de kaart? [Laat het ons weten](mailto:info@gebouwendoorvrouwen.com)!
+Mis je nog een gebouw op de kaart? [Laat het ons weten](mailto:info@gebouwendoorvrouwen.com?subject=Projectsuggestie&body=Project, Architect, Bureau, Locatie)!
 
 **Collectieve database**
 
@@ -16,7 +14,7 @@ Heb je vrouwen- of gebouwentips? Die kun je aan ons [mailen](mailto:info@gebouwe
 
 Heb je een Gebouw door een Vrouw in het echt gespot? Tag [@_gebouwendoorvrouwen](https://instagram.com/_gebouwendoorvrouwen) of gebruik hashtag #gebouwendoorvrouwen.
 
-**Disclaimer**
+*Disclaimer*
 
 Gebouwen door Vrouwen is geen eigenaar van de gepubliceerde beelden, tenzij anders vermeld. We hebben ons best gedaan de makers en eigenaren te identificeren en vermelden. Als u de rechtmatige eigenaar bent van beelden en het niet eens bent met het gebruik op de kaart, neem dan contact met ons op.
 
