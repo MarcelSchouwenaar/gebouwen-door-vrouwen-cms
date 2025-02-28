@@ -173,4 +173,12 @@ collections:
             media_library:
               config:
                 multiple: false
+          - label: "Default OG-logo"
+            name: "OG_LOGO"
+            widget: "image"
+            choose_url: true
+            required: false
+            media_library:
+              config:
+                multiple: false
 
