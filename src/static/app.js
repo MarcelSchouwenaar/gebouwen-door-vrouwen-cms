@@ -6,7 +6,7 @@ import { Map }           from "./js/map.js";
 import { Filter }        from "./js/filter.js";
 import { StateMachine }  from "./js/stateMachine.js";
 import { Place }         from "./js/place.js";
-// import { UserContent }   from "./js/usercontent.js";
+
 import { Decorator }     from "./js/decorator.js";
 import { MultiLang }     from "./js/multilang.js";
 import { ListView }     from "./js/listView.js";
@@ -20,15 +20,14 @@ Follywood Magic!
 const init = async function(){
   try{
     
+    const loader          = new Loader();
+
     const userSettings    = await utils.fetchUserSettings();
     settings.setAll(userSettings);
 
     const tagData     = await utils.fetchTagData();
     settings.set("TAG_SYSTEM", tagData);
     
-    console.log("settings", settings.get("TAG_SYSTEM"));
-
-    const loader          = new Loader();
 
     //load map
     const mapObj          = new Map();
@@ -61,10 +60,11 @@ const init = async function(){
     
     let decorator               = new Decorator(stateMachine, navigationSettings);
     await decorator.init();
-
     loader.addStatus("Added UI elements");
 
-    
+    await decorator.setManifest();
+    loader.addStatus("Added Manifest");
+  
     //add locations to the map
     locations.forEach((location) => {
        new Place(location, map, "list", "info", filter, stateMachine);

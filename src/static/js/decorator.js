@@ -32,7 +32,6 @@ export class Decorator{
 
     this.setFonts();
     this.setTitleAndDescription();
-    this.setManifest();
 
 
     this.setSiteLogo();
@@ -43,8 +42,9 @@ export class Decorator{
   async init(){
     await this.addPages();
   }
-  setManifest(){
-    initializeManifest();
+  async setManifest(){
+    await initializeManifest();
+    return true;
   }
 
   addEventListeners(){
