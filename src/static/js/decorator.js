@@ -44,7 +44,7 @@ export class Decorator{
     await this.addPages();
   }
   setManifest(){
-    setTimeout(initializeManifest, 200);
+    initializeManifest();
   }
 
   addEventListeners(){
