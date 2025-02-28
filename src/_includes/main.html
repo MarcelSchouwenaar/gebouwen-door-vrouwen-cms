@@ -5,10 +5,10 @@ title: main
 <!DOCTYPE html>
 <html lang="nl">
   <head>
-    <title>Follymaps — loading</title>
+    <title>{{ settings.TITLE | safe }}</title>
     <meta
       name="description"
-      content="Follymaps is a platform for sharing and discovering follies, architectural objects and other hidden gems in the landscape."
+      content="{{ settings.DESCRIPTION | safe }}"
     />
 
     <meta charset="UTF-8" />
@@ -57,16 +57,16 @@ title: main
     <meta
       name="msapplication-TileColor"
       id="tile-color-placeholder"
-      content="#003429"
+      content="{{ settings.COLOR_BG }}"
     />
-    <meta name="theme-color" id="theme-color-placeholder" content="#003429" />
+    <meta name="theme-color" id="theme-color-placeholder" content="{{ settings.COLOR_BG }}" />
     <link rel="icon" type="image/png" id="favicon-placeholder" />
-    <meta id="og-title" property="og:title" content="" />
+    <meta id="og-title" property="og:title" content="{{ settings.TITLE }}" />
     <meta id="og-type" property="og:type" content="website" />
-    <meta id="og-url" property="og:url" content="" />
-    <meta id="og-image" property="og:image" content="" />
+    <meta id="og-url" property="og:url" content="gebouwendoorvrouwen.nl" />
+    <meta id="og-image" property="og:image" content="{{ settings.OG_IMAGE }}" />
   </head>
-  <body data-state="list" data-panel="down">
+  <body data-state="list" data-panel="down" style="background-color: {{ settings.COLOR_BG }}; color: {{ settings.COLOR_FRONT }};">
     <div id="map">
     </div>
     <form id="filter"></form>
@@ -75,7 +75,7 @@ title: main
       </div>
     <div id="panel">
       <div id="topbar">
-        <div id="title">...</div>
+        <div id="title">{{ settings.TITLE }}</div>
         <div id="close" class="arrow">
           <svg
             width="24"

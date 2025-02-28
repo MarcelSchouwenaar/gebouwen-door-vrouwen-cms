@@ -32,7 +32,7 @@ export class Decorator{
 
     this.setFonts();
     this.setTitleAndDescription();
-    this.setOGTags();
+    // this.setOGTags();
 
     this.setSiteLogo();
     
@@ -69,7 +69,7 @@ export class Decorator{
     document.getElementById("logo-img").src = settings.get("LOGO");
   }
   setTitleAndDescription(){
-    
+    console.log("setting title", settings.get("TITLE"));
     document.getElementById("title").innerHTML = settings.get("TITLE");
     document.title = settings.get("TITLE");
     document.description = settings.get("DESCRIPTION");
