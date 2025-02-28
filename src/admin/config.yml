@@ -87,30 +87,14 @@ collections:
       - { label: "Tags", name: "tags", widget: "hidden", default: "location_tag" }
   - label: "Pages"
     name: "page"
+    extension: "md"
+    folder: "src/content/pages"
+    create: true
     editor:
       preview: true
-    files:
-      - label: "About"
-        name: "about"
-        file: "src/content/about.md"
-        fields:
+    fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
-          - { label: "Layout", name: "layout", widget: "hidden", default: "partials/content.html" }
-      - label: "Agenda"
-        name: "agenda"
-        file: "src/content/agenda.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
-          - { label: "Layout", name: "layout", widget: "hidden", default: "partials/content.html" }
-      - label: "Contact"
-        name: "contact"
-        file: "src/content/contact.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
-          - { label: "Layout", name: "layout", widget: "hidden", default: "partials/content.html" }
   - label: "Settings"
     name: "settings"
     editor:
@@ -123,11 +107,18 @@ collections:
           - label: Nav Items
             name: items
             widget: list
-            allow_add: false
+            allow_add: true
             collapsed: false
             fields:
               - { label: Title, name: text, widget: string }
-              - { label: URL, name: url, widget: string }
+              - widget: relation
+                label: "link"
+                name: "link"
+                collection: "page"
+                search_fields: ["title"]
+                value_field: "{{slug}}"
+                display_fields: ["title"]
+                multiple: false
       - label: "Settings"
         name: "settings"
         file: "src/_data/settings.json"

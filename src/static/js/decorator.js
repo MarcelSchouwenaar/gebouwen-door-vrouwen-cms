@@ -108,7 +108,7 @@ export class Decorator{
       item.appendChild(item_checkbox);
 
       let item_div = document.createElement("div");
-      let content = await this.fetchPage(navItem.url);
+      let content = await this.fetchPage("pages/"+navItem.link);
       item_div.innerHTML = `${content}`;
 
       item_label.appendChild(item_h);

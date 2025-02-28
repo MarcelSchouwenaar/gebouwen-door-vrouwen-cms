@@ -351,7 +351,6 @@ tr:hover{
 }
 
 #title{
-  text-transform: capitalize;
   transition: all .5s;
   overflow: visible;
   white-space: nowrap;

@@ -2,15 +2,19 @@
   "items": [
     {
       "text": "Over",
-      "url": "/about"
+      "link": "about"
     },
     {
       "text": "Agenda",
-      "url": "/agenda"
+      "link": "agenda"
     },
     {
       "text": "Contact",
-      "url": "/contact"
+      "link": "contact"
+    },
+    {
+      "text": "Nieuwsbrief",
+      "link": "nieuwsbrief"
     }
   ]
 }
