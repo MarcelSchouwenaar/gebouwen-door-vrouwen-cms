@@ -11,6 +11,8 @@ import { Decorator }     from "./js/decorator.js";
 import { MultiLang }     from "./js/multilang.js";
 import { ListView }     from "./js/listView.js";
 
+import { initializeManifest }   from "./js/manifest.js";
+
 
 
 /*************************************
@@ -62,7 +64,7 @@ const init = async function(){
     await decorator.init();
     loader.addStatus("Added UI elements");
 
-    await decorator.setManifest();
+    initializeManifest();
     loader.addStatus("Added Manifest");
   
     //add locations to the map

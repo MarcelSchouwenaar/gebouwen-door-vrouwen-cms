@@ -8,6 +8,7 @@
   "COLOR_FRONT": "#00821f",
   "ENABLE_LOADER": false,
   "PLACEHOLDER_IMAGE": "/static/img/default.png",
+  "OG_IMAGE": "/static/img/og_image.png",
   "FONT_FAMILY": "'Authentic Sans', -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;",
   "TITLE": "Gebouwen door Vrouwen",
   "COLOR_HIGHLIGHT": "#d1b0ff",

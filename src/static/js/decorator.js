@@ -32,7 +32,7 @@ export class Decorator{
 
     this.setFonts();
     this.setTitleAndDescription();
-
+    this.setOGTags();
 
     this.setSiteLogo();
     
@@ -41,10 +41,6 @@ export class Decorator{
   }
   async init(){
     await this.addPages();
-  }
-  async setManifest(){
-    await initializeManifest();
-    return true;
   }
 
   addEventListeners(){
@@ -80,6 +76,11 @@ export class Decorator{
   }
   setLanguage(){
     document.documentElement.setAttribute('lang', settings.get("DEFAULT_LANG"));
+  }
+  setOGTags(){
+    document.querySelector('#og-title').setAttribute("content", settings.get("TITLE"));
+    document.querySelector('#og-image').setAttribute("content", settings.get("OG_IMAGE"));
+    document.querySelector('#og-url').setAttribute("content", location.href);
   }
 
   async addPages(){

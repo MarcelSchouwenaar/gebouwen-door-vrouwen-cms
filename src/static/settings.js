@@ -62,6 +62,7 @@ settings.MAP_AREA_HOVER_OPACITY = 0.5;
 settings.MAP_AREA_HOVER_OUTLINE = settings.COLOR_HIGHLIGHT;
 
 settings.PLACEHOLDER_IMAGE = "./static/images/default.jpg";
+settings.OG_IMAGE = "./static/images/default.jpg";
 
 settings.DEFAULT_AUTHOR = "";
 settings.AUTHORS = [];

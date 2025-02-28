@@ -13,8 +13,8 @@ local_backend:
 
 media_folder: "src/static/img"
 public_folder: "/static/img"
-site_url: https://gebouwen-door-vrouwen.netlify.app
-display_url: https://www.gebouwendoorvrouwen.com 
+site_url: https://www.gebouwendoorvrouwen.nl
+display_url: https://www.gebouwendoorvrouwen.nl
 logo_url: "/static/img/gdv-eyes.png"
 
 # Please run "npx netlify-cms-proxy-server" for local backend
@@ -159,6 +159,14 @@ collections:
                 multiple: false
           - label: "Default placeholder"
             name: "PLACEHOLDER_IMAGE"
+            widget: "image"
+            choose_url: true
+            required: false
+            media_library:
+              config:
+                multiple: false
+          - label: "Default OG-image"
+            name: "OG_IMAGE"
             widget: "image"
             choose_url: true
             required: false
