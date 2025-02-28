@@ -9,12 +9,16 @@
       "link": "agenda"
     },
     {
+      "text": "Nieuwsbrief",
+      "link": "nieuwsbrief"
+    },
+    {
       "text": "Contact",
       "link": "contact"
     },
     {
-      "text": "Nieuwsbrief",
-      "link": "nieuwsbrief"
+      "text": "Disclaimer",
+      "link": "disclaimer"
     }
   ]
 }
