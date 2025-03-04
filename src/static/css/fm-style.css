@@ -53,7 +53,8 @@ input[type="text"],
 input[type="email"],
 input[type="password"],
 input[type="number"],
-input[type="submit"]
+input[type="submit"],
+button
 {
   width: 100%;
   line-height: 1em;
