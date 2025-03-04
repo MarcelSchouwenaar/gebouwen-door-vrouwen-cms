@@ -105,7 +105,7 @@ export class Decorator{
       let item_checkbox = document.createElement("input");
       item_checkbox.type = "checkbox";
       item_checkbox.id = `menu-item-${i}`;
-      if(i == 1) item_checkbox.checked = true;
+      // if(i == 1) item_checkbox.checked = true;
       item.appendChild(item_checkbox);
 
       let item_div = document.createElement("div");
