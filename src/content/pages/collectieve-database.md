@@ -1,9 +1,7 @@
 ---
 title: Project indienen
 ---
-We kunnen alle kennis gebruiken om deze belangrijke projecten in kaart te brengen. Help ons het overzicht compleet te maken en een openbare en collectieve database te bouwen.
-
-Heb je vrouwen- of gebouwentips? Dien ze met onderstaand formulier in of [stuur ons een mail](mailto:info@gebouwendoorvrouwen.com).
+Heb je vrouwen- of gebouwentips? Dien een project in!
 
 <form name="projectsuggestie" netlify>
 <p>
