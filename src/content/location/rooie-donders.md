@@ -7,7 +7,11 @@ agency: Dok architecten
 architect: Liesbeth van der Pol
 year: "1998"
 images:
-  - /static/img/default.png
+  - /static/img/1-luuk-kramer-9407-f-kramer-10.764x524.jpg
+  - /static/img/2-luuk-kramer-9407-f-kramer-8.764x524.jpg
+  - /static/img/3-rooie-donders-almere-4.jpg
+  - /static/img/4-riccardo-de-vecchi-dscf8333.jpg
+  - /static/img/5-riccardo-de-vechi-dscf8301.jpg
 location_tags:
   - Architectuur
 address: Pastelstraat 5, Almere
