@@ -5,7 +5,7 @@ Heb je vrouwen- of gebouwentips? Dien een project in!
 
 <form name="projectsuggestie" netlify>
 <p>
-<label>Naam van het project<input type="text" name="project" /></label>
+<label>Naam van het project<input type="text" name="project" required /></label>
 </p>
 <p>
 <label>Betrokken vrouwelijke architect / ontwerper<input type="text" name="architect" /></label>
