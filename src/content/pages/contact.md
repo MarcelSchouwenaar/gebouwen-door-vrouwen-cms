@@ -29,6 +29,7 @@ Volg ons op [instagram](<>), waar we projecten uitlichten en activiteiten aankon
 </div>
 </div>
 
+
 Gebouwen door Vrouwen is een initiatief van [Sofie van Brunschot](<>). Samenwerken of een tour boeken voor je volgende teamuitje? [Neem contact op](<>).
 
 Met dank aan [Filipa van der Laan](<>), [Jolien Streng](<>), [Stimuleringsfonds Creatieve Industrie](<>), [Studio Marcel Schouwenaar](<>) en [Wibke Bramesfeld](<>).
