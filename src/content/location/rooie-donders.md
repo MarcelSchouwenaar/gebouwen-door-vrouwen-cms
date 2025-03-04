@@ -7,15 +7,10 @@ agency: Dok architecten
 architect: Liesbeth van der Pol
 year: "1998"
 images:
-  - /static/img/1-luuk-kramer-9407-f-kramer-10.764x524.jpg
-  - /static/img/2-luuk-kramer-9407-f-kramer-8.764x524.jpg
-  - /static/img/3-rooie-donders-almere-4.jpg
-  - /static/img/4-riccardo-de-vecchi-dscf8333.jpg
-  - /static/img/5-riccardo-de-vechi-dscf8301.jpg
+  - /static/img/default.png
 location_tags:
   - Architectuur
-address: 5, Pastelstraat, Regenboogbuurt, Almere Buiten, Almere, Flevoland,
-  Netherlands, 1339 JE, Netherlands
+address: Pastelstraat 5, Almere
 location: '{"type":"Point","coordinates":[5.3044602,52.3916447]}'
 ---
 Rooie Donders (1998) door Liesbeth van der Pol / Dok architecten
@@ -30,7 +25,8 @@ De vorm refereert aan industriële gebouwen, ze doen denken aan grote graansilo�
 
 Liesbeth van der Pol was de eerste vrouwelijke Rijksbouwmeester van Nederland, van 2008 tot 2011.
 
-Beelden:\
+Beelden:
+
 1–2 Luuk Kramer[](https://www.instagram.com/luuk.kramer/)\
 3 Dok architecten[](https://www.instagram.com/dokarchitecten/)\
 4–5 Riccardo de Vechi[](https://www.instagram.com/riccardodevecchi.photo/)
