@@ -13,7 +13,11 @@ Heb je vrouwen- of gebouwentips? Dien ze met onderstaand formulier in of [stuur 
 <label>Betrokken vrouwelijke architect / ontwerper <input type="text" name="architect" /></label>
 </p>
 <p>
-<label> (Ontwerp)bureau <input type="text" name="ontwerpbrueau" />
+<label>(Ontwerp)bureau <input type="text" name="ontwerpbureau" />
+</label>
+</p>
+<p>
+<label>Locatie<input type="text" name="locatie" />
 </label>
 </p>
 <p>
