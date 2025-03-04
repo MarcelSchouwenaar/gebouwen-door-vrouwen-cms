@@ -8,7 +8,7 @@ Heb je vrouwen- of gebouwentips? Dien een project in!
 <label>Naam van het project<input type="text" name="project" required /></label>
 </p>
 <p>
-<label>Betrokken vrouwelijke architect / ontwerper<input type="text" name="architect" /></label>
+<label>Betrokken vrouwelijke architect(en) / ontwerper(s) <input type="text" name="architect" required /></label>
 </p>
 <p>
 <label>(Ontwerp)bureau <input type="text" name="ontwerpbureau" />
