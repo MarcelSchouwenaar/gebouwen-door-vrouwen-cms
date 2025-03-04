@@ -10,8 +10,7 @@ images:
   - /static/img/default.png
 location_tags:
   - Architectuur
-address: 5, Pastelstraat, Regenboogbuurt, Almere Buiten, Almere, Flevoland,
-  Netherlands, 1339 JE, Netherlands
+address: Pastelstraat 5, Almere
 location: '{"type":"Point","coordinates":[5.3044602,52.3916447]}'
 ---
 Rooie Donders (1998) door Liesbeth van der Pol / Dok architecten
