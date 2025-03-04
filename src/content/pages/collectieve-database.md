@@ -21,6 +21,6 @@ Heb je vrouwen- of gebouwentips? Dien ze met onderstaand formulier in of [stuur 
 </label>
 </p>
 <p>
-<button type="submit">Indienen</button>
+<button class="button" type="submit">Indienen</button>
 </p>
 </form>
