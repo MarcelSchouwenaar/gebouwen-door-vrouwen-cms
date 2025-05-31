@@ -2,17 +2,18 @@
 title: Agenda
 layout: page.html
 ---
-07/03/25\
-Tour BK Feminist Week: campus TU Delft\
-10:00 — 12:00\
-Faculteit Bouwkunde, Julianalaan 134, Rotterdam\
-[meer info & aanmelden](https://forms.office.com/Pages/ResponsePage.aspx?id=TVJuCSlpMECM04q0LeCIe3jVApcM8KRCv7yQrLVDDyZUM0xFWUgwODZJMDhCQlQ3WVBOVFJFSDAxRi4u&fbclid=PAZXh0bgNhZW0CMTEAAaZ5lKH-ZFMBVFbr1iNSbTx8KdYKWLmtsWDX894Gbz9bKBtWqZXm0dsI1LU_aem_ov53MmtfVWzSiljew3j1_Q)
-
 07/06/25\
-Boekpresentatie Gebouwen door Vrouwen Rotterdam\
-meer info volgt
-
-06/25\
-Tentoonstelling Gebouwen door Vrouwen Rotterdam\
+Boekpresentatie Gebouwen door Vrouwen: Rotterdam\
+14:30 — 15:00\
 Centrale Bibliotheek Rotterdam\
-meer info volgt
+[meld je (gratis) aan](https://gebouwendoorvrouwen.stager.co/web/tickets/111531688)
+
+14/06/25\
+Tour: Dag van de Architectuur\
+De Esch, Rotterdam\
+13:00 — 15:00\
+[koop hier je ticket](https://www.dagvandearchitectuur-rotterdam.nl/evenement/gebouwen-door-vrouwen-special-2/?fbclid=PAZXh0bgNhZW0CMTEAAafXbl63yJcd1GEUuhvnY5m68F8uzVB5ags_RO4ulrYDg3RJgDd8u6BHX03Yfw_aem_ZTSEoofx2dC96lkRGT87-w)27/06/25
+Symposium: Vrouwen in Architectuur 2025
+Schiehaven 17, Rotterdam
+13:00 — 18:00
+[meer informatie](https://rotterdamarchitectuurmaand.nl/programma/item/symposium-vrouwen-in-architectuur-2025/)
