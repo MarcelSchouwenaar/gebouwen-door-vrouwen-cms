@@ -2,7 +2,7 @@
 title: Contact
 layout: page.html
 ---
-Volg ons op [instagram](<>), waar we projecten uitlichten en activiteiten aankondigen. Of schrijf je in voor onze nieuwsbrief:
+Volg ons op [instagram](instagram.com/_gebouwendoorvrouwen/), waar we projecten uitlichten en activiteiten aankondigen. Of schrijf je in voor onze nieuwsbrief:
 
 <div id="mc_embed_shell">
  
@@ -15,7 +15,7 @@ Volg ons op [instagram](<>), waar we projecten uitlichten en activiteiten aankon
             <div class="response" id="mce-success-response" style="display: none;"></div>
         </div>
     <div aria-hidden="true" style="position: absolute; left: -5000px;">
-        /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+        /\\\* real people should not fill this in and expect good things - do not remove this or risk form bot signups \\\*/
         <input type="text" name="b_e952b82f81df6fbc22061e5a2_2481410f85" tabindex="-1" value="">
     </div>
         <div class="optionalParent">
@@ -29,7 +29,6 @@ Volg ons op [instagram](<>), waar we projecten uitlichten en activiteiten aankon
 </div>
 </div>
 
+Gebouwen door Vrouwen is een initiatief van [Sofie van Brunschot](https://www.linkedin.com/in/sofie-van-brunschot/). Samenwerken of een tour boeken voor je volgende teamuitje? [Neem contact op](<>).
 
-Gebouwen door Vrouwen is een initiatief van [Sofie van Brunschot](<>). Samenwerken of een tour boeken voor je volgende teamuitje? [Neem contact op](<>).
-
-Met dank aan [Filipa van der Laan](<>), [Jolien Streng](<>), [Stimuleringsfonds Creatieve Industrie](<>), [Studio Marcel Schouwenaar](<>) en [Wibke Bramesfeld](<>).
+Met dank aan [Filipa van der Laan](https://www.linkedin.com/in/filipa-van-der-laan-741748200/), [Jolien Streng](https://www.linkedin.com/in/jolien-s-9b585111b/?locale=nl_NL), [Stimuleringsfonds Creatieve Industrie](https://www.stimuleringsfonds.nl), [Studio Marcel Schouwenaar](https://marcelschouwenaar.nl) en [Studio Bramesfeld](https://bramesfeld.com).
