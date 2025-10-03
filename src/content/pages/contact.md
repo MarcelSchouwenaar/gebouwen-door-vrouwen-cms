@@ -2,7 +2,7 @@
 title: Contact
 layout: page.html
 ---
-Volg ons op [instagram](instagram.com/_gebouwendoorvrouwen/), waar we projecten uitlichten en activiteiten aankondigen. Of schrijf je in voor onze nieuwsbrief:
+Volg ons op [instagram](https://www.instagram.com/_gebouwendoorvrouwen/), waar we projecten uitlichten en activiteiten aankondigen. Of schrijf je in voor onze nieuwsbrief:
 
 <div id="mc_embed_shell">
  
@@ -15,7 +15,7 @@ Volg ons op [instagram](instagram.com/_gebouwendoorvrouwen/), waar we projecten 
             <div class="response" id="mce-success-response" style="display: none;"></div>
         </div>
     <div aria-hidden="true" style="position: absolute; left: -5000px;">
-        /\\\* real people should not fill this in and expect good things - do not remove this or risk form bot signups \\\*/
+        /\\\\* real people should not fill this in and expect good things - do not remove this or risk form bot signups \\\\*/
         <input type="text" name="b_e952b82f81df6fbc22061e5a2_2481410f85" tabindex="-1" value="">
     </div>
         <div class="optionalParent">
