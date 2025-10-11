@@ -2,7 +2,7 @@
 title: Contact
 layout: page.html
 ---
-Volg ons op [instagram](instagram.com/_gebouwendoorvrouwen/), waar we projecten uitlichten en activiteiten aankondigen. Of schrijf je in voor onze nieuwsbrief:
+Volg ons op [instagram](https://www.instagram.com/_gebouwendoorvrouwen/), waar we projecten uitlichten en activiteiten aankondigen. Of schrijf je in voor onze nieuwsbrief:
 
 <div id="mc_embed_shell">
  
@@ -31,4 +31,6 @@ Volg ons op [instagram](instagram.com/_gebouwendoorvrouwen/), waar we projecten 
 
 Gebouwen door Vrouwen is een initiatief van [Sofie van Brunschot](https://www.linkedin.com/in/sofie-van-brunschot/). Samenwerken of een tour boeken voor je volgende teamuitje? [Neem contact op](<>).
 
-Met dank aan [Filipa van der Laan](https://www.linkedin.com/in/filipa-van-der-laan-741748200/), [Jolien Streng](https://www.linkedin.com/in/jolien-s-9b585111b/?locale=nl_NL), [Stimuleringsfonds Creatieve Industrie](https://www.stimuleringsfonds.nl), [Studio Marcel Schouwenaar](https://marcelschouwenaar.nl) en [Studio Bramesfeld](https://bramesfeld.com).
+Gebouwen door Vrouwen is een initiatief van [Sofie van Brunschot](mailto:sofievanbrunschot@gmail.com). Samenwerken of een tour boeken voor je volgende teamuitje? [Neem contact op](<>).
+
+Met dank aan [Filipa van der Laan](https://www.linkedin.com/in/filipa-van-der-laan-741748200/?originalSubdomain=nl), [Jolien Streng](https://bureauvaneig.nl), [Stimuleringsfonds Creatieve Industrie](http://stimuleringsfonds.nl), [Studio Marcel Schouwenaar](http://marcelschouwenaar.nl) en [Wibke Bramesfeld](https://bramesfeld.com).
