@@ -2,7 +2,7 @@
 title: Contact
 layout: page.html
 ---
-Volg ons op [instagram](instagram.com/_gebouwendoorvrouwen/), waar we projecten uitlichten en activiteiten aankondigen. Of schrijf je in voor onze nieuwsbrief:
+Volg ons op [instagram](https://www.instagram.com/_gebouwendoorvrouwen/), waar we projecten uitlichten en activiteiten aankondigen. Of schrijf je in voor onze nieuwsbrief:
 
 <div id="mc_embed_shell">
  
