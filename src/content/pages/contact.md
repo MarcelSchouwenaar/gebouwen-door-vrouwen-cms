@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Nieuwsbrief
 layout: page.html
 ---
 Volg ons op [instagram](instagram.com/_gebouwendoorvrouwen/), waar we projecten uitlichten en activiteiten aankondigen. Of schrijf je in voor onze nieuwsbrief:
