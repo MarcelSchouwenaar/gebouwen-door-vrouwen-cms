@@ -15,7 +15,7 @@ Volg ons op [instagram](https://www.instagram.com/_gebouwendoorvrouwen/), waar w
             <div class="response" id="mce-success-response" style="display: none;"></div>
         </div>
     <div aria-hidden="true" style="position: absolute; left: -5000px;">
-        /\\\* real people should not fill this in and expect good things - do not remove this or risk form bot signups \\\*/
+        /\\\\* real people should not fill this in and expect good things - do not remove this or risk form bot signups \\\\*/
         <input type="text" name="b_e952b82f81df6fbc22061e5a2_2481410f85" tabindex="-1" value="">
     </div>
         <div class="optionalParent">
@@ -29,8 +29,6 @@ Volg ons op [instagram](https://www.instagram.com/_gebouwendoorvrouwen/), waar w
 </div>
 </div>
 
-Gebouwen door Vrouwen is een initiatief van [Sofie van Brunschot](https://www.linkedin.com/in/sofie-van-brunschot/). Samenwerken of een tour boeken voor je volgende teamuitje? [Neem contact op](<>).
-
-Gebouwen door Vrouwen is een initiatief van [Sofie van Brunschot](mailto:sofievanbrunschot@gmail.com). Samenwerken of een tour boeken voor je volgende teamuitje? [Neem contact op](<>).
+Gebouwen door Vrouwen is een initiatief van [Sofie van Brunschot](mailto:sofievanbrunschot@gmail.com). Samenwerken of een tour boeken voor je volgende teamuitje? [Neem contact op](mailto:sofievanbrunschot@gmail.com).
 
 Met dank aan [Filipa van der Laan](https://www.linkedin.com/in/filipa-van-der-laan-741748200/?originalSubdomain=nl), [Jolien Streng](https://bureauvaneig.nl), [Stimuleringsfonds Creatieve Industrie](http://stimuleringsfonds.nl), [Studio Marcel Schouwenaar](http://marcelschouwenaar.nl) en [Wibke Bramesfeld](https://bramesfeld.com).
