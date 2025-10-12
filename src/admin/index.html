@@ -6,16 +6,43 @@
         <title>Content Manager</title>
     </head>
     <body>
+        <!-- Decap CMS needs a root element to mount to -->
+        <div id="nc-root"></div>
+        
         <!-- Include the script that builds the page and powers Netlify CMS -->
         <!-- <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script> -->
 
         <!-- Netlify Identity Widget -->
-        <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+        <!-- <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script> -->
 
-        <!-- src/admin/location-widget/src/main.js -->
-        <script src="https://unpkg.com/react@^18/umd/react.production.min.js"></script>
-        <script src="https://unpkg.com/react-dom@^18/umd/react-dom.production.min.js"></script>
-        <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
-        <script src="script.js" type="text/javascript" defer></script>  
+        <!-- Load React synchronously first -->
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+        
+        <!-- Then load Decap CMS -->
+        <script>
+            // Prevent auto-initialization
+            // window.CMS_MANUAL_INIT = true;
+        </script>
+        <script src="https://unpkg.com/decap-cms@3.3.3/dist/decap-cms.js"></script>
+        
+        <!-- Initialize only after everything is loaded -->
+        <script>
+            // Wait for all scripts to be fully loaded
+            window.addEventListener('load', function() {
+                console.log('🔄 Window loaded, preparing CMS initialization...');
+                console.log('React available:', !!window.React);
+                console.log('ReactDOM available:', !!window.ReactDOM);
+                console.log('DecapCms available:', !!window.DecapCms);
+                console.log('Manual init flag set:', !!window.CMS_MANUAL_INIT);
+                
+                // Small delay to ensure everything is ready
+                setTimeout(function() {
+                    const script = document.createElement('script');
+                    script.src = 'script.js';
+                    document.body.appendChild(script);
+                }, 100);
+            });
+        </script>  
     </body>
 </html>
