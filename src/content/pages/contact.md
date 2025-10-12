@@ -29,8 +29,6 @@ Volg ons op [instagram](https://www.instagram.com/_gebouwendoorvrouwen/), waar w
 </div>
 </div>
 
-Gebouwen door Vrouwen is een initiatief van [Sofie van Brunschot](https://www.linkedin.com/in/sofie-van-brunschot/). Samenwerken of een tour boeken voor je volgende teamuitje? [Neem contact op](<>).
-
-Gebouwen door Vrouwen is een initiatief van [Sofie van Brunschot](mailto:sofievanbrunschot@gmail.com). Samenwerken of een tour boeken voor je volgende teamuitje? [Neem contact op](<>).
+Gebouwen door Vrouwen is een initiatief van [Sofie van Brunschot](https://www.linkedin.com/in/sofie-van-brunschot/). Samenwerken of een tour boeken voor je volgende teamuitje? [Neem contact op](sofievanbrunschot@gmail.com).
 
 Met dank aan [Filipa van der Laan](https://www.linkedin.com/in/filipa-van-der-laan-741748200/?originalSubdomain=nl), [Jolien Streng](https://bureauvaneig.nl), [Stimuleringsfonds Creatieve Industrie](http://stimuleringsfonds.nl), [Studio Marcel Schouwenaar](http://marcelschouwenaar.nl) en [Wibke Bramesfeld](https://bramesfeld.com).
