@@ -15,6 +15,7 @@ images:
 location_tags:
   - Architectuur
 address: Harlingertrekweg 71, Leeuwarden
+location: '{"type":"Point","coordinates":[5.776087,53.1982853]}'
 ---
 Data Center (2009) door Monica Adams en Juliette Bekkering / Bekkering Adams Architecten 
 
