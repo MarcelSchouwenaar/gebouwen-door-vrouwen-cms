@@ -26,3 +26,15 @@ De twee gestapelde woningen vormen een hoekpunt van het ensemble en bieden een p
 Ook zorgt de verticale zonwering ervoor dat de blik van binnen gericht is naar het zuiden - de richting waar het uitzicht onbelemmerd blijft. De benedenwoning gebruikt de tuin als buitenruimte en de bovenwoning heeft een dakterras met rondom uitzicht.
 
 Beide woningen zijn ontworpen volgens het lifetime-principe: aanpasbaar aan elke levensfase. Flexibele indelingen, gelijkvloerse verdiepingen en de liftontsluiting maken dit mogelijk. De onderste woning beschikt over een zelfstandige aanleunwoning die zowel als kantoor als guesthouse functioneert.
+
+Beelden:
+
+1–3; 5 Frank Hanswijk
+
+3 Marja Haring Architect
+
+
+
+Tekst:
+
+Filipa van der Laan
