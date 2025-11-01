@@ -8,7 +8,7 @@ Minicollege Rotterdam Late Night\
 Worm, Rotterdam\
 [koop hier je ticket](https://issr.nu/agenda/rln-112/)
 
-14/06/25\
+14/11/25\
 Tour: Stadmakerscongres\
 Theater Rotterdam\
 10:30 — 12:00\
