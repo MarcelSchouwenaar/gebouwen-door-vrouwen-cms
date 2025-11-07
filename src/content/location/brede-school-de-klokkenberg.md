@@ -14,6 +14,7 @@ images:
   - /static/img/klokkenberg-05.jpg
 location_tags:
   - Architectuur
+address: Kopseweg 7, Nijmegen
 location: '{"type":"Point","coordinates":[5.8899851,51.8377302]}'
 ---
 Brede School de Klokkenberg (2017) door Roos Bendien en Nataly Wierenga / BRIQUE architecten
