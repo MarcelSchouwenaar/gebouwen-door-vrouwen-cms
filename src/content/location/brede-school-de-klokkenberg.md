@@ -25,7 +25,8 @@ Het ontwerp bestaat uit twee ellipsvormige volumes van twee bouwlagen, die aan d
 Met de ronde vormen willen Bendien en Wierenga het gebouw een gevoel van omarming meegeven. In het gebouw zijn geen gangen: de lokalen liggen rondom de entree en aula op de begane grond, en rondom het leerplein op de verdieping. Hier kunnen leerlingen op enige afstand van de leraar zelfstandig werken. Dankzij de constructieve opzet met grote overspanningen en een beperkt aantal kolommen of dragende muren, kan het gebouw in de toekomst eenvoudig worden aangepast aan veranderende gebruikerseisen.
 
 Beelden:
-1–4 Maarten Noordijk / 
-5 BRIQUE architecten / @briquearchitecten
+1–4 Maarten Noordijk
+5 BRIQUE architecten
 
-Tekst: Jolien Streng
+Tekst: 
+Jolien Streng
