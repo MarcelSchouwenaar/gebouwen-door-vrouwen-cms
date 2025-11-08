@@ -15,7 +15,7 @@ images:
 location_tags:
   - Architectuur
 address: Molenvliet, Rotterdam
-location: '{"type":"Point","coordinates":[4.522369053967325,51.884618426391064]}'
+location: '{"type":"Point","coordinates":[4.5224383,51.8780972]}'
 ---
 De Zonnetrap (1980) door Luzia Hartsuyker-Curjel en Enrico Hartsuyker / Hartsuyker Architecten B.V.
 
