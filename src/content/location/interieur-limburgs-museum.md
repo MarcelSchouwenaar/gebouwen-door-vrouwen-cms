@@ -15,6 +15,7 @@ images:
 location_tags:
   - Interieur
 address: Keulsepoort 5, Venlo
+location: '{"type":"Point","coordinates":[6.1719307,51.3667216]}'
 ---
 Interieur Limburgs Museum (2021) door Elise Zoetmulder & Jeanne Dekkers / ZOETMULDER & Jeanne Dekkers Architectuur  
 
