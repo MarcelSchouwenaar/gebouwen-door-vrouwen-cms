@@ -14,6 +14,7 @@ images:
   - /static/img/5-mint-leermens-interior-3-kitchen-view-to-dinningarea-2.jpg
 location_tags:
   - Architectuur
+address: onbekend
 location: '{"type":"Point","coordinates":[6.7989697,53.3471291]}'
 ---
 Woonhuis Leermens (2019) door Dianne Maas-Flim / MINT architecten
@@ -27,9 +28,6 @@ Op de begane grond is een slaapkamer en badkamer voorzien, zodat de bewoners er 
 De versterking van de woning is bewust zichtbaar gemaakt in het interieur: de nieuwe staalconstructie is zorgvuldig geïntegreerd in de woning en maakt deel uit van de ruimte.
 
 “Een huis is meer dan een constructie en stenen. Het gaat ook over geborgenheid (...) Zeker bewoners die aardbevingsschade hebben opgelopen, hebben daar recht op”, vindt Maas-Flim. Inmiddels is zij ook benoemd tot Bouwmeester Versterking bij gemeente Groningen. 
-
-Adres:\
-Onbekend
 
 Beelden:\
 1, 4–5 Harry Cock\
