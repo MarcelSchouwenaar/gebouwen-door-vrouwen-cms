@@ -6,10 +6,16 @@ date: 2026-01-06T12:17:00.000Z
 agency: atelier PRO; Vakwerk Architecten 
 architect: "Dorte Kristensen; Ellen van der Wal "
 year: "2024"
-images: ./static/img/default.png
+images:
+  - /static/img/1-architectenweb-atelier-pro-architekten-_-universitair-centrum-psychiatrie-umcg-groningen-beeld-1-copyright-egbert-de-boer.jpg
+  - /static/img/2-architectenweb-atelier-pro-architekten-_-universitair-centrum-psychiatrie-umcg-groningen-beeld-10-copyright-eva-bloem.jpg
+  - /static/img/3-architectenweb-atelier-pro-architekten-_-universitair-centrum-psychiatrie-umcg-groningen-beeld-18.jpg
+  - /static/img/4-architectenweb-atelier-pro-architekten-_-universitair-centrum-psychiatrie-umcg-groningen-beeld-4-copyright-eva-bloem.jpg
+  - /static/img/5-architectenweb-atelier-pro-architekten-_-universitair-centrum-psychiatrie-umcg-groningen-beeld-9-copyright-eva-bloem.jpg
 location_tags:
   - Architectuur
 address: Hanzeplein 1, Groningen
+location: '{"type":"Point","coordinates":[6.5758237,53.2234075]}'
 ---
 Universitair Centrum Psychiatrie (2024) door Dorte Kristensen & Ellen van der Wal / atelier PRO & Vakwerk Architecten 
 
@@ -24,6 +30,6 @@ In Groningen ontwierpen Dorte Kristensen (met haar bureau atelier PRO) en Ellen 
  Het project won onder andere de prijs “Zorggebouw van het Jaar” bij de Architectenweb Awards 2024. 
 
  Beelden: \
-1 Egbert de Boer / @egbertdeboerfotografie  \
-2; 4–5 Eva Bloem / @evabloem \
-3 atelier PRO & Vakwerk Architecten / @atelierpro.nl & @vakwerkarchitecten
+1 Egbert de Boer\
+2; 4–5 Eva Bloem\
+3 atelier PRO & Vakwerk Architecten
