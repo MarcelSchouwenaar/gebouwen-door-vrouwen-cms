@@ -23,14 +23,11 @@ Studio Anne Dessing ontwierp in opdracht van het Sandberg Instituut en de Rietve
 
  Het doel was om een divers aanbod van ruimtes te creëren voor studenten en medewerkers van tien verschillende masteropleidingen. De grootste uitdaging lag in het scheppen van afscheidingen die geluid dempen en privacy bieden, zonder de openheid van het instituut te verliezen. Het ontwerp stimuleert ontmoetingen en legt zoveel mogelijk visuele verbindingen tussen de gebruikers. Daarnaast zijn er gedeelde ruimten gerealiseerd die de afdelingen samenbrengen, zoals de waterplek met fontein, waar alle kwasten uitgespoeld kunnen worden en de grote professionele keuken met aangrenzende gemeenschappelijke eetruimte, te gebruiken door alle studenten, docenten en bezoekers. 
 
- De kunstacademies hanteerden twee procesmatige uitgangspunten voor de nieuwe huisvestingsplannen: maximaal gebruikmaken van de aanwezige kwaliteiten binnen de academie en ruimte bieden aan experiment. Er is nauw samengewerkt met de Rietveld gemeenschap en de gordijnen van het auditorium ontwikkelde Dessing in samenwerking met Sandberg Instituut alumnus Aliki van der Kruijs. 
-
- Adres: \
-Fred. Roeskestraat 96, Amsterdam⁣ 
+ De kunstacademies hanteerden twee procesmatige uitgangspunten voor de nieuwe huisvestingsplannen: maximaal gebruikmaken van de aanwezige kwaliteiten binnen de academie en ruimte bieden aan experiment. Er is nauw samengewerkt met de Rietveld gemeenschap en de gordijnen van het auditorium ontwikkelde Dessing in samenwerking met Sandberg Instituut alumnus Aliki van der Kruijs.
 
  Beelden: \
 1–2; 5 Jeroen Verrecht\
 3–4 Anne Dessing 
 
  Tekst: \
-Anne Dessing / @annedessing
+Anne Dessing
