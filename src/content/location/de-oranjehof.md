@@ -8,6 +8,10 @@ architect: Jacoba Froukje 'Koos' Pot-Keegstra
 year: "1942"
 images:
   - /static/img/1-5293fo004541-scaled-stadsarchief-amsterdam-1953.jpg
+  - /static/img/2-potk_37t7-05.jpg
+  - /static/img/3-potk_37t7-01a.jpeg
+  - /static/img/4-potk_37t7-02.jpg
+  - /static/img/5-5293fo006296-scaled-stadsarchief-amsterdam-1956.jpg
 location_tags:
   - Architectuur
 address: Korte Geuzenstraat 105, Amsterdam⁣
