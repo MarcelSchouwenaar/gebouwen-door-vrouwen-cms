@@ -15,6 +15,7 @@ images:
 location_tags:
   - Architectuur
 address: Boslaan 3-5, Ter Apel
+location: '{"type":"Point","coordinates":[7.0749028,52.8762503]}'
 ---
 Klooster Ter Apel (2003) door Inger en Johannes Exner / E+N Arkitektur 
 
