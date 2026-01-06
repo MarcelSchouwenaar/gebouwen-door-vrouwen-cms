@@ -7,11 +7,11 @@ agency: Studio Architectuur MAKEN
 architect: Nina Aalbers
 year: "2021"
 images:
-  - /static/img/architectenweb-studio-architectuurmaken-_-de-nieuwe-herdgang-beeld-4-copyright-stijn-poelstra.jpg
   - /static/img/architectenweb-studio-architectuurmaken-_-de-nieuwe-herdgang-beeld-5-copyright-stijn-poelstra.jpg
-  - /static/img/architectenweb-studio-architectuurmaken-_-de-nieuwe-herdgang-beeld-6-copyright-stijn-poelstra.jpg
   - /static/img/architectenweb-studio-architectuurmaken-_-de-nieuwe-herdgang-beeld-9-copyright-stijn-poelstra.jpg
   - /static/img/denieuweherdgang_presentatietekening2-scaled.jpg
+  - /static/img/architectenweb-studio-architectuurmaken-_-de-nieuwe-herdgang-beeld-6-copyright-stijn-poelstra.jpg
+  - /static/img/architectenweb-studio-architectuurmaken-_-de-nieuwe-herdgang-beeld-4-copyright-stijn-poelstra.jpg
 location_tags:
   - Architectuur
 address: Eindhovenseweg, Tilburg
