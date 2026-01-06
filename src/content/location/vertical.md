@@ -15,6 +15,7 @@ images:
 location_tags:
   - Architectuur
 address: Barajasweg, Amsterdam
+location: '{"type":"Point","coordinates":[4.8342878,52.3868019]}'
 ---
 Vertical (2023) door Donna van Milligen Bielke / Studio Donna van Milligen Bielke
 
