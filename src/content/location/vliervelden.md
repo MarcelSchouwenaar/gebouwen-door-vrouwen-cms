@@ -15,6 +15,7 @@ images:
 location_tags:
   - Architectuur
 address: Friedrich Schillerhof, Almere
+location: '{"type":"Point","coordinates":[5.3339723,52.3384148]}'
 ---
 Vliervelden (2022) door Daniëlle Huls en Monica Ketting / KettingHuls 
 
