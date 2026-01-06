@@ -33,4 +33,4 @@ Beelden: \
 4–5 Jordi Miralles
 
 Tekst: \
-Ewout De Bleser / @ewout
+Ewout De Bleser
