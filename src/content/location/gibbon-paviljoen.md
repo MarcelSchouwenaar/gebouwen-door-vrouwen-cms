@@ -2,7 +2,7 @@
 tags: location
 title: Gibbon Paviljoen
 author: Jolien Streng
-date: 2025-02-08T12:36:00.000Z
+date: 2025-02-08T15:36:00.000Z
 agency: ATELIERFRONT
 architect: Marita Bijlsma
 year: "2021"
