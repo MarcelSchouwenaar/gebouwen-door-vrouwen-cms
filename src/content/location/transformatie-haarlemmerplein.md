@@ -31,4 +31,4 @@ Beelden:\
 5 Kees Hummel
 
 Tekst:\
-Cas Vercruysse / @casvercruysse
+Cas Vercruysse
