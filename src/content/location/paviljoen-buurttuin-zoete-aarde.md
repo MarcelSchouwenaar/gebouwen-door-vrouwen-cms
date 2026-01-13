@@ -7,7 +7,7 @@ agency: Buurma Dugar Architects
 architect: Sneha Dugar
 year: "2024"
 images:
-  - /static/img/01.jpg
+  - /static/img/01-buurttuin-de-zoete-aarde.jpg
   - /static/img/02-nieuw.jpg
   - /static/img/03-1-.jpg
   - /static/img/04-1-.jpg
