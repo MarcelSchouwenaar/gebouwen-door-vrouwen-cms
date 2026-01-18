@@ -15,6 +15,7 @@ images:
 location_tags:
   - Landschap
 address: Prins Hendrikzanddijk, Texel
+location: '{"type":"Point","coordinates":[4.818335,53.0275808]}'
 ---
 Prins Hendrikzanddijk (2019) door Yttje Feddes / LOF Landschapsarchitecten
 
