@@ -35,7 +35,8 @@ settings.MANIFEST_ICONS = {
 settings.GSHEET_ID = "1gELkm5Dfh8hrB5bQfnlKYxk5vySNh7AJGrSaUbnM_KM";
 
 //MAPBOX
-settings.MAPBOX_STYLE  = "mapbox://styles/toonkoehorst/clw4ziad902mg01qz24uk8dgu";
+// settings.MAPBOX_STYLE  = "mapbox://styles/toonkoehorst/clw4ziad902mg01qz24uk8dgu";
+settings.MAPBOX_STYLE  = "mapbox://styles/mapbox/light-v11";
 settings.MAPBOX_API_KEY = "pk.eyJ1IjoidG9vbmtvZWhvcnN0IiwiYSI6ImNqb2ZyYjhiZDAweWIzcXM2aWlhMmJxcGYifQ.OGRL7kejFrWD-MEazU8lTg";
 
 settings.MAPBOX_CENTER = [4.472671, 51.91934];

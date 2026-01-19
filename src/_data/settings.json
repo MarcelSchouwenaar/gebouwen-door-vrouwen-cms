@@ -1,11 +1,11 @@
 {
   "MAPBOX_DEFAULT_ZOOM": 9,
-  "COLOR_BG": "#ccff00",
+  "COLOR_BG": "#fff366",
   "MAPBOX_CENTER": "{\"type\":\"Point\",\"coordinates\":[4.4747162,51.9164399]}",
   "AUTHOR": "Sofie ",
   "LOGO": "/static/img/logo_horizontaal-2_crop.png",
   "NAME": "Gebouwen door Vrouwen",
-  "COLOR_FRONT": "#00821f",
+  "COLOR_FRONT": "#792765",
   "ENABLE_LOADER": false,
   "PLACEHOLDER_IMAGE": "/static/img/default.png",
   "OG_IMAGE": "/static/img/og_image.png",

@@ -274,6 +274,7 @@ tr:hover{
   height: 44px;
   width: 100%;
   border-bottom: 1px solid var(--color);
+  background-color: var(--bg-color);
   z-index: 3;
   overflow: hidden;
   width: 480px;
@@ -377,6 +378,7 @@ tr:hover{
   background-color: var(--bg-color);
   overflow-x: hidden;
   overflow-y: scroll;
+  padding-bottom: 100px;
 }
 
 #menu{

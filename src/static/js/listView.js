@@ -18,7 +18,7 @@ export class ListView {
         const self = this;
         const listViewButton = document.createElement("div");
         listViewButton.id = "listViewButton";
-        listViewButton.innerHTML = `<div class="listViewButton">Projectlijst</div>`;
+        listViewButton.innerHTML = `<div class="listViewButton">Database</div>`;
         listViewButton.addEventListener("click", async () => {
            await self.addListView();
         });
