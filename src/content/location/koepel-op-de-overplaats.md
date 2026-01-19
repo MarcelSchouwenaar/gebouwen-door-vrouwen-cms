@@ -36,6 +36,6 @@ Ze is tevens één van de vijf genomineerden voor Architect van het Jaar 2023.�
 Beelden:⁣
 
 1 Allard van der Hoek⁣\
-2 BureauVanEig / [@bureauvaneig](https://www.instagram.com/bureauvaneig/) ⁣\
+2 BureauVanEig\
 3–4 Allard van der Hoek ⁣\
-5 BureauVanEig / [@bureauvaneig](https://www.instagram.com/bureauvaneig/)
+5 BureauVanEig[](https://www.instagram.com/bureauvaneig/)
