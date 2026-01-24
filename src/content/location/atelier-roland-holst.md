@@ -25,10 +25,9 @@ De bakstenen gevels van het atelier ondersteunen een opvallend groot rieten schi
 
 Het gebouw heeft een vliegervormige plattegrond met afgeplatte punten. Het is verdeeld in twee grote kamers met bergruimte tussen de muren. In de noordkamer ontwierp Staal-Kropholler een groot trapeziumvormig raam voor de ideale daglichttoetreding. In de zuidkamer liggen twee kleinere ramen die uitzicht bieden over het landgoed.
 
-In 2011 werd de net gerestaureerde atelierwoning door brand verwoest. Natuurmonumenten heeft gezorgd voor de herbouw van het atelier.
+In 2011 werd de net gerestaureerde atelierwoning door brand verwoest. Natuurmonumenten heeft gezorgd voor de herbouw van het atelier. 
 
 Beelden:
-
 
 1 Collectie Literatuurmuseum\
 2 Gerard Dukker / Rijksdienst voor het Cultureel Erfgoed\
