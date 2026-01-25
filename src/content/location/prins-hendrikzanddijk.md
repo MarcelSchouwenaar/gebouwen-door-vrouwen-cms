@@ -17,7 +17,7 @@ location_tags:
 address: Prins Hendrikzanddijk, Texel
 location: '{"type":"Point","coordinates":[4.818335,53.0275808]}'
 ---
-Prins Hendrikzanddijk (2019) door Yttje Feddes / LOF Landschapsarchitecten
+Prins Hendrikzanddijk (2019) door Yttje Feddes en Berdie Olthof / LOF Landschapsarchitecten
 
 Op Texel ontwierp Yttje Feddes met haar team van LOF Landschapsarchitecten (voorheen Feddes/Olthof) aan de Prins Hendrikzanddijk. De Prins Hedrikpolder ligt onder zeeniveau en met het oog op de stijgende zeespiegel was het noodzaak de zeedijk te versterken. In plaats van het verhogen van de dijk is er voor gekozen de waterveiligheid te verbeteren door een nieuw duinlandschap aan de zijde van de Waddenzee te creëren. Dit landschap van duinen en wadplanten vormt een veilige waterbarrière voor de toekomst, behoudt waardevolle landbouwgrond, en geeft tegelijkertijd het beschermde ecosysteem van de Waddenzee een grote impuls.
 
