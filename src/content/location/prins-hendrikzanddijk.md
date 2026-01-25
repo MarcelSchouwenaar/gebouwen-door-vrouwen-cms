@@ -4,7 +4,7 @@ title: Prins Hendrikzanddijk
 author: Margot Overvoorde
 date: 2026-01-18T15:40:00.000Z
 agency: LOF Landschapsarchitecten
-architect: Yttje Feddes; Berdie Olthof
+architect: Yttje Feddes, Berdie Olthof
 year: "2019"
 images:
   - /static/img/1-2-duinen.jpg
