@@ -8,7 +8,7 @@ backend:
     delete: 'Delete {{collection}} "{{slug}}"'
     uploadMedia: 'Upload "{{path}}"'
     deleteMedia: 'Delete "{{path}}"'
-  squash_merges: true
+  squash_merges: false
 
 local_backend:
   # when using a custom proxy server port
