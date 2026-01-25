@@ -4,7 +4,7 @@ title: Prins Hendrikzanddijk
 author: Margot Overvoorde
 date: 2026-01-18T15:40:00.000Z
 agency: LOF Landschapsarchitecten
-architect: Yttje Feddes
+architect: Yttje Feddes, Berdie Olthof
 year: "2019"
 images:
   - /static/img/1-2-duinen.jpg
@@ -17,9 +17,9 @@ location_tags:
 address: Prins Hendrikzanddijk, Texel
 location: '{"type":"Point","coordinates":[4.818335,53.0275808]}'
 ---
-Prins Hendrikzanddijk (2019) door Yttje Feddes / LOF Landschapsarchitecten
+Prins Hendrikzanddijk (2019) door Yttje Feddes en Berdie Olthof / LOF Landschapsarchitecten
 
-Op Texel ontwierp Yttje Feddes met haar team van LOF Landschapsarchitecten (voorheen Feddes/Olthof) aan de Prins Hendrikzanddijk. De Prins Hedrikpolder ligt onder zeeniveau en met het oog op de stijgende zeespiegel was het noodzaak de zeedijk te versterken. In plaats van het verhogen van de dijk is er voor gekozen de waterveiligheid te verbeteren door een nieuw duinlandschap aan de zijde van de Waddenzee te creëren. Dit landschap van duinen en wadplanten vormt een veilige waterbarrière voor de toekomst, behoudt waardevolle landbouwgrond, en geeft tegelijkertijd het beschermde ecosysteem van de Waddenzee een grote impuls.
+Op Texel ontwierpen Yttje Feddes en Berdie Olthof met hun team van LOF Landschapsarchitecten (voorheen Feddes/Olthof) aan de Prins Hendrikzanddijk. De Prins Hedrikpolder ligt onder zeeniveau en met het oog op de stijgende zeespiegel was het noodzaak de zeedijk te versterken. In plaats van het verhogen van de dijk is er voor gekozen de waterveiligheid te verbeteren door een nieuw duinlandschap aan de zijde van de Waddenzee te creëren. Dit landschap van duinen en wadplanten vormt een veilige waterbarrière voor de toekomst, behoudt waardevolle landbouwgrond, en geeft tegelijkertijd het beschermde ecosysteem van de Waddenzee een grote impuls.
 
 Met de aanleg van de drie kilometer lange Prins Hendrikzanddijk is op een dynamische plek in de Waddenzee 200 hectare natuur gecreëerd. Om dit te realiseren is 5 miljoen kubieke meter zand gestort en zijn 2 miljoen helmgrasplanten aangeplant. Met het ontwerp van de nieuwe duinen is gezocht naar een zo natuurlijk mogelijke opbouw en uitstraling, met verschillende hoogtes die aansluiten bij de omgeving. Bezoekers kunnen het gebied verkennen over het nieuwe fietspad of voetpad, met zichtlijnen naar de polder en de Waddenzee.
 
