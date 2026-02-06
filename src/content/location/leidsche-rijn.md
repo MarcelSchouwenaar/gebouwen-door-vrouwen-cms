@@ -14,6 +14,7 @@ images:
   - /static/img/5-tunneldoorsnede-de-ruimte-van-riek-p72.jpg
 location_tags:
   - Stedenbouw
+address: Leidsche Rijn
 location: '{"type":"Point","coordinates":[5.0584236,52.0908405]}'
 ---
 Leidsche Rijn is de grootste Vinex‑uitbreiding van Nederland en groeide uit tot een volwaardig Utrechts stadsdeel op basis van het masterplan uit 1995 van stedenbouwkundige Riek Bakker. Met de Vierde Nota Ruimtelijke Ordening Extra (VINEX) koos Nederland begin jaren ’90 voor een nieuwe koers: het stedelijk gebied moest een nieuwe impuls krijgen door zo veel mogelijk binnen de stad of daar tegenaan te bouwen.
