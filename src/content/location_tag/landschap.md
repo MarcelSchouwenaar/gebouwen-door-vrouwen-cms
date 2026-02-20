@@ -2,6 +2,6 @@
 title: Landschap
 title_en: Landschap
 marker: 🌳
-marker_img: /static/img/marker2.png
+marker_img: /static/img/260214-marker2.png
 tags: location_tag
 ---
