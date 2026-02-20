@@ -1,7 +1,7 @@
 {
   "MAPBOX_DEFAULT_ZOOM": 9,
   "COLOR_BG": "#fff366",
-  "MAPBOX_CENTER": "{\"type\":\"Point\",\"coordinates\":[5.1224582,52.0908618]}",
+  "MAPBOX_CENTER": "{\"type\":\"Point\",\"coordinates\":[4.4715295,51.9210861]}",
   "AUTHOR": "Sofie ",
   "LOGO": "/static/img/logo_horizontaal-2_crop_nieuwe-kleuren.png",
   "NAME": "Gebouwen door Vrouwen",
