@@ -9,7 +9,7 @@
   "ENABLE_LOADER": false,
   "PLACEHOLDER_IMAGE": "/static/img/default.png",
   "OG_LOGO": "/static/img/logo_horizontaal-2_crop_nieuwe-kleuren.png",
-  "OG_IMAGE": "/static/img/og_image.png",
+  "OG_IMAGE": "/static/img/og-image.png",
   "FONT_FAMILY": "'Authentic Sans', -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;",
   "TITLE": "Gebouwen door Vrouwen",
   "COLOR_HIGHLIGHT": "#b9b8fc",
