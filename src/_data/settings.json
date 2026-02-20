@@ -8,11 +8,11 @@
   "COLOR_FRONT": "#792765",
   "ENABLE_LOADER": false,
   "PLACEHOLDER_IMAGE": "/static/img/default.png",
-  "OG_IMAGE": "/static/img/og_image.png",
   "OG_LOGO": "/static/img/logo_horizontaal-2_crop.png",
+  "OG_IMAGE": "/static/img/og_image.png",
   "FONT_FAMILY": "'Authentic Sans', -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;",
   "TITLE": "Gebouwen door Vrouwen",
-  "COLOR_HIGHLIGHT": "#d1b0ff",
+  "COLOR_HIGHLIGHT": "#b9b8fc",
   "ICON": "src/static/icons/icon.svg",
   "DESCRIPTION": "Gebouwen door Vrouwen viert het werk van vrouwelijke architecten. We bouwen aan een toegankelijk overzicht van álle bouwprojecten in Nederland die zijn (mede-)ontworpen door vrouwen."
 }
