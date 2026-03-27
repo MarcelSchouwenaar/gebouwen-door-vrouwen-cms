@@ -15,6 +15,7 @@ images:
 location_tags:
   - Landschap
 address: Westermarkt, Amsterdam
+location: '{"type":"Point","coordinates":[4.8848908,52.374406]}'
 ---
 Homomonument (1987) door Karin Daan / Karin Daan Environmental Design
 
