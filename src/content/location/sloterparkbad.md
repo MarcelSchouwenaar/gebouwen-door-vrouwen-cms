@@ -15,6 +15,7 @@ images:
 location_tags:
   - Architectuur
 address: President Allendelaan 3, Amsterdam
+location: '{"type":"Point","coordinates":[4.8181052,52.3702873]}'
 ---
 Sloterparkbad (1973) door Manon Peyrot / Dienst Publieke Werken, gemeente Amsterdam \
 \
