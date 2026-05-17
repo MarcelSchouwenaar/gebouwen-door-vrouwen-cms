@@ -15,6 +15,7 @@ images:
 location_tags:
   - Architectuur
 address: Markt 40, Spijkenisse
+location: '{"type":"Point","coordinates":[4.3246811,51.8496312]}'
 ---
 Boekenberg (2012) door Nathalie de Vries i.s.m. Winy Maas en Jacob van Rijs / MVRDV \
 \
