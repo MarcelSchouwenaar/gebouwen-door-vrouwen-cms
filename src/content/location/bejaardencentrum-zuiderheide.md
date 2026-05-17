@@ -28,5 +28,5 @@ In de bestaande vleugel van het complex werd meer ruimte voor iedere bewoner gec
 Beelden:  \
 1–5 Bruins Soedjono Architekten 
 
- Tekst:  \
+Tekst:  \
 Jolien Streng
