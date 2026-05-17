@@ -32,7 +32,7 @@ Steigereiland, Amsterdam
 
 Beelden: \
 1 Funda \
-2–4 Marcel van den Burg / @marcel_van_der_burg \
+2–4 Marcel van den Burg\
 5 MAATworks 
 
 Tekst: \
