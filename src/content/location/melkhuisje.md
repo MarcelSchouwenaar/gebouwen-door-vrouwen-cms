@@ -8,6 +8,10 @@ architect: Marjolein van Eig
 year: "2015"
 images:
   - /static/img/architectenweb-t-melkhuisje-in-haarlem-officieel-geopend-beeld-2-copyright-allard-van-der-hoek.jpg
+  - /static/img/150820-mehuha-maeig-20.jpg
+  - /static/img/150820-mehuha-maeig-16-m.jpg
+  - /static/img/09580_b3100_recover-doorsnede420x297.jpg
+  - /static/img/150820-mehuha-maeig-35.jpg
 location_tags:
   - Architectuur
 address: Melkbrug, Haarlem 
