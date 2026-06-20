@@ -15,6 +15,7 @@ images:
 location_tags:
   - Architectuur
 address: Rapenburg en Groenhazengracht, Leiden
+location: '{"type":"Point","coordinates":[4.4844905,52.1594515]}'
 ---
 Huishoud- en Nijverheidsschool (2019) door Ianthe Mantingh en Patrick Colly / Zijdekwartier Architecten 
 
