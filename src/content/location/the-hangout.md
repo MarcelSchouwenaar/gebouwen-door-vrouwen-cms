@@ -6,7 +6,12 @@ date: 2026-06-20T12:05:00.000Z
 agency: Studio L A
 architect: Lorien Bijaert, Arna Mačkić
 year: "2024"
-images: ./static/img/default.png
+images:
+  - /static/img/1-dsc_0015-verbeterd-nr-v3-1440x960.jpg
+  - /static/img/2-dsc_0058-verbeterd-nr-kopie-v2-1440x960.jpg
+  - /static/img/3-raum-studio-la-1-1440x583.jpg
+  - /static/img/4-raum-studio-la-1-1440x583-copy.jpg
+  - /static/img/5-img_6818-v2-810x1080.jpg
 location_tags:
   - Architectuur
 address: Berlijnplein 530, Utrecht 
