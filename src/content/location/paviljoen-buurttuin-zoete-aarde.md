@@ -17,6 +17,7 @@ location_tags:
 address: Broekwegzijde 195, Zoetermeer⁣
 location: '{"type":"Point","coordinates":[4.4918569,52.0686977]}'
 ---
+
 Paviljoen Buurttuin Zoete Aarde (2024) door Sneha Dugar en Jelmer Buurma / Buurma Dugar Architects
 
 Sneha Dugar en Jelmer Buurma van Buurma Dugar Architects hebben in Zoetermeer een paviljoen voor Buurttuin Zoete Aarde gerealiseerd. Toen de oude boomgaard verkocht dreigde te worden aan een projectontwikkelaar grepen buurtbewoners in. Zij zetten zich in om de tuin een sociale functie te laten vervullen. In 2019 werden Buurma en Dugar gevraagd een ontmoetingsplek voor de tuin te ontwerpen. Zij streefden ernaar een gebouw te ontwerpen dat de idealen van de buurttuin uitdraagt.
@@ -26,9 +27,3 @@ De eenvoudige, heldere structuur van het paviljoen is grotendeels gebouwd met ec
 “Of je het gebouw nu wel of niet mooi vindt, het was en is een middel om mensen samen te brengen”, betoogt Dugar. Het paviljoen is namelijk deels gebouwd door vrijwilligers van de buurttuin. De materialen zijn specifiek uitgekozen zodat ze makkelijk te bewerken zijn. De kalkhennep muren zijn door de vele vrijwilligers gebouwd op één lange dag van mixen, storten én stampen.
 
 Sneha Dugar en Jelmer Buurma werden dit jaar genomineerd voor de Abe Bonnema Prijs voor Jonge Architecten.
-
-Beelden:
-
-1–3 Max Hart Nibbrig\
-[](<>)4 Buurma Dugar architects\
-[](<>)5 Buurttuin Zoete Aarde
