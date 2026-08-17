@@ -2,8 +2,17 @@
 title: Agenda
 layout: page.html
 ---
-12/12/26\
-Friday Night Art Walk\
-19:30 — 21:00\
-Delfshaven, Rotterdam\
-[meer informatie](https://artinrotterdamtours.nl/friday-night-art-walk-met-gast-sofie/)[](https://hetindustriegebouw.nl/gemeenschap/news/big-books-een-feestelijke-pop-up-store-voor-alle-boekenliefhebbers/?_gl=1*143yv8*_up*MQ..*_ga*NDA2MDIyNjIxLjE3NjE5OTAxNjE.*_ga_6J3KSK8M6H*czE3NjE5OTAxNjAkbzEkZzAkdDE3NjE5OTAxNjAkajYwJGwwJGgw*_ga_6TGX1KJM99*czE3NjE5OTAxNjAkbzEkZzAkdDE3NjE5OTAxNjAkajYwJGwwJGgw)
+28/08/26\
+Women & Architecture: Haarlem edition\
+15:00 — 17:00\
+Haarlem City Centre\
+(let op: English!)\
+[get your ticket here](https://www.womenofhaarlem.nl/tickets)[](https://www.womenofhaarlem.nl/tickets)\
+\
+01/10/26\
+Opening tentoonstelling\
+Gebouwen door Vrouwen in het Oostelijk Havengebied\
+17:30 — 19:00\
+Borneo Architectuur Centrum\
+R.J.H. Fortuynplein 4, Amsterdam\
+[meld je hier (gratis) aan](https://gebouwendoorvrouwen.stager.co/shop/amsterdam/events/111682400)
